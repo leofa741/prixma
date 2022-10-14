@@ -40,7 +40,7 @@ export const HomeContent = () => {
                     </div>
                     <div className="col-12 mt-4">
                         <div className="info-box">
-                            <img src="../src/assets/img/icon2.png" alt=""/>
+                            <img src="../src/assets/img/icon2.jpg" alt=""/>
                             <div className="ms-4">
                                 <h5>Servicios de comunicación y marketing</h5>
                                 <p>
