@@ -27,8 +27,8 @@ export const NavBar = () => {
  <nav className="navbar navbar-expand-lg navbar-light bg-white sticky-top">
     <div className="container">
          <Link  className="navbar-brand" to='/' >Puentes<span className="dot">.</span>Digitales</Link> 
-
-         <a className="navbar-logo"> <img src="../src/assets/img/blue1.png" className='rotate' /> </a>
+<div className="navbar-logo"></div>
+         
              <span className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><MenuIcon /></span>
             
