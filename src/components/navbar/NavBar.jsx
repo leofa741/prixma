@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom';
-
+import { SlGlobe } from "react-icons/sl";
 import MenuIcon from '@mui/icons-material/Menu';
 export const NavBar = () => {
   return (
@@ -28,7 +28,9 @@ export const NavBar = () => {
     <div className="container">
          <Link  className="navbar-brand" to='/' >Puentes<span className="dot">.</span>Digitales</Link> 
 
-         <a className="navbar-logo"> <img src="../src/assets/img/blue1.png" className='rotate' /> </a>
+         <a className="navbar-logo"><SlGlobe 
+            size="2em"
+          /> </a>
              <span className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><MenuIcon /></span>
             

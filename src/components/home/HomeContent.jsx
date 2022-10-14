@@ -1,9 +1,9 @@
 import React from 'react'
 
 import { Banner } from '../banner/Banner'
-import { FaBeer } from "@react-icons/all-files/fa/FaBeer";
 
-
+import { FcIdea  } from "@react-icons/all-files/fc/FcIdea ";
+import { FcServices } from "react-icons/fc";
 export const HomeContent = () => {
   return (
     <>
@@ -32,7 +32,11 @@ export const HomeContent = () => {
                 <div className="row">
                     <div className="col-12">
                         <div className="info-box">
-                            <img src="../src/assets/img/icon3.png" alt=""/>
+                          <h1> <FcServices
+                            size="2em"
+                            color="blue"
+                            /> </h1>
+
                             <div className="ms-4">
                                 <h5>Diseño Web  </h5>
                                 <p>Diseño de tiendas online, con la mejor tecnología y experiencia de usuario.</p>
@@ -42,7 +46,9 @@ export const HomeContent = () => {
                     <div className="col-12 mt-4">
                         <div className="info-box">
 
-                        <h1><FaBeer  /></h1>
+                        <h1><FcIdea 
+                        size="2em"
+                        /></h1>
                         
                             <div className="ms-4">
                                 <h5>Servicios de comunicación y marketing</h5>
