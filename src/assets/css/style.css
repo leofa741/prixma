@@ -155,11 +155,7 @@ section {
     vertical-align: middle;
     width: 30px;
     height: 30px;
-    background-color: url(../img/blue1.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
+    
     animation: rotation 19s infinite linear;
     margin-right: auto;
   }
