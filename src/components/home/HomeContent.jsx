@@ -1,6 +1,7 @@
 import React from 'react'
 
 import { Banner } from '../banner/Banner'
+import { FaBeer } from "@react-icons/all-files/fa/FaBeer";
 
 
 export const HomeContent = () => {
@@ -40,7 +41,9 @@ export const HomeContent = () => {
                     </div>
                     <div className="col-12 mt-4">
                         <div className="info-box">
-                            <img src="../src/assets/img/icon2.jpg" alt=""/>
+
+                        <h1><FaBeer  /></h1>
+                        
                             <div className="ms-4">
                                 <h5>Servicios de comunicación y marketing</h5>
                                 <p>

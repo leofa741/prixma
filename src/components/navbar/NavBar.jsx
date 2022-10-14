@@ -7,13 +7,13 @@ export const NavBar = () => {
  <>
 
 <div className="top-nav" id="home">
-        <div classNamen="container">
+        <div className="container">
             <div className="row justify-content-between">
                 <div className="col-auto">
                     <p> <i className='bx bxs-envelope'></i> info@example.com</p>
                     <p> <i className='bx bxs-phone-call'></i> 123 456-7890</p>
                 </div>
-                <div class="col-auto social-icons">
+                <div className="col-auto social-icons">
                     <a href="#"><i className='bx bxl-facebook'></i></a>
                     <a href="#"><i className='bx bxl-twitter'></i></a>
                     <a href="#"><i className='bx bxl-instagram'></i></a>
