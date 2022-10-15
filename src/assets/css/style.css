@@ -155,8 +155,7 @@ section {
     vertical-align: middle;
     width: 30px;
     height: 30px;
-    color: var(--dark);
-    
+    color: var(--dark);    
     animation: rotation 19s infinite linear;
     margin-right: auto;
   }
@@ -167,7 +166,7 @@ section {
       transform: rotate(0deg);
     }
     to {
-      transform: rotate(359deg);
+      transform: rotate(360deg);
     }
   }
 
@@ -175,7 +174,7 @@ section {
     .navbar-logo{
       width: 20px;
       height: 20px;
-      margin-right: auto;
+      margin-right: 150px;
     }
   }
 
