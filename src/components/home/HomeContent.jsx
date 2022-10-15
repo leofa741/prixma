@@ -4,7 +4,7 @@ import { Banner } from '../banner/Banner'
 import ActionAreaCard from '../cards/CardsComponent'
 import { FcIdea  } from "@react-icons/all-files/fc/FcIdea ";
 import { FcServices } from "react-icons/fc";
-
+import { AiOutlineShop} from "react-icons/ai";
 
 export const HomeContent = () => {
   return (
@@ -34,7 +34,7 @@ export const HomeContent = () => {
                 <div className="row">
                     <div className="col-12">
                         <div className="info-box">
-                          <h1> <FcServices
+                          <h1> <AiOutlineShop
                             size="2em"
                             color="blue"
                             /> </h1>
@@ -63,7 +63,10 @@ export const HomeContent = () => {
                     </div>
                     <div className="col-12 mt-4">
                         <div className="info-box">
-                            <img src="../src/assets/img/icon5.png" alt=""/>
+                        <h1> <FcServices
+                            size="2em"
+                            color="blue"
+                            /> </h1>
                             <div className="ms-4">
                                 <h5>UX/UI</h5>
                                 <p>
