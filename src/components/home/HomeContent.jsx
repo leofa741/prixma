@@ -5,6 +5,7 @@ import ActionAreaCard from '../cards/CardsComponent'
 import { FcIdea  } from "@react-icons/all-files/fc/FcIdea ";
 import { FcServices } from "react-icons/fc";
 import { AiOutlineShop} from "react-icons/ai";
+import { Milestone } from '../milestone/Milestone';
 
 export const HomeContent = () => {
   return (
@@ -92,10 +93,11 @@ export const HomeContent = () => {
     </div>
 </section>
 
+
 <ActionAreaCard/>
 
 <Banner/>
-
+<Milestone/>
 
 
 
