@@ -36,7 +36,7 @@ export const HomeContent = () => {
                         <div className="info-box">
                           <h1> <AiOutlineShop
                             size="2em"
-                            color="blue"
+                            color="orange"
                             /> </h1>
 
                             <div className="ms-4">
