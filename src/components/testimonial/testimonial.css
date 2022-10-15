@@ -1,0 +1,74 @@
+.testimonials {
+    padding: 50px 0;
+  
+    background: linear-gradient(#f94b4281, #F94B42), url(../../assets/img/project4.jpg);
+    text-align: center;   
+    height: 35vh;
+ 
+
+  }   
+
+    .testimonials .section-title {
+        color: #fff !important;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+    }
+
+    .testimonials .section-title h2 {
+        font-size: 36px;
+        font-weight: 700;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        color: #fff;
+    }
+
+    .testimonials .section-title h2 span {
+        color: #f1c40f;
+    }
+
+  
+   .testimonials-item {
+        margin-bottom: 15px;
+        padding: 30px;
+      
+       
+            }
+
+
+
+   .testimonials-item-image {
+        width: 100px;
+        height: 100px;      
+        margin: 0 auto;      
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+    }
+
+    .testimonials-item-image img {
+        width: 70%;
+        height: auto;
+        transition: all 0.3s ease 0s;
+      
+    }
+    .testimonials-item-image img:hover {
+        transform: rotate(360deg);
+    }
+     
+
+   
+
+
+  
+
+
+    
+
+    
+ 
+
+    @media (min-width: 768px) {
+        .testimonials .testimonial-item {
+            padding: 30px 15px;
+        }
+    }

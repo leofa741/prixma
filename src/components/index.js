@@ -7,5 +7,6 @@ export * from './social/Social';
 export * from './cards/CardsComponent';
 export * from './milestone/Milestone';
 export * from './services/ServicesComponent'; 
-export * from './slider/Slider'   
+export * from './slider/Slider'
+export * from './testimonial/Testimonial';
 

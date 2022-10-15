@@ -1,6 +1,7 @@
 import React from 'react'
 import { Banner } from '../banner/Banner'
 import { Slider } from '../slider/Slider'
+import { Testimonial } from '../testimonial/Testimonial'
 
 export const ServicesComponent = () => {
   return (
@@ -70,9 +71,10 @@ export const ServicesComponent = () => {
             </div>
         </div>
     </section>
-    
-
     <Banner />
+    <Testimonial />
+
+ 
 
     </>
   )
