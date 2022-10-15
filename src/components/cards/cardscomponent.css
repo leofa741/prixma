@@ -150,6 +150,7 @@
 @media screen and (max-width: 1200px) {
     .cards-container {
         max-width: 1000px;
+        margin: 10px auto;
 
     }
 }
