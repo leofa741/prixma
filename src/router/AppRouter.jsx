@@ -1,7 +1,7 @@
 
 import {Routes, Route} from 'react-router-dom';
 import {Home,Services,Login,NotFound} from '../pages';
-import {Footer, NavBar} from '../components';
+import {Footer, NavBar, Social} from '../components';
 
 
 export const AppRouter = () => {
@@ -31,6 +31,7 @@ export const AppRouter = () => {
         <Route path="*" element={<NotFound />} />
         
     </Routes>
+    <Social/>
 
     <Footer />
 

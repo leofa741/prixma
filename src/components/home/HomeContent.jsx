@@ -1,9 +1,11 @@
 import React from 'react'
 
 import { Banner } from '../banner/Banner'
-
+import ActionAreaCard from '../cards/CardsComponent'
 import { FcIdea  } from "@react-icons/all-files/fc/FcIdea ";
 import { FcServices } from "react-icons/fc";
+
+
 export const HomeContent = () => {
   return (
     <>
@@ -86,6 +88,8 @@ export const HomeContent = () => {
         </div>
     </div>
 </section>
+
+<ActionAreaCard/>
 
 <Banner/>
 
