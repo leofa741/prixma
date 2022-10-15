@@ -28,7 +28,7 @@ export const NavBar = () => {
     <div className="container">
          <Link  className="navbar-brand" to='/' >Puentes<span className="dot">.</span>Digitales</Link> 
          <a><SlGlobe  className="navbar-logo"  size="2em" /> </a>
-         
+
              <span className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><MenuIcon /></span>
             
@@ -39,7 +39,7 @@ export const NavBar = () => {
                     <NavLink  className="nav-link" to="/home">Home</NavLink >
                 </li>
                 <li className="nav-item">
-                    <NavLink  className="nav-link" to="/services">About</NavLink >
+                    <NavLink  className="nav-link" to="/services">services</NavLink >
                 </li>
                 <li className="nav-item">
                     <NavLink  className="nav-link" to="/login">Services</NavLink >
