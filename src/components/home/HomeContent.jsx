@@ -7,17 +7,23 @@ import { FcServices } from "react-icons/fc";
 import { AiOutlineShop} from "react-icons/ai";
 import { Milestone } from '../milestone/Milestone';
 
-export const HomeContent = () => {
-  return (
-    <>
 
+export const HomeContent = () => {
+
+   
+    
+
+  return (
+  <>
+ 
+  
 
 <section id="about">
     <div className="container">
         <div className="row justify-content-center">
         <div className="about-section">
             <div className="col-md-12">
-                    <h1 className="text-center">Conectamos tus Ideas Construyendo Puentes..</h1>
+                    <h1 className="text-center">Conectamos tus Ideas Construyendo Puentes...</h1>
                  
                     <p className="text-center">Somos una empresa de desarrollo de software, con más de 10 años de experiencia en el mercado, que ofrece soluciones tecnológicas a medida para empresas de todos los tamaños. Nuestro objetivo es ayudar a nuestros clientes a alcanzar sus objetivos de negocio, a través de la implementación de soluciones tecnológicas que les permitan mejorar su productividad y competitividad.</p>
 

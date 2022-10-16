@@ -1,10 +1,18 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom';
-import { SlGlobe } from "react-icons/sl";
+
 import MenuIcon from '@mui/icons-material/Menu';
+
+
+
+
 export const NavBar = () => {
+
+ 
   return (
  <>
+
+
 
 <div className="top-nav" id="home">
         <div className="container">
@@ -36,7 +44,7 @@ export const NavBar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto">
                 <li className="nav-item">
-                    <NavLink  className="nav-link" to="/home">Home</NavLink >
+                    <NavLink   className="nav-link" to="/home">Home</NavLink >
                 </li>
                 <li className="nav-item">
                     <NavLink  className="nav-link" to="/services">Services</NavLink >
