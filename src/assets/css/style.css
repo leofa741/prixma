@@ -158,7 +158,7 @@ section {
     height: 30px;
     color: var(--dark);    
     animation: rotation 19s infinite linear;
-    margin-left: -240px;
+    margin-right: auto;
   }
 
   
