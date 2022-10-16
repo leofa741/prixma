@@ -9,4 +9,5 @@ export * from './milestone/Milestone';
 export * from './services/ServicesComponent'; 
 export * from './slider/Slider'
 export * from './testimonial/Testimonial';
+export * from './novedades/NovedadesComponent';
 

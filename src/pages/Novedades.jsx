@@ -1,7 +1,17 @@
 import React from 'react'
+import { NovedadesComponent } from '../components'
+
 
 export const Novedades = () => {
+
+
   return (
-    <div>Novedades</div>
+   <>
+
+   <NovedadesComponent />
+ 
+
+   
+   </>
   )
 }
