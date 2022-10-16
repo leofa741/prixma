@@ -18,7 +18,7 @@ export const HomeContent = () => {
         <div className="about-section">
             <div className="col-md-12">
                     <h1 className="text-center">About Us</h1>
-                    <p className="text-center">Conectamos Ideas.Construimos Puentes..</p>
+                    <p className="text-center">Conectamos tus Ideas Construyendo Puentes..</p>
                     <p className="text-center">Somos una empresa de desarrollo de software, con más de 10 años de experiencia en el mercado, que ofrece soluciones tecnológicas a medida para empresas de todos los tamaños. Nuestro objetivo es ayudar a nuestros clientes a alcanzar sus objetivos de negocio, a través de la implementación de soluciones tecnológicas que les permitan mejorar su productividad y competitividad.</p>
 
             </div>
