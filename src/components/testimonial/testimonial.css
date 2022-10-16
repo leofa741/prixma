@@ -1,11 +1,8 @@
 .testimonials {
-    padding: 50px 0;
-  
+    padding: 50px 0;  
     background: linear-gradient(#f94b4281, #F94B42), url(../../assets/img/project4.jpg);
     text-align: center;   
     height: 35vh;
- 
-
   }   
 
     .testimonials .section-title {
@@ -29,8 +26,7 @@
   
    .testimonials-item {
         margin-bottom: 15px;
-        padding: 30px;
-      
+        padding: 30px;  
        
             }
 
@@ -52,7 +48,7 @@
       
     }
     .testimonials-item-image img:hover {
-        transform: rotate(360deg);
+        transform: rotate(45deg);
     }
      
 
