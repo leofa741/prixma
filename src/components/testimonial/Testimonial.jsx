@@ -21,7 +21,7 @@ export const Testimonial = () => {
 
                                   <div className="testimonials-item">
                                         <div className="testimonials-item-image">
-                                           <a href="https://wa.me/5213311111111"   ><img  src="../../src/assets/img/whatsapp.png"  alt="whatsapp" /></a>                                            
+                                           <a href="https://wa.me/5213311111111"   ><img  src="../src/assets/img/whatsapp.png"  alt="whatsapp" /></a>                                            
                                         </div>
                                         
                                         
