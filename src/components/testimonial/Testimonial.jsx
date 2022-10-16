@@ -1,5 +1,5 @@
 import React from 'react'
-
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import './testimonial.css'
 
 
@@ -21,7 +21,13 @@ export const Testimonial = () => {
 
                                   <div className="testimonials-item">
                                         <div className="testimonials-item-image">
-                                           <a href="https://wa.me/5213311111111"   ><img  src="../src/assets/img/whatsapp.png"  alt="whatsapp" /></a>                                            
+                                           <a href="https://wa.me/5213311111111"   ><WhatsAppIcon 
+                                            className="img" 
+                                            size="6em"
+                                            
+
+                                             /></a>
+                                                                                   
                                         </div>
                                         
                                         

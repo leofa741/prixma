@@ -158,7 +158,7 @@ section {
     height: 30px;
     color: var(--dark);    
     animation: rotation 19s infinite linear;
-    margin-right: auto;
+    margin-left: -240px;
   }
 
   
@@ -358,7 +358,7 @@ text-align: center;}
 }
 
 
-#milestone {
+#milestone { 
     background: linear-gradient(#f94b4281, #F94B42), url(../img/bg_banner1.jpg);
     background-size: cover;
     background-position: center;

@@ -26,11 +26,11 @@ export const NavBar = () => {
     
  <nav className="navbar navbar-expand-lg navbar-light bg-white sticky-top">
     <div className="container">
-         <Link  className="navbar-brand" to='/' >Puentes<span className="dot">.</span>Digitales</Link> 
+         <Link  className="navbar-brand" to='/' >Puentes<span className="dot"></span>Digitales</Link> 
          <a><SlGlobe  className="navbar-logo"  size="2em" /> </a>
 
              <span className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><MenuIcon /></span>
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"></span>
             
         
         <div className="collapse navbar-collapse" id="navbarNav">
@@ -42,7 +42,7 @@ export const NavBar = () => {
                     <NavLink  className="nav-link" to="/services">services</NavLink >
                 </li>
                 <li className="nav-item">
-                    <NavLink  className="nav-link" to="/login">Services</NavLink >
+                    <NavLink  className="nav-link" to="/novedades">Novedades</NavLink >
                 </li>
                 <li className="nav-item">
                     <NavLink  className="nav-link" to="/login">Portfolio</NavLink >
