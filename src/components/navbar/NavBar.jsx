@@ -52,7 +52,7 @@ export const NavBar = () => {
                 <li className="nav-item">
                     <NavLink  className="nav-link" to="/novedades">Novedades</NavLink >
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                     <NavLink  className="nav-link" to="/login">Portfolio</NavLink >
                 </li>
                 <li className="nav-item">
@@ -63,10 +63,10 @@ export const NavBar = () => {
                 </li>
                 <li className="nav-item">
                     <NavLink  className="nav-link" to="/">Blog</NavLink >
-                </li>
+                </li> */}
             </ul>
-            <Link to="login" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                className="btn btn-brand ms-lg-3">Contact</Link>
+            {/* <Link to="login" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                className="btn btn-brand ms-lg-3">Contact</Link> */}
         </div>
     </div>
 </nav>
