@@ -24,12 +24,12 @@ export const AppRouter = () => {
 
         }
        */}
-        <Route path="/" element={<Home />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/novedades" element={<Novedades />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="*" element={<NotFound />} />
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/home" element={<Home />} />
+        <Route exact path="/services" element={<Services />} />
+        <Route exact  path="/novedades" element={<Novedades />} />
+        <Route  exact path="/login" element={<Login />} />
+        <Route exact path="*" element={<NotFound />} />
         
     </Routes>
     <Social/>
