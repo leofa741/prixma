@@ -8,6 +8,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import SendIcon from '@mui/icons-material/Send';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 export const Social = () => {
   return (
@@ -19,6 +20,7 @@ export const Social = () => {
 			<li><a href="https://www.linkedin.com/in/leonardofarena/" target="_blank" className="icon-linkedin"><LinkedInIcon/></a></li>
 			<li><a href="https://www.instagram.com/puentesdigitales.com.ar/" target="_blank" className="icon-instagram"><InstagramIcon/></a></li>
 			{/* <li><a href="http://www.youtube.com/falconmasters" target="_blank" className="icon-youtube"><YouTubeIcon/></a></li> */}
+			<li><a href="https://wa.me/+541536038167" target="_blank" className="icon-whatsapp"><WhatsAppIcon/> </a></li>
 			<li><a href="mailto:infoplataformaweb@gmail.com" target="_blank" className="icon-mail"><MailOutlineIcon/> </a></li>
 	
 
