@@ -20,10 +20,10 @@ export const Footer = () => {
 
                         </p>
                         <div className="col-auto social-icons">
-                            <a href="#"><i className='bx bxl-facebook'></i></a>
-                            <a href="#"><i className='bx bxl-twitter'></i></a>
-                            <a href="#"><i className='bx bxl-instagram'></i></a>
-                            <a href="#"><i className='bx bxl-linkedin'></i></a>
+                            <a href="https://www.facebook.com/MiPlataformaWeb"><i className='bx bxl-facebook'></i></a>
+                            {/* <a href="#"><i className='bx bxl-twitter'></i></a> */}
+                            <a href="https://www.instagram.com/puentesdigitales.com.ar/"><i className='bx bxl-instagram'></i></a>
+                            <a href="https://www.linkedin.com/in/leonardofarena/"><i className='bx bxl-linkedin'></i></a>
                         </div>
                         <div className="col-auto conditions-section">
                             <a href="#">privacy</a>
@@ -38,7 +38,7 @@ export const Footer = () => {
         <div className="footer-bottom text-center">
             <p className="mb-0">Copyright {year} © Puentes.Digitales. All rights reserved.     
 
-            <a   href="https://www.puentesdigitales.com">Puentes Digitales</a>
+            <a   href="https://www.puentesdigitales.com.ar/">Puentes Digitales</a>
             </p>
             
         </div>
