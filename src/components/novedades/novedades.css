@@ -61,6 +61,29 @@
     transition: 0.5s;
 }
 
+/* //imagen1 */
+
+
+.novedades .novedades__container .novedades__container__cards .novedades__container__cards__card .novedades__container__cards__card__img1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 300px;
+    background-image: url('../../assets/img/images.jpg' );
+    margin: 0 10px;
+    transition: all 0.5s ease;
+}
+
+.novedades .novedades__container .novedades__container__cards .novedades__container__cards__card .novedades__container__cards__card__img1:hover {
+    background-image: url('../../assets/img/ecommerce-android-app-template-kotlin.png' );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.5s;
+}
+
 .novedades .novedades__container .novedades__container__title {
     display: flex;
     flex-direction: column;
