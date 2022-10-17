@@ -62,7 +62,7 @@ export const ServicesComponent = () => {
                         <img src="img/icon4.png" alt=""/>
                         <h5>servicios tecnicos</h5>
                         <p>
-                       Son servicios  son los servicios que se prestan a los clientes para ayudarles a resolver problemas con sus productos.
+                       Son servicios  que se prestan a los clientes para ayudarles a resolver problemas con sus productos.
                         </p>
                         <a href="#" class="btn btn-dark  ">Leer más</a>
                     </div>
