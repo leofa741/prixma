@@ -1,5 +1,5 @@
 
-import {  Route, Link,  Navigate,Routes} from 'react-router-dom';
+import {  Route,   Navigate,Routes} from 'react-router-dom';
 import {Home,Services,Login,Novedades,NotFound} from '../pages';
 import {Footer, NavBar, Social} from '../components';
 
@@ -29,7 +29,7 @@ export const AppRouter = () => {
         <Route exact path="/services" element={<Services />} />
         <Route exact  path="/novedades" element={<Novedades />} />
         <Route  exact path="/login" element={<Login />} />
-        <Route path="**" element={<Navigate to="/" />} />
+        <Route path="*" element={<NotFound/>} />
         
     </Routes>
     <Social/>
