@@ -100,7 +100,7 @@ export const ServicesComponent = () => {
                 <div class="col-lg-4 col-md-6">
                     <div class="service">
                         <img src="img/icon6.png" alt=""/>
-                        <h5>Diaeño Web</h5>
+                        <h5>Diseño Web</h5>
                         <p>
                         El diseño web es el proceso de creación de sitios web. Este puede incluir el diseño, la programación y la publicación.
                         </p>
