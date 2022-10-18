@@ -44,13 +44,13 @@ export const NavBar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto">
                 <li className="nav-item">
-                    <NavLink   className="nav-link" to="/home">Home</NavLink >
+                    <Link   className="nav-link" to="/home">Home</Link >
                 </li>
                 <li className="nav-item">
-                    <NavLink  className="nav-link" to="/services">Services</NavLink >
+                    <Link  className="nav-link" to="/services">Services</Link >
                 </li>
                 <li className="nav-item">
-                    <NavLink  className="nav-link" to="/novedades">Novedades</NavLink >
+                    <Link  className="nav-link" to="/novedades">Novedades</Link >
                 </li>
                 {/* <li className="nav-item">
                     <NavLink  className="nav-link" to="/login">Portfolio</NavLink >
