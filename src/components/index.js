@@ -10,7 +10,7 @@ export * from './services/ServicesComponent';
 export * from './slider/Slider'
 export * from './testimonial/Testimonial';
 export * from './novedades/NovedadesComponent';
-export * from './servicedisweb/WebdesignComponent';
-export * from './servicedisweb/Portfolio';
+export * from './servicedisweb/WebDesignComponent';
+
 
 
