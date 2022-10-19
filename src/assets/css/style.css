@@ -344,6 +344,24 @@ section {
     padding-bottom: 80px;
 }
 
+.portfolio .title__primary{
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--dark-2);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.portfolio .title__secondary{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--dark-2);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+
+
 .portfolio .title {
     font-size: 36px;
     font-weight: 700;

@@ -116,7 +116,8 @@ export const ServicesComponent = () => {
                         El diseño web es el proceso de creación de sitios web. Este puede incluir el diseño, la programación y la publicación.
                         </p>
                         <span    class="btn btn-dark  "><Link to="/webdesign"  
-                      >Leer más</Link></span>
+                        style={{ textDecoration: 'none', color: 'white' }}>Leer más</Link></span>
+                  
                      
                       
                     </div>
