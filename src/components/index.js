@@ -11,6 +11,7 @@ export * from './slider/Slider'
 export * from './testimonial/Testimonial';
 export * from './novedades/NovedadesComponent';
 export * from './servicedisweb/WebDesignComponent';
+export * from './puentesdigitales/PuentesDigitalesComponent';
 
 
 

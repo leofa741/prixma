@@ -4,4 +4,5 @@ export * from './Login';
 export * from './Novedades';
 export * from './NotFound';
 export * from './WebDesign';
+export * from './PuentesDigitales';
 
