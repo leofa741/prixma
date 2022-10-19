@@ -29,15 +29,8 @@ export const HomeContent = () => {
 
             </div>
         </div>
-
                    
             <div className="col-lg-5 py-5">
-
-              
-
-                        
-
-
                 <div className="row">
                     <div className="col-12">
                         <div className="info-box">
