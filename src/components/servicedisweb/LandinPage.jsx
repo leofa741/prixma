@@ -40,7 +40,7 @@ export const LandinPage = () => {
                             <img className="img-fluid rounded" src="../../../src/assets/img/landing-page.png" alt=""/>
                         </div>
                         <div className="col-sm-6">
-                        <img className="img-fluid rounded" src="src/assets/img/image1-4.png" alt=""/>
+                        <img className="img-fluid rounded" src="../../assets/img/image1-4.png" alt=""/>
                         </div>
                     </div>
                     <div className="d-flex align-items-center mb-3">
