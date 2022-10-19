@@ -1,5 +1,6 @@
 import React from 'react'
 import Filter2Icon from '@mui/icons-material/Filter2';
+import './imagen.css'
 
 export const WebEconomica = () => {
   return (
@@ -37,11 +38,9 @@ export const WebEconomica = () => {
                 </div>
                 <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div className="row g-3 mb-4">
-                        <div className="col-sm-6">
-                            <img className="img-fluid rounded" src="../../src/assets/img/4secciones.png" alt=""/>
-                        </div>
-                        <div className="col-sm-6">
-                        <img className="img-fluid rounded" src="../../src/assets/img/image1-4.png" alt=""/>
+                    <div className="col-sm-6">
+                            <div  className="imagen2" ></div>
+                        
                         </div>
                     </div>
                     <div className="d-flex align-items-center mb-3">

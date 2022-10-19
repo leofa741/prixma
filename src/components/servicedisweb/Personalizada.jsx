@@ -1,6 +1,6 @@
 import React from 'react'
 import Filter3Icon from '@mui/icons-material/Filter3';
-
+import './imagen.css'
 export const Personalizada = () => {
   return ( <>
     <div className="container-xxl py-6" id="about">
@@ -40,11 +40,9 @@ export const Personalizada = () => {
                 </div>
                 <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div className="row g-3 mb-4">
-                        <div className="col-sm-6">
-                            <img className="img-fluid rounded" src="../../src/assets/img/landing-page.png" alt=""/>
-                        </div>
-                        <div className="col-sm-6">
-                        <img className="img-fluid rounded" src="../../src/assets/img/landing.png" alt=""/>
+                    <div className="col-sm-6">
+                            <div  className="imagen1" ></div>
+                        
                         </div>
                     </div>
                     <div className="d-flex align-items-center mb-3">
