@@ -1,21 +1,17 @@
 import React from 'react'
 
-import { Banner } from '../banner/Banner'
+
 import ActionAreaCard from '../cards/CardsComponent'
 import { FcIdea  } from "@react-icons/all-files/fc/FcIdea ";
 import { FcServices } from "react-icons/fc";
-import { AiOutlineShop} from "react-icons/ai";
 import { Milestone } from '../milestone/Milestone';
+import BrushIcon from '@mui/icons-material/Brush';
 
 
-export const HomeContent = () => {
-
-   
-    
+export const HomeContent = () => {   
 
   return (
   <>
- 
   
 
 <section id="about">
@@ -34,9 +30,9 @@ export const HomeContent = () => {
                 <div className="row">
                     <div className="col-12">
                         <div className="info-box">
-                          <h1> <AiOutlineShop
-                            size="2em"
-                            color="orange"
+                          <h1> <BrushIcon
+                            sx={{ fontSize: 75, color: '#FF7F27' }}
+                            
                             /> </h1>
 
                             <div className="ms-4">
@@ -68,10 +64,12 @@ export const HomeContent = () => {
                             color="blue"
                             /> </h1>
                             <div className="ms-4">
-                                <h5>UX/UI</h5>
+                                <h5>Desarrollo Web</h5>
                                 <p>
-                                Generamos innovación digital a través de diferentes conjuntos de factores y elementos relacionados a la interacción del usuario con un entorno digital.
-                                     </p>
+                                    Desarrollo de aplicaciones web, aplicaciones móviles para android /IOS ,desarrollo de software a medida y aplicaciones web para empresas y particulares.
+                                    con la mejor tecnología y experiencia de usuario.
+
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -79,14 +77,9 @@ export const HomeContent = () => {
             </div>
             <div className="col-lg-5">
                 <div className="about-img" >
-                  <h1 className="text-center-img">Conectamos Ideas</h1>
+                  <h1 className="text-center-img">Conectamos Ideas</h1>                 
 
-                   
-
-                    </div>
-
-
-               
+                    </div>               
             </div>
         </div>
     </div>
@@ -95,7 +88,7 @@ export const HomeContent = () => {
 
 <ActionAreaCard/>
 
-<Banner/>
+
 <Milestone/>
 
 
