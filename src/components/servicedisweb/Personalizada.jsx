@@ -1,5 +1,5 @@
 import React from 'react'
-import TurnedInNotIcon from '@mui/icons-material/TurnedInNot';
+import Filter3Icon from '@mui/icons-material/Filter3';
 
 export const Personalizada = () => {
   return ( <>
@@ -9,8 +9,12 @@ export const Personalizada = () => {
                 <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div className="d-flex align-items-center mb-5">
                         <div className="years flex-shrink-0 text-center me-4">
-                            <h1 className="display-1 mb-0"><TurnedInNotIcon 
-                            style={{ fontSize: 150 }}/>3</h1>
+                            <h1 className="display-1 mb-0"><Filter3Icon 
+                            style={{ fontSize: 100 }}
+                            variant="outlined" color="primary" 
+                            tex
+                            /></h1>
+                           
                        
                             <h5 className="mb-0">PERSONALIZADAS</h5>
                         </div>

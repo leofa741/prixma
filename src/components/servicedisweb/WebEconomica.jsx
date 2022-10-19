@@ -1,4 +1,5 @@
 import React from 'react'
+import Filter2Icon from '@mui/icons-material/Filter2';
 
 export const WebEconomica = () => {
   return (
@@ -10,7 +11,11 @@ export const WebEconomica = () => {
                 <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div className="d-flex align-items-center mb-5">
                         <div className="years flex-shrink-0 text-center me-4">
-                            <h1 className="display-1 mb-0">2</h1>
+                        <h1 className="display-1 mb-0"><Filter2Icon
+                            style={{ fontSize: 100 }}
+                            variant="outlined" color="primary" 
+                            tex
+                            /></h1>
                             <h5 className="mb-0">PAGINA WEB</h5>
                         </div>
                         <h3 className="lh-base mb-0">PÁGINA WEB 4 SECCIONES</h3>

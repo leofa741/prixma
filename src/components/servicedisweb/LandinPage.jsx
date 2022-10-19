@@ -1,4 +1,5 @@
 import React from 'react'
+import Filter1Icon from '@mui/icons-material/Filter1';
 
 export const LandinPage = () => {
   return (
@@ -9,7 +10,11 @@ export const LandinPage = () => {
                 <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div className="d-flex align-items-center mb-5">
                         <div className="years flex-shrink-0 text-center me-4">
-                            <h1 className="display-1 mb-0">1</h1>
+                        <h1 className="display-1 mb-0"><Filter1Icon 
+                            style={{ fontSize: 100 }}
+                            variant="outlined" color="primary" 
+                            tex
+                            /></h1>
                             <h5 className="mb-0">LANDING PAGE</h5>
                         </div>
                         <h3 className="lh-base mb-0">PÁGINA WEB LANDING PAGE</h3>
@@ -42,7 +47,7 @@ export const LandinPage = () => {
                         <h5 className="border-end pe-3 me-3 mb-0">VALOR</h5>
                         <h2 className="text-primary fw-bold mb-0" data-toggle="counter-up">$ 17.000</h2>
                     </div>
-                    <p className="mb-4">Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stetum clita labore dolor duo clita.</p>
+                    <p className="mb-4"> <i className="far fa-check-circle text-primary me-3"></i>El valor de la página incluye el dominio y el hosting por 1 año. </p>
                     <div className="d-flex align-items-center mb-3">
                         <h5 className="border-end pe-3 me-3 mb-0">ABONO MENSUAL</h5>
                         <h2 className="text-primary fw-bold mb-0" data-toggle="counter-up">$ 2.500</h2>
