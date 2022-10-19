@@ -19,7 +19,7 @@ export const WebEconomica = () => {
                             /></h1>
                             <h5 className="mb-0">PAGINA WEB</h5>
                         </div>
-                        <h3 className="lh-base mb-0">PÁGINA WEB 4 SECCIONES</h3>
+                        <h3 className="lh-base mb-0">WEB 4 SECCIONES</h3>
                     </div>
                     <p className="mb-4">Página web de 4 secciones, con un diseño moderno y profesional, adaptado a cualquier dispositivo... </p>
                     <p className="mb-3"><i className="far fa-check-circle text-primary me-3"></i>compuesta por 4 Sección </p>
