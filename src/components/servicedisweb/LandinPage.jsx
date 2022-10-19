@@ -37,10 +37,10 @@ export const LandinPage = () => {
                 <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div className="row g-3 mb-4">
                         <div className="col-sm-6">
-                            <img className="img-fluid rounded" src="../../src/assets/img/landing-page.png" alt=""/>
+                            <img className="img-fluid rounded" src="../../../src/assets/img/landing-page.png" alt=""/>
                         </div>
                         <div className="col-sm-6">
-                        <img className="img-fluid rounded" src="src/assets/img/image1-4.png" alt=""/>
+                        <img className="img-fluid rounded" src="../../img/image1-4.png" alt=""/>
                         </div>
                     </div>
                     <div className="d-flex align-items-center mb-3">
