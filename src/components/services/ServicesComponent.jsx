@@ -39,7 +39,7 @@ export const ServicesComponent = () => {
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6">
                     <div class="service">
-                        <img src="img/icon1.png" alt=""/>
+                 
                         <h5>Digital Marketing</h5>
                         <p>
                         El marketing digital es una estrategia de marketing que utiliza Internet para promocionar un producto o servicio.
@@ -50,7 +50,7 @@ export const ServicesComponent = () => {
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="service">
-                        <img src="img/icon2.png" alt=""/>
+                       
                         <h5>Logo Designing</h5>
                         <p>
                         El diseño de logotipos es un proceso creativo que requiere de una gran cantidad de tiempo y esfuerzo.
@@ -60,7 +60,7 @@ export const ServicesComponent = () => {
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="service">
-                        <img src="img/icon3.png" alt=""/>
+                      
                         <h5>Buisness consulting</h5>
                         <p>
                         La consultoría empresarial es un servicio que ayuda a las empresas a mejorar su rendimiento y su competitividad.
@@ -70,7 +70,7 @@ export const ServicesComponent = () => {
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="service">
-                        <img src="img/icon4.png" alt=""/>
+                   
                         <h5>servicios tecnicos</h5>
                         <p>
                        Son servicios  que se prestan a los clientes para ayudarles a resolver problemas con sus productos.
@@ -80,7 +80,7 @@ export const ServicesComponent = () => {
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="service">
-                        <img src="img/icon5.png" alt=""/>
+                   
                         <h5>Brand Identity</h5>
                         <p>
                         La identidad de marca es el conjunto de elementos que definen la personalidad de una marca.
@@ -90,7 +90,7 @@ export const ServicesComponent = () => {
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="service">
-                        <img src="img/icon6.png" alt=""/>
+                       
                         <h5>Grafica comercial</h5>
                         <p>
                         La gráfica comercial es un tipo de gráfica que se utiliza para la publicidad y el marketing.
@@ -100,7 +100,7 @@ export const ServicesComponent = () => {
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="service">
-                        <img src="img/icon6.png" alt=""/>
+                     
                         <h5>Software a medida</h5>                              
                         <p>
                         El software a medida es un tipo de software que se desarrolla para satisfacer las necesidades específicas de un cliente.
@@ -110,7 +110,7 @@ export const ServicesComponent = () => {
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="service">
-                        <img src="img/icon6.png" alt=""/>
+                
                         <h5>Diseño Web</h5>
                         <p>
                         El diseño web es el proceso de creación de sitios web. Este puede incluir el diseño, la programación y la publicación.
@@ -124,7 +124,7 @@ export const ServicesComponent = () => {
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="service">
-                        <img src="img/icon6.png" alt=""/>
+             
                         <h5> E Comerce</h5>
                         <p>
                         El  e-commerce, es la compra y venta de productos o servicios a través de Internet.

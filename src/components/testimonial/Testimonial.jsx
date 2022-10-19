@@ -23,18 +23,14 @@ export const Testimonial = () => {
                                         <div className="testimonials-item-image">
                                            <a href="https://wa.me/+541536038167"   ><WhatsAppIcon 
                                             className="img" 
-                                            size="6em"
-                                            
+                                            size="6em"                                    
 
                                              /></a>
                                                                                    
-                                        </div>
+                                        </div>                     
                                         
-                                        
-                                    </div>
-                                 
-                                  </div>                       
-                          
+                                    </div>                                
+                                  </div>                   
                       </div>
                   </div>
              
