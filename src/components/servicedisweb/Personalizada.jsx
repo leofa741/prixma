@@ -1,4 +1,5 @@
 import React from 'react'
+import TurnedInNotIcon from '@mui/icons-material/TurnedInNot';
 
 export const Personalizada = () => {
   return ( <>
@@ -8,7 +9,9 @@ export const Personalizada = () => {
                 <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div className="d-flex align-items-center mb-5">
                         <div className="years flex-shrink-0 text-center me-4">
-                            <h1 className="display-1 mb-0">3</h1>
+                            <h1 className="display-1 mb-0"><TurnedInNotIcon 
+                            style={{ fontSize: 150 }}/>3</h1>
+                       
                             <h5 className="mb-0">PERSONALIZADAS</h5>
                         </div>
                         <h3 className="lh-base mb-0">PÁGINAS WEB PERSONALIZADAS</h3>
