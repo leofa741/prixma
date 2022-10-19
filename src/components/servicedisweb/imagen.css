@@ -58,3 +58,64 @@
     transform-style: preserve-3d;
     filter: grayscale(180%);
 }
+@media (max-width: 768px) {
+    .imagen{
+        background: url(../../assets/img/landing-page.png) no-repeat center center;
+        background-size: cover;
+        height: 20vh;
+        width: 70%;
+        position: relative;
+        bottom: 10px;
+        transition: all 1.500s ease-in ;
+        margin: 0 auto;
+        border-radius: 20px;    
+    }
+    
+    .imagen:hover {
+        -webkit-transform: rotateY(180deg);
+        -webkit-transform-style: preserve-3d;
+        transform: rotatey(180deg);
+        transform-style: preserve-3d;
+        filter: grayscale(180%);
+    }
+    
+    .imagen1{
+        background: url(../../assets/img/image1-4.png) no-repeat center center;
+        background-size: cover;
+        height: 20vh;
+        width: 70%;
+        position: relative;
+        bottom: 10px;
+        transition: all 1.500s ease-in ;
+        margin: 0 auto;
+        border-radius: 20px;    
+    }
+    
+    .imagen1:hover {
+        -webkit-transform: rotateY(180deg);
+        -webkit-transform-style: preserve-3d;
+        transform: rotatey(180deg);
+        transform-style: preserve-3d;
+        filter: grayscale(180%);
+    }
+    
+    .imagen2{
+        background: url(../../assets/img/landing.png) no-repeat center center;
+        background-size: cover;
+        height: 20vh;
+        width: 70%;
+        position: relative;
+        bottom: 10px;
+        transition: all 1.500s ease-in ;
+        margin: 0 auto;
+        border-radius: 20px;    
+    }
+    
+    .imagen2:hover {
+        -webkit-transform: rotateY(180deg);
+        -webkit-transform-style: preserve-3d;
+        transform: rotatey(180deg);
+        transform-style: preserve-3d;
+        filter: grayscale(180%);
+    }
+}
