@@ -1,6 +1,6 @@
 
 import {  Route,   Navigate,Routes} from 'react-router-dom';
-import {Home,Services,Login,Novedades,NotFound} from '../pages';
+import {Home,Services,Login,Novedades,NotFound,WebDesign} from '../pages';
 import {Footer, NavBar, Social} from '../components';
 
 
@@ -28,6 +28,7 @@ export const AppRouter = () => {
         <Route exact path="/home" element={<Home />} />
         <Route exact path="/services" element={<Services />} />
         <Route exact  path="/novedades" element={<Novedades />} />
+        <Route path="/webdesign" element={<WebDesign />} />
         <Route  exact path="/login" element={<Login />} />
         <Route path="/*" element={<NotFound/>} />
         

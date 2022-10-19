@@ -2,8 +2,19 @@ import React from 'react'
 import { Banner } from '../banner/Banner'
 import { Slider } from '../slider/Slider'
 import { Testimonial } from '../testimonial/Testimonial'
+import { Link} from "react-router-dom";
 
 export const ServicesComponent = () => {
+
+ 
+
+
+
+
+    
+
+
+
   return (
     <>
     <Slider />
@@ -104,7 +115,10 @@ export const ServicesComponent = () => {
                         <p>
                         El diseño web es el proceso de creación de sitios web. Este puede incluir el diseño, la programación y la publicación.
                         </p>
-                        <a href="#" class="btn btn-dark  ">Leer más</a>
+                        <span    class="btn btn-dark  "><Link to="/webdesign"  
+                      >Leer más</Link></span>
+                     
+                      
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">

@@ -183,6 +183,8 @@ section {
     background-image: linear-gradient(to right, #1e81cd, #0b8cd2, #0092d6, #009cd9, #00a5dc, #00aede, #00b3e0, #00bbe1, #00c1e3, #00c6e5, #00cfe6, #0dd5e7);
 
     transform: translateY(-11px) translateZ(-20px);
+   
+
  
 }
    
@@ -202,8 +204,12 @@ section {
 
 .navbar .navbar-nav .nav-link {
     font-weight: 500;
-    color: var(--brand-light);
+    color: var(--body2);
     transition: all 0.4s ease;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: var(--dark);
 }
 
 
@@ -330,9 +336,33 @@ section {
 }
 
 
+.portfolio{
+    background-image: linear-gradient(to right, #1e81cd, #0b8cd2, #0092d6, #009cd9, #00a5dc, #00aede, #00b3e0, #00bbe1, #00c1e3, #00c6e5, #00cfe6, #0dd5e7);
 
-.intro {margin-bottom: 36px;
-text-align: center;}
+    color: rgb(43, 16, 16);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.portfolio .title {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--brand);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.portfolio .portfolio-item {
+    margin-bottom: 30px;
+}
+
+
+
+.intro {
+    margin-bottom: 36px;
+   text-align: center;
+   
+}
 
 .intro p {
     max-width: 500px;
