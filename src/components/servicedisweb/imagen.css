@@ -63,7 +63,7 @@
         background: url(../../assets/img/landing-page.png) no-repeat center center;
         background-size: cover;
         height: 50vh;
-        width: 80%;
+        width: 100%;
         position: relative;
         bottom: 10px;
         transition: all 1.500s ease-in ;
@@ -83,7 +83,7 @@
         background: url(../../assets/img/image1-4.png) no-repeat center center;
         background-size: cover;
         height: 50vh;
-        width: 80%;
+        width: 100%;
         position: relative;
         bottom: 10px;
         transition: all 1.500s ease-in ;
@@ -103,7 +103,7 @@
         background: url(../../assets/img/landing.png) no-repeat center center;
         background-size: cover;
         height: 50vh;
-        width: 80%;
+        width: 100%;
         position: relative;
         bottom: 10px;
         transition: all 1.500s ease-in ;
