@@ -62,8 +62,8 @@
     .imagen{
         background: url(../../assets/img/landing-page.png) no-repeat center center;
         background-size: cover;
-        height: 30vh;
-        width: 60%;
+        height: 50vh;
+        width: 80%;
         position: relative;
         bottom: 10px;
         transition: all 1.500s ease-in ;
@@ -82,8 +82,8 @@
     .imagen1{
         background: url(../../assets/img/image1-4.png) no-repeat center center;
         background-size: cover;
-        height: 30vh;
-        width: 60%;
+        height: 50vh;
+        width: 80%;
         position: relative;
         bottom: 10px;
         transition: all 1.500s ease-in ;
@@ -102,8 +102,8 @@
     .imagen2{
         background: url(../../assets/img/landing.png) no-repeat center center;
         background-size: cover;
-        height: 30vh;
-        width: 60%;
+        height: 50vh;
+        width: 80%;
         position: relative;
         bottom: 10px;
         transition: all 1.500s ease-in ;

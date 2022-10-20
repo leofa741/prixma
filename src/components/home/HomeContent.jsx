@@ -31,10 +31,8 @@ export const HomeContent = () => {
                     <div className="col-12">
                         <div className="info-box">
                           <h1> <BrushIcon
-                            sx={{ fontSize: 75, color: '#FF7F27' }}
-                            
+                            sx={{ fontSize: 65, color: '#FF7F27' }}                            
                             /> </h1>
-
                             <div className="ms-4">
                                 <h5>Diseño Web  </h5>
                                 <p>Diseño de tiendas online, con la mejor tecnología y experiencia de usuario.</p>
