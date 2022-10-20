@@ -4,11 +4,9 @@
     justify-content: space-between;
     margin: 0 auto;
     max-width: 1200px;
-    padding: 0 20px;
-  
+    padding: 0 20px;  
 }
-.cards-container .card {
-  
+.cards-container .card {  
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -51,7 +49,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to top, #081188cb, #004b6e5e, #04859f38, #44c1c52a, #90fde01e);
+    background-image: linear-gradient(to top, #0b1380de, #004b6e5e, #04859f38, #2596d82a, #0db1ce0e);
 }
 
 
@@ -103,7 +101,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to top, #081188cb, #004b6e5e, #04859f38, #44c1c52a, #90fde01e);
+    background-image: linear-gradient(to top, #0b1380de, #004b6e5e, #04859f38, #2596d82a, #0db1ce0e);
 }
 
 
@@ -114,7 +112,7 @@
     left: 0;
     width: 100%;
     height: 400px;
-    background-image: url("../../assets/img/about.png");
+    background-image: url("../../assets/img/innovador.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -157,9 +155,8 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to top, #081188cb, #004b6e5e, #04859f38, #44c1c52a, #90fde01e);
+    background-image: linear-gradient(to top, #0b1380de, #004b6e5e, #04859f38, #2596d82a, #0db1ce0e);
 }
-
 
 .cards-container .card .card-img2::after {
     content: "";
@@ -210,9 +207,8 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to top, #081188cb, #004b6e5e, #04859f38, #44c1c52a, #90fde01e);
+    background-image: linear-gradient(to top, #0b1380de, #004b6e5e, #04859f38, #2596d82a, #0db1ce0e);
 }
-
 
 .cards-container .card .card-img3::after {
     content: "";

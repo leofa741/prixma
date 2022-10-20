@@ -78,7 +78,7 @@ export default function ActionAreaCard() {
                                 </Typography>
                                 <TipsAndUpdatesIcon
                                     sx={{
-                                        color: 'yellow',
+                                        color: 'black',
                                         fontWeight: 'bold',
                                         fontSize: '3.3rem'
                                     }}  />
