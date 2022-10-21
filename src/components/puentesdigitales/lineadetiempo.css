@@ -119,20 +119,17 @@
   background-color: #ffffff;
   position: relative;
   border-radius: 6px;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  box-shadow:0 6px  6px 0 #00daea44;
+
   transition: all 0.3s ease-in-out;
 }
 
 .containere .content:hover {
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px  10px 10px #00daea2d;
 }
-
-
-
 
 .containere.right .content {
     left: 10px;
-
 }
 
 .containere.left .content {
@@ -142,14 +139,11 @@
 .containere .content h2 {
   margin-top: 0;
   color: #050505;
-  font-size: 18px;
-
-  
+  font-size: 18px;  
 }
 
 .containere .content p {
     color: rgb(10, 10, 10); 
-
 }
 
 @media (max-width: 768px) {
