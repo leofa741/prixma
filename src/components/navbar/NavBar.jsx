@@ -38,7 +38,17 @@ export const NavBar = () => {
        
 
              <span className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><MenuIcon /></span>
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><MenuIcon 
+                sx={{
+                    color: 'white',
+                    fontSize: 30,
+                    '&:hover': {
+                        color: 'white',
+                        fontSize: 35,
+                    },
+                    
+                }}/></span>
+              
             
         
         <div className="collapse navbar-collapse" id="navbarNav">
