@@ -75,7 +75,7 @@ export const ServicesComponent = () => {
                    
                         <h5>Consecionarios de vehiculos</h5>                        
                         <p>
-                         Podran administrar sus vehiculos y sus clientes de manera eficiente.
+                         Podran administrar sus vehiculos y sus clientes en forma online de manera eficiente y segura.
                         </p>
                         <a href="#" class="btn btn-dark  ">Leer más</a>
                     </div>
