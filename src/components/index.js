@@ -12,6 +12,7 @@ export * from './testimonial/Testimonial';
 export * from './novedades/NovedadesComponent';
 export * from './servicedisweb/WebDesignComponent';
 export * from './puentesdigitales/PuentesDigitalesComponent';
+export * from './ecomerce/EcomerceComponent';
 
 
 

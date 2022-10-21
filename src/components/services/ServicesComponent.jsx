@@ -6,13 +6,6 @@ import { Link} from "react-router-dom";
 
 export const ServicesComponent = () => {
 
- 
-
-
-
-
-    
-
 
 
   return (
@@ -129,7 +122,8 @@ export const ServicesComponent = () => {
                         <p>
                         El  e-commerce, es la compra y venta de productos o servicios a través de Internet.
                         </p>
-                        <a href="#" class="btn btn-dark  ">Leer más</a>
+                        <span    class="btn btn-dark  "><Link to="/ecomerce"  
+                        style={{ textDecoration: 'none', color: 'white' }}>Leer más</Link></span>
                     </div>
                 </div>
             </div>
