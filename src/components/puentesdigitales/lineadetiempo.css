@@ -1,0 +1,286 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.timeline {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 4px;
+    background-color: #00D9EA;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+.containere {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+.containere.left {
+    left: 0;
+}
+
+.containere.right {
+  left: 50%;
+}
+
+.containere::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: -9px;
+    background-color: white;
+    border: 3px solid #00D9EA;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.containere.right::after {
+    left: -11px;
+}
+
+.containere::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 30px;
+    top: 13px;
+    border: medium solid rgb(0, 0, 0);
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent rgb(2, 2, 2);
+}
+
+.containere.right::before {
+    left: 30px;
+    border-color: transparent rgb(7, 7, 7) transparent transparent;
+    border-width: 10px 10px 10px 0;
+    
+}
+
+.containere .date {
+    width: 100%;
+    color: rgb(10, 10, 10);
+    padding: 10px;
+    text-align: center;
+}
+
+.containere.left .date {
+    left: 0;
+}
+
+.containere.right .date {
+    
+    left: 50%;
+}
+
+.containere .icon {
+  position: absolute;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding: 9px 0;
+  top: calc(100% - 195px);
+  background: #ffffff;
+  border: 2px solid #070707;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 18px;
+  color: #050505;
+  z-index: 1;
+}
+
+.containere.left .icon {
+  right: 50px;
+}
+
+.containere.right .icon {
+  left: 50px;
+}
+
+.containere .content { 
+  padding: 20px 30px;
+  background-color: #ffffff;
+  position: relative;
+  border-radius: 6px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.containere .content:hover {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+.containere.right .content {
+    left: 10px;
+
+}
+
+.containere.left .content {
+    right: 10px;
+}
+
+.containere .content h2 {
+  margin-top: 0;
+  color: #050505;
+  font-size: 18px;
+
+  
+}
+
+.containere .content p {
+    color: rgb(10, 10, 10); 
+
+}
+
+@media (max-width: 768px) {
+    /* The Timeline (the vertical ruler) */
+    .timeline::after {
+        left: 16px;
+    }
+
+    /* Containere */
+    .containere {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    /* The arrows */
+    .containere::after {
+        left: 31px;
+    }
+
+    /* The date/time */
+
+    .containere .date {
+        left: 0px;
+    }
+
+    /* The left arrow */
+
+    .containere.left::before {
+        border: medium solid rgb(8, 8, 8);
+        border-width: 10px 10px 10px 0;
+        border-color: transparent rgb(7, 7, 7) transparent transparent;
+    }
+
+    /* The right arrow */
+
+    .containere.right::before {
+        border: medium solid rgb(8, 8, 8);
+        border-width: 10px 0 10px 10px;
+        border-color: transparent transparent transparent rgb(7, 7, 7);
+    }
+
+    /* The right arrow */
+
+    .containere.left .icon {
+        right: 0;
+    }
+
+    /* The left arrow */
+
+    .containere.right .icon {
+        left: 0;
+    }
+
+    /* Change the direction of the elements to make the timeline work on smaller screens */
+
+
+    .containere.left {
+        left: 0;
+    }
+
+    .containere.right {
+        left: 0;
+    }
+
+    .containere.left .content {
+        left: 0;
+    }
+
+    .containere.right .content {
+        left: 0;
+    }
+
+    .containere.left .date {
+        right: 0;
+    }
+
+    .containere.right .date {
+        right: 0;
+    }
+
+    .containere.left .icon {
+        right: 0;
+    }
+
+    .containere.right .icon {
+        right: 0;
+    }
+
+    .containere.left::before {
+        border: medium solid rgb(8, 8, 8);
+        border-width: 10px 10px 10px 0;
+        border-color: transparent rgb(7, 7, 7) transparent transparent;
+    }
+
+    .containere.right::before {
+        border: medium solid rgb(8, 8, 8);
+        border-width: 10px 0 10px 10px;
+        border-color: transparent transparent transparent rgb(7, 7, 7);
+    }
+
+    .containere.left::after {
+        left: 31px;
+    }
+
+    .containere.right::after {
+        left: 31px;
+    }
+
+    .containere.left .content {
+        right: 0;
+    }
+
+    .containere.right .content {
+        right: 0;
+    }
+
+    .containere.left .date {
+        left: 0;
+    }
+
+    .containere.right .date {
+        left: 0;
+    }
+
+    .containere.left .icon {
+        left: 0;
+    }
+
+    .containere.right .icon {
+        left: 0;
+    }
+
+}

@@ -1,4 +1,5 @@
 import React from 'react'
+import { LineaDeTiempo } from './LineaDeTiempo'
 
 
 
@@ -33,19 +34,14 @@ export const PuentesDigitalesComponent = () => {
                   Nuestro objetivo es ayudar a nuestros clientes a alcanzar sus objetivos de negocio,
                   a través de la implementación de soluciones tecnológicas que les permitan mejorar su productividad y competitividad.
                 </p>
-
-               
-
-
-              </div>
-
+                </div>
             </div>
-
           </div>
-
         </div>
+      
       </section>
-
+      
+      <LineaDeTiempo />
 
     </>
   )
