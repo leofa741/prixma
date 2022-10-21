@@ -6,6 +6,7 @@ import { FcIdea  } from "@react-icons/all-files/fc/FcIdea ";
 import { FcServices } from "react-icons/fc";
 import { Milestone } from '../milestone/Milestone';
 import BrushIcon from '@mui/icons-material/Brush';
+import CodeIcon from '@mui/icons-material/Code';
 
 
 export const HomeContent = () => {   
@@ -39,6 +40,21 @@ export const HomeContent = () => {
                             </div>
                         </div>
                     </div>
+                    <div className="col-12">
+                        <div className="info-box">
+                          <h1> <CodeIcon
+                            sx={{ fontSize: 65, color: '#050F97' }}                            
+                            /> </h1>
+                            <div className="ms-4">
+                            <h5>Desarrollo Web</h5>
+                                <p>
+                                    Desarrollo de aplicaciones web, aplicaciones móviles para android /IOS ,desarrollo de software a medida y aplicaciones web para empresas y particulares.
+                                    con la mejor tecnología y experiencia de usuario.
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                     <div className="col-12 mt-4">
                         <div className="info-box">
 
@@ -62,10 +78,12 @@ export const HomeContent = () => {
                             color="blue"
                             /> </h1>
                             <div className="ms-4">
-                                <h5>Desarrollo Web</h5>
+                                <h5>Optimización</h5>
                                 <p>
-                                    Desarrollo de aplicaciones web, aplicaciones móviles para android /IOS ,desarrollo de software a medida y aplicaciones web para empresas y particulares.
-                                    con la mejor tecnología y experiencia de usuario.
+                                    Optimización de páginas web, tiendas online, aplicaciones móviles, desarrollo de software a medida.
+
+                                    
+                               
 
                                 </p>
                             </div>
