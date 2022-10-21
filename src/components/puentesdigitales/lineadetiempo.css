@@ -153,134 +153,84 @@
 }
 
 @media (max-width: 768px) {
-    /* The Timeline (the vertical ruler) */
-    .timeline::after {
-        left: 16px;
-    }
 
-    /* Containere */
-    .containere {
-        width: 100%;
-        padding-left: 70px;
-        padding-right: 25px;
-    }
+  .timeline::after {
+    left: 31px;
+  }
 
-    /* The arrows */
-    .containere::after {
-        left: 31px;
-    }
+  .containere {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
 
-    /* The date/time */
+  .containere.left {
+    left: 20px;
+  }
 
-    .containere .date {
-        left: 0px;
-    }
+  .containere.right {
+    left: 0%;
+  }
 
-    /* The left arrow */
+  .containere::after {
+    left: -19px;
+  }
 
-    .containere.left::before {
-        border: medium solid rgb(8, 8, 8);
-        border-width: 10px 10px 10px 0;
-        border-color: transparent rgb(7, 7, 7) transparent transparent;
-    }
+  .containere.right::after {
+    left: 0
+  }
 
-    /* The right arrow */
+  .containere::before {
+    right: 60px;
+    border-width: 10px 10px 10px 0;
+  }
 
-    .containere.right::before {
-        border: medium solid rgb(8, 8, 8);
-        border-width: 10px 0 10px 10px;
-        border-color: transparent transparent transparent rgb(7, 7, 7);
-    }
+  .containere.right::before {
+    left: 60px;
+    border-width: 10px 0 10px 10px;
+  }
 
-    /* The right arrow */
+  .containere .date {
+    left: 0%;
+  }
 
-    .containere.left .icon {
-        right: 0;
-    }
+  .containere.left .date {
+    left: 0%;
+  }
 
-    /* The left arrow */
+  .containere.right .date {
+    left: 0%;
+  }
 
-    .containere.right .icon {
-        left: 0;
-    }
+  .containere .icon {
+    top: 16px;
+    right: 0;
+    left: auto;
+    margin-left: 0;
+    margin-right: auto;
 
-    /* Change the direction of the elements to make the timeline work on smaller screens */
+  
+  }
 
+  .containere.left .icon {
+    left: 10%;
+  }
 
-    .containere.left {
-        left: 0;
-    }
+  .containere.right .icon {
+    left: 10%;
+  }
 
-    .containere.right {
-        left: 0;
-    }
+  .containere .content {
+    padding: 20px 25px;
+    width: 100%;
+  }
 
-    .containere.left .content {
-        left: 0;
-    }
+  .containere.left .content {
+    left: 0%;
+  }
 
-    .containere.right .content {
-        left: 0;
-    }
-
-    .containere.left .date {
-        right: 0;
-    }
-
-    .containere.right .date {
-        right: 0;
-    }
-
-    .containere.left .icon {
-        right: 0;
-    }
-
-    .containere.right .icon {
-        right: 0;
-    }
-
-    .containere.left::before {
-        border: medium solid rgb(8, 8, 8);
-        border-width: 10px 10px 10px 0;
-        border-color: transparent rgb(7, 7, 7) transparent transparent;
-    }
-
-    .containere.right::before {
-        border: medium solid rgb(8, 8, 8);
-        border-width: 10px 0 10px 10px;
-        border-color: transparent transparent transparent rgb(7, 7, 7);
-    }
-
-    .containere.left::after {
-        left: 31px;
-    }
-
-    .containere.right::after {
-        left: 31px;
-    }
-
-    .containere.left .content {
-        right: 0;
-    }
-
-    .containere.right .content {
-        right: 0;
-    }
-
-    .containere.left .date {
-        left: 0;
-    }
-
-    .containere.right .date {
-        left: 0;
-    }
-
-    .containere.left .icon {
-        left: 0;
-    }
-
-    .containere.right .icon {
-        left: 0;
-    }
-
+  .containere.right .content {
+    left: 0%;
+  }
 }
+
