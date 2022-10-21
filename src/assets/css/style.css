@@ -8,9 +8,9 @@
     --body: #516171;
     --border: rgba(0,0,0,0.08);
     --shadow: 0px 6px 50px rgba(6, 8, 102, 0.712); 
-    --body2: #F7F7FC;   
+    --body2: #F7F7FC;  
+    --gradient : linear-gradient(90deg, #0d19b8 0%, #e4e5f1 100%);
 }
-
 body {
     font-family: "Barlow", sans-serif;
     color: var(--dark) !important;
@@ -350,7 +350,16 @@ section {
     color: var(--dark-2);
     text-transform: uppercase;
     margin-bottom: 20px;
+    transition: all 0.4s ease;
 }
+.portfolio .title__primary:hover{
+    color: var(--dark);
+    transform: translateY(-21px) translateZ(50px);
+   
+
+}
+
+
 
 .portfolio .title__secondary{
     font-size: 18px;
