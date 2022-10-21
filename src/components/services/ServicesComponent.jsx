@@ -64,19 +64,18 @@ export const ServicesComponent = () => {
                 <div class="col-lg-4 col-md-6">
                     <div class="service">
                    
-                        <h5>servicios tecnicos</h5>
-                        <p>
-                       Son servicios  que se prestan a los clientes para ayudarles a resolver problemas con sus productos.
-                        </p>
+                        <h5> Distribución de productos y ventas  </h5>
+                        <p>  App para distribución de productos y ventas, con seguimiento de pedidos y reportes en tiempo real.</p>
+                   
                         <a href="#" class="btn btn-dark  ">Leer más</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="service">
                    
-                        <h5>Brand Identity</h5>
+                        <h5>Consecionarios de vehiculos</h5>                        
                         <p>
-                        La identidad de marca es el conjunto de elementos que definen la personalidad de una marca.
+                         Podran administrar sus vehiculos y sus clientes de manera eficiente.
                         </p>
                         <a href="#" class="btn btn-dark  ">Leer más</a>
                     </div>
@@ -94,10 +93,11 @@ export const ServicesComponent = () => {
                 <div class="col-lg-4 col-md-6">
                     <div class="service">
                      
-                        <h5>Software a medida</h5>                              
+                        <h5>Sistema de Gestión de Turnos</h5>                              
                         <p>
-                        El software a medida es un tipo de software que se desarrolla para satisfacer las necesidades específicas de un cliente.
-                        </p>
+                        Es un sistema que permite a los clientes de una empresa o institución solicitar un turno para ser atendidos.
+
+                       </p>
                         <a href="#" class="btn btn-dark  ">Leer más</a>
                     </div>
                 </div>
