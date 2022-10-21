@@ -55,34 +55,39 @@ export const HomeContent = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-12 mt-4">
-                        <div className="info-box">
+                
 
-                        <h1><FcIdea 
-                        size="2em"
-                        /></h1>
-                        
+                    <div className="col-12">
+                        <div className="info-box">
+                          <h1> <FcIdea 
+                          fontSize='62px'
+                                                    
+                            /> </h1>
                             <div className="ms-4">
-                                <h5>Servicios de comunicación y marketing</h5>
+                            <h5>Comunicación y marketing</h5>
                                 <p>
                                     Diseño de páginas web, tiendas online, aplicaciones móviles, desarrollo de software a medida, marketing digital, posicionamiento web, diseño gráfico, etc.
                                 </p>
-                                    
                             </div>
                         </div>
                     </div>
+
+
+
+
+
+
                     <div className="col-12 mt-4">
                         <div className="info-box">
                         <h1> <FcServices
-                            size="2em"
-                            color="blue"
+                              fontSize='62px' 
                             /> </h1>
                             <div className="ms-4">
                                 <h5>Optimización</h5>
                                 <p>
                                     Optimización de páginas web, tiendas online, aplicaciones móviles, desarrollo de software a medida.
 
-                                    
+
                                
 
                                 </p>
