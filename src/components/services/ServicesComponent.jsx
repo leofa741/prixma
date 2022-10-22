@@ -35,7 +35,7 @@ export const ServicesComponent = () => {
                 <div class="col-lg-4 col-md-6">
                     <div class="service">
                    
-                        <h5> Distribuidoras de productos y ventas  </h5>
+                        <h5> Distribuidoras de productos </h5>
                         <p>  App para distribución de productos y ventas, con seguimiento de pedidos y reportes en tiempo real.</p>
                    
                         <a href="#" class="btn btn-dark  ">Leer más</a>
