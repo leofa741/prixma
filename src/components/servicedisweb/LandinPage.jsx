@@ -16,9 +16,9 @@ export const LandinPage = () => {
                             variant="outlined" color="primary" 
                             tex
                             /></h1>
-                            <h5 className="mb-0">LANDING PAGE</h5>
+                          
                         </div>
-                        <h3 className="lh-base mb-0">WEB LANDING PAGE</h3>
+                        <h3 className="lh-base mb-0">LANDING PAGE</h3>
                     </div>
                     <p className="mb-4">Es una página web que tiene como objetivo captar la atención de los usuarios y convertirlos en clientes potenciales...</p>
                     <p className="mb-3"><i className="far fa-check-circle text-primary me-3"></i>compuesta por 1 Sección </p>

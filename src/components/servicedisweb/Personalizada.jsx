@@ -16,9 +16,9 @@ export const Personalizada = () => {
                             /></h1>
                            
                        
-                            <h5 className="mb-0">PERSONALIZADAS</h5>
+                           
                         </div>
-                        <h3 className="lh-base mb-0">WEB CON SECCIONES</h3>
+                        <h3 className="lh-base mb-0">SECCIONES</h3>
                     </div>
                     <p className="mb-4">
                     Creamos la página web para tu negocio. Diseño web profesional, moderno y adaptable a cualquier dispositivo.

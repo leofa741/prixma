@@ -17,7 +17,7 @@ export const WebEconomica = () => {
                             variant="outlined" color="primary" 
                             tex
                             /></h1>
-                            <h5 className="mb-0">PAGINA WEB</h5>
+                           
                         </div>
                         <h3 className="lh-base mb-0">WEB 4 SECCIONES</h3>
                     </div>
