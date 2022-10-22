@@ -27,8 +27,8 @@ export const Footer = () => {
                         </div>
                         <div className="col-auto conditions-section">
                             <a href="#">privacy</a>
-                            <a href="#">terms</a>
-                            <a href="#">disclaimer</a>
+                            <a href="#">cookies</a>
+                            <a href="#">contáctanos</a>
                         </div>
                     </div>
                 </div>
