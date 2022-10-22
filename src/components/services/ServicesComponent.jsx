@@ -29,38 +29,9 @@ export const ServicesComponent = () => {
                     </div>
                 </div>
             </div>
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6">
-                    <div class="service">
-                 
-                        <h5>Digital Marketing</h5>
-                        <p>
-                        El marketing digital es una estrategia de marketing que utiliza Internet para promocionar un producto o servicio.
-                        </p>
-
-                        <a href="#" class="btn btn-dark  ">Leer más</a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service">
-                       
-                        <h5>Logo Designing</h5>
-                        <p>
-                        El diseño de logotipos es un proceso creativo que requiere de una gran cantidad de tiempo y esfuerzo.
-                        </p>
-                        <a href="#" class="btn btn-dark  ">Leer más</a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service">
-                      
-                        <h5>Buisness consulting</h5>
-                        <p>
-                        La consultoría empresarial es un servicio que ayuda a las empresas a mejorar su rendimiento y su competitividad.
-                        </p>
-                        <a href="#" class="btn btn-dark  ">Leer más</a>
-                    </div>
-                </div>
+            <div class="row g-4">              
+             
+                
                 <div class="col-lg-4 col-md-6">
                     <div class="service">
                    
@@ -70,6 +41,7 @@ export const ServicesComponent = () => {
                         <a href="#" class="btn btn-dark  ">Leer más</a>
                     </div>
                 </div>
+
                 <div class="col-lg-4 col-md-6">
                     <div class="service">
                    
@@ -80,6 +52,7 @@ export const ServicesComponent = () => {
                         <a href="#" class="btn btn-dark  ">Leer más</a>
                     </div>
                 </div>
+
                 <div class="col-lg-4 col-md-6">
                     <div class="service">
                        
@@ -90,6 +63,7 @@ export const ServicesComponent = () => {
                         <a href="#" class="btn btn-dark  ">Leer más</a>
                     </div>
                 </div>
+
                 <div class="col-lg-4 col-md-6">
                     <div class="service">
                      
@@ -101,23 +75,20 @@ export const ServicesComponent = () => {
                         <a href="#" class="btn btn-dark  ">Leer más</a>
                     </div>
                 </div>
+
                 <div class="col-lg-4 col-md-6">
-                    <div class="service">
-                
+                    <div class="service">                
                         <h5>Diseño Web</h5>
                         <p>
                         El diseño web es el proceso de creación de sitios web. Este puede incluir el diseño, la programación y la publicación.
                         </p>
                         <span    class="btn btn-dark  "><Link to="/webdesign"  
-                        style={{ textDecoration: 'none', color: 'white' }}>Leer más</Link></span>
-                  
-                     
-                      
+                        style={{ textDecoration: 'none', color: 'white' }}>Leer más</Link></span>                      
                     </div>
                 </div>
+
                 <div class="col-lg-4 col-md-6">
-                    <div class="service">
-             
+                    <div class="service">             
                         <h5> E Comerce</h5>
                         <p>
                         El  e-commerce, es la compra y venta de productos o servicios a través de Internet.
@@ -126,6 +97,21 @@ export const ServicesComponent = () => {
                         style={{ textDecoration: 'none', color: 'white' }}>Leer más</Link></span>
                     </div>
                 </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="service">             
+                        <h5> Gestion de Presupuestos</h5>
+                        <p>
+                       Presupuestos de servicios y productos para empresas y particulares.
+                       con ingreso de datos e impresion de presupuestos.
+                        </p>
+                        <span    class="btn btn-dark  "><Link to="/ecomerce"  
+                        style={{ textDecoration: 'none', color: 'white' }}>Leer más</Link></span>
+                    </div>
+                </div>
+
+          
+
             </div>
         </div>
     </section>
