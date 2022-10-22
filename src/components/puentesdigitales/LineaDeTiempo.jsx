@@ -23,29 +23,61 @@ export const LineaDeTiempo = () => {
     <div className="content">
       <h2>Un equipo de trabajo</h2>    
       <p>
-      ayudando a nuestros clientes a mejorar y crecer sus negocios.
-      Fuimos creciendo y aprendiendo, hasta que en 2011 decidimos dar el salto a la web.
+      ayudando a mis clientes a mejorar y crecer sus negocios.
+      Fui creciendo y aprendiendo, hasta que en 2011 decidi
+       dar el salto a la web.
         </p>
     </div>
   </div>
+
+
   <div className="containere right">
-    <div className="date">18 May</div>
-    <i className="icon fa fa-running"></i>
+    <div className="date">2013</div>
+    <i className="icon fa fa-rocket"></i>
     <div className="content">
-      <h2>Lorem ipsum dolor sit amet</h2>
+      <h2>Mi primer equipo </h2>
       <p>
-        Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+      En 2011, comenzamos a trabajar con nuestros primeros clientes, ayudándolos a mejorar y crecer sus negocios.
+        Y fuimos creciendo y aprendiendo, hasta que en 2013 decidi sumar un equipo de trabajo.
+    
       </p>
     </div>
   </div>
+
+
   <div className="containere left">
-    <div className="date">10 Jul</div>
-    <i className="icon fa fa-user"></i>
+    <div className="date">2016</div>
+    <i className="icon fa fa-university"></i>
     <div className="content">
-      <h2>Lorem ipsum dolor sit amet</h2>
+      <h2> Nos Espesializamos   </h2>
       <p>
-        Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+      En 2016, nos especializamos en el desarrollo de aplicaciones web y móviles, y en la creación de sitios web.
+     </p>
+    </div>
+  </div>
+
+  
+  <div className="containere right">
+    <div className="date">2017</div>
+    <i className="icon fa fa-globe"></i>
+    <div className="content">
+      <h2>Nos Expandimos </h2>         
+      <p>
+      En 2017, nos expandimos a la ciudad de la Plata , Argentina, y comenzamos a trabajar con clientes de todo el país.
       </p>
+    </div>
+  </div>
+
+  <div className="containere left">
+    <div className="date">2022</div>
+    <i className="icon fa fa-running"></i>
+    <div className="content">
+      <h2> Seguimos </h2>
+      <p>
+      En 2022, seguimos creciendo y aprendiendo, y nos especializamos en el desarrollo de aplicaciones web y móviles, y en la creación de sitios web.
+      Porque la tecnología es nuestro medio para ayudar a las personas a mejorar y crecer sus negocios.
+    
+     </p>
     </div>
   </div>
 
