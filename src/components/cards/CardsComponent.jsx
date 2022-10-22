@@ -119,6 +119,8 @@ export default function ActionAreaCard() {
                                 />
                                 <Typography variant="body2"
                                     className="card-text">
+                                        Innovamos con nuevos marcos y filosofías de trabajo que logran
+un mejor desarrollo de aplicaciones en menor tiempo y a menor costo.
                                 </Typography>
                             </CardContent>
                         </CardMedia>

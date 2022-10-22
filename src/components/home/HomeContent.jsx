@@ -3,11 +3,12 @@ import React from 'react'
 
 import ActionAreaCard from '../cards/CardsComponent'
 import { FcIdea  } from "@react-icons/all-files/fc/FcIdea ";
+
 import { FcServices } from "react-icons/fc";
 import { Milestone } from '../milestone/Milestone';
 import BrushIcon from '@mui/icons-material/Brush';
 import CodeIcon from '@mui/icons-material/Code';
-
+import {GoBrowser} from "@react-icons/all-files/go/GoBrowser"; 
 
 export const HomeContent = () => {   
 
@@ -59,15 +60,17 @@ export const HomeContent = () => {
 
                     <div className="col-12">
                         <div className="info-box">
-                          <h1> <FcIdea 
-                          fontSize='62px'
-                                                    
+                          <h1> <GoBrowser
+                          fontSize='62px' 
+                           color='#54C1F0'
+
                             /> </h1>
                             <div className="ms-4">
-                            <h5>Comunicación y marketing</h5>
+                            <h5>Ux/Ui</h5>
                                 <p>
-                                    Diseño de páginas web, tiendas online, aplicaciones móviles, desarrollo de software a medida, marketing digital, posicionamiento web, diseño gráfico, etc.
-                                </p>
+                                    Diseño de interfaces de usuario, con la mejor tecnología y experiencia de usuario.
+                                    Generamos innovación digital a través de diferentes conjuntos de factores y elementos relacionados a la interacción del usuario con un entorno digital.
+                               </p>
                             </div>
                         </div>
                     </div>

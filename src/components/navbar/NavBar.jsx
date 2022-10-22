@@ -46,7 +46,7 @@ export const NavBar = () => {
                         color: 'white',
                         fontSize: 35,
                     },
-                    
+
                 }}/></span>
               
             
@@ -57,7 +57,7 @@ export const NavBar = () => {
                     <NavLink   className="nav-link" to="/home">Home</NavLink >
                 </li>
                 <li className="nav-item">
-                    <NavLink  className="nav-link" to="/services">Services</NavLink >
+                    <NavLink  className="nav-link" to="/services" >Services</NavLink >
                 </li>
                 <li className="nav-item">
                     <NavLink  className="nav-link" to="/novedades">Novedades</NavLink >
