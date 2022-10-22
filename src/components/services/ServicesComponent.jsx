@@ -35,7 +35,7 @@ export const ServicesComponent = () => {
                 <div class="col-lg-4 col-md-6">
                     <div class="service">
                    
-                        <h5> Distribución de productos y ventas  </h5>
+                        <h5> Distribuidoras de productos y ventas  </h5>
                         <p>  App para distribución de productos y ventas, con seguimiento de pedidos y reportes en tiempo real.</p>
                    
                         <a href="#" class="btn btn-dark  ">Leer más</a>
@@ -102,8 +102,34 @@ export const ServicesComponent = () => {
                     <div class="service">             
                         <h5> Gestion de Presupuestos</h5>
                         <p>
-                       Presupuestos de servicios y productos para empresas y particulares.
+                       Presupuestos de servicios y productos .
                        con ingreso de datos e impresion de presupuestos.
+                        </p>
+                        <span    class="btn btn-dark  "><Link to="/ecomerce"  
+                        style={{ textDecoration: 'none', color: 'white' }}>Leer más</Link></span>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="service">             
+                        <h5> App para Android e IOS</h5>
+                        <p>
+                        Desarrollo de aplicaciones a medida para Android e IOS.
+                        Obtenga una aplicación para su empresa o negocio.
+
+
+                        </p>
+                        <span    class="btn btn-dark  "><Link to="/ecomerce"  
+                        style={{ textDecoration: 'none', color: 'white' }}>Leer más</Link></span>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="service">             
+                        <h5>Turismo</h5>
+                        <p>
+                        Desarrollamos una Pagina Web para Turismo, con la posibilidad de reservar habitaciones, tours, etc.                        
+
                         </p>
                         <span    class="btn btn-dark  "><Link to="/ecomerce"  
                         style={{ textDecoration: 'none', color: 'white' }}>Leer más</Link></span>
