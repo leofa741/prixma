@@ -6,10 +6,10 @@ import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 import TimelineDot from '@mui/lab/TimelineDot';
-
+import { IoMdCloudOutline } from "react-icons/io";
 import LaptopMacIcon from '@mui/icons-material/LaptopMac';
+import { FcTemplate } from "react-icons/fc";
 
-import RepeatIcon from '@mui/icons-material/Repeat';
 import Typography from '@mui/material/Typography';
 import { Box } from '@mui/material';
 
@@ -34,6 +34,30 @@ export default function CustomizedTimeline() {
         Tecnologías a utilizar
       </Typography>
     <Timeline position="alternate">
+    <TimelineItem>
+        <TimelineOppositeContent
+          sx={{ m: 'auto 0' }}
+          variant="body2"
+          color="text.secondary"
+        >
+          User
+        </TimelineOppositeContent>
+        <TimelineSeparator>
+          <TimelineConnector />
+          <TimelineDot color="primary">
+            <FcTemplate
+            fontSize="2rem"
+             />
+          </TimelineDot>
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent sx={{ py: '12px', px: 2 }}>          
+          <Typography>
+            Views
+             </Typography>
+        </TimelineContent>
+      </TimelineItem>
+
       <TimelineItem>
         <TimelineOppositeContent
           sx={{ m: 'auto 0' }}
@@ -62,6 +86,8 @@ export default function CustomizedTimeline() {
           
         </TimelineContent>
       </TimelineItem>
+
+
       <TimelineItem>
         <TimelineOppositeContent
           sx={{ m: 'auto 0' }}
@@ -86,6 +112,14 @@ export default function CustomizedTimeline() {
         </TimelineContent>
       </TimelineItem>
       <TimelineItem>
+      <TimelineOppositeContent
+          sx={{ m: 'auto 0' }}
+          align="right"
+          variant="body2"
+          color="text.secondary"
+        >
+            BackEnd
+        </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineConnector />
           <TimelineDot color="primary" variant="outlined">
@@ -97,27 +131,36 @@ export default function CustomizedTimeline() {
         </TimelineSeparator>
         <TimelineContent sx={{ py: '12px', px: 2 }}>
           <Typography variant="h6" component="span">
-            BackEnd
+          Nodejs
           </Typography>
           <Typography>
-            Nodejs, express, mongoDB, mongoose
+             express, mongoDB, mongoose
           </Typography>
         </TimelineContent>
       </TimelineItem>
       <TimelineItem>
+      <TimelineOppositeContent
+          sx={{ m: 'auto 0' }}
+          variant="body2"
+          color="text.secondary"
+        >
+          Deploy
+        </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
           <TimelineDot color="secondary">
-            <LaptopMacIcon />
+            <IoMdCloudOutline
+            fontSize="2rem"
+             />
           </TimelineDot>
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent sx={{ py: '12px', px: 2 }}>
-          <Typography variant="h6" component="span">
-           User
+          <Typography variant="h6" component="span">                       
+
           </Typography>
           <Typography>
-            User interface
+            Vercel, Heroku , MongoDB Atlas
           </Typography>
         </TimelineContent>
       </TimelineItem>

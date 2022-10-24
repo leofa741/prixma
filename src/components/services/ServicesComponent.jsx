@@ -32,15 +32,7 @@ export const ServicesComponent = () => {
             <div class="row g-4">              
              
                 
-                <div class="col-lg-4 col-md-6">
-                    <div class="service">
-                   
-                        <h5> Distribuidoras de productos </h5>
-                        <p>  App para distribución de productos y ventas, con seguimiento de pedidos y reportes en tiempo real.</p>
-                   
-                        <a href="#" class="btn btn-dark  ">Leer más</a>
-                    </div>
-                </div>
+      
 
                 <div class="col-lg-4 col-md-6">
                     <div class="service">
@@ -137,7 +129,19 @@ export const ServicesComponent = () => {
                     </div>
                 </div>
 
-          
+                <div class="col-lg-4 col-md-6">
+                    <div class="service">
+                   
+                        <h5>  Sistema de gestión de compras y ventas</h5>
+                        <p> 
+                            Sistema de gestión de compras y ventas, que permite la gestión de los procesos de compras y ventas de una empresa, desde la solicitud de cotización hasta la facturación de la venta.
+                            con notificaciones en tiempo real, y un sistema de gestión de inventario.codigos de barras, etc.
+
+                        </p>
+                   
+                        <a href="#" class="btn btn-dark  ">Leer más</a>
+                    </div>
+                </div>
 
             </div>
         </div>
