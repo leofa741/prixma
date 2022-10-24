@@ -1,0 +1,21 @@
+.fact-item {
+    transition: .5s;
+}
+
+.fact-item:hover { 
+    margin-top: -10px;
+    background: #FFFFFF !important;
+    box-shadow: 0 0 45px rgba(0, 0, 0, .07);
+ }
+
+ @media (max-width: 767px) {
+    .fact-item {
+        margin-bottom: 30px;
+    }
+}
+
+
+
+
+
+

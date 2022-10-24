@@ -7,7 +7,10 @@ import { Testimonial } from '../testimonial/Testimonial'
 export const EcomerceComponent = () => {
   return (
     <>
-     <Header  />
+     <Header 
+      title="E-commerce"
+      descripcion="Desde cualquier lugar, con cualquier dispositivo y a toda hora se pueden visitar las góndolas virtuales y elegir el producto que necesita agregandolo a su carrito de compras personalizado."
+      />
 
      <div className="container">
       <div className="row">

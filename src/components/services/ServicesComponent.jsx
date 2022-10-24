@@ -49,7 +49,7 @@ export const ServicesComponent = () => {
                         <p>
                          Podran administrar el inventario de sus vehiculos de manera eficiente y segura de forma online con su tablet, o su dispositivo movil.
                         </p>
-                        <span    class="btn btn-dark  "><Link to="/concesionario"  
+                        <span    class="btn btn-dark  "><Link to="/concesionarioweb"  
                         style={{ textDecoration: 'none', color: 'white' }}>Leer más</Link></span>  
                     </div>
                 </div>
