@@ -28,7 +28,9 @@ export default function CustomizedTimeline() {
     
       bgcolor: '#f5f5f5',
      }}>
-      <Typography variant="h3" component="div" sx={{ fontWeight: 300 }}>
+      <Typography variant="h3" component="div" sx={{ fontWeight: 300 , 
+      fontFamily: 'Roboto', fontSize: 30,  }}>
+    
         Tecnologías a utilizar
       </Typography>
     <Timeline position="alternate">
