@@ -47,7 +47,7 @@ export const ServicesComponent = () => {
                    
                         <h5>Consecionarios de vehiculos</h5>                        
                         <p>
-                         Podran administrar sus vehiculos y sus clientes en forma online de manera eficiente y segura.
+                         Podran administrar y contrlar el inventario de sus vehiculos de manera eficiente y segura de forma online con su tablet, o su dispositivo movil.
                         </p>
                         <a href="#" class="btn btn-dark  ">Leer más</a>
                     </div>
