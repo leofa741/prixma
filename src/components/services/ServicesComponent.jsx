@@ -45,7 +45,7 @@ export const ServicesComponent = () => {
                 <div class="col-lg-4 col-md-6">
                     <div class="service">
                    
-                        <h5>Consecionarios de vehiculos</h5>                        
+                        <h5>Concesionarios de vehiculos</h5>                        
                         <p>
                          Podran administrar el inventario de sus vehiculos de manera eficiente y segura de forma online con su tablet, o su dispositivo movil.
                         </p>

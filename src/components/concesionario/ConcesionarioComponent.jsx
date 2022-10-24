@@ -1,8 +1,11 @@
 import React from 'react'
+import { Banner } from '../banner/Banner'
 import { Header } from '../ecomerce/Header'
 import { Testimonial } from '../testimonial/Testimonial'
 import { CardConcesionaria } from './CardConcesionaria'
 import './imgborder.css'
+import CustomizedTimeline from './TimelineConc'
+
 
 export const ConcesionarioComponent = () => {
   return (
@@ -30,11 +33,12 @@ export const ConcesionarioComponent = () => {
                 </div>
                 <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div className="h-100">
+                    <h1 className="display-6 mb-4">  <span className="text-primary">DataCare</span>  </h1>
                         <h6 className="section-title bg-white text-start text-primary pe-3">Concesionaria web</h6>
                         <h1 className="display-6 mb-4">#1 Digital Solution With <span className="text-primary">10 Years</span> Of Experience</h1>
                         <p>
-                        Desde cualquier lugar, con cualquier dispositivo y a toda hora se pueden administrar
-                          los vehículos que se encuentran en stock, los que se encuentran en venta .
+                     Soluciones digitales para concesionarios de vehículos,gestión de inventario,Otorga Acceso a Datos en Tiempo Real,
+                      Control de Stock, Control de Ventas, Control de Clientes, Control de Usuarios
 
 
                         </p>
@@ -48,13 +52,12 @@ export const ConcesionarioComponent = () => {
 
                         </p>
                         <div className="d-flex align-items-center mb-4 pb-2">
-                            {/* <img className="flex-shrink-0 rounded-circle" src="../../../../icon3.png" alt="" style= 
-                            {{width: "80px"}}/> */}
+                         
                             <div className="img-icon"/>
                            
                             <div className="ps-4">
-                                <h6>Jhon Doe</h6>
-                                <small>SEO & Founder</small>
+                                <h6> Puentes Digitales</h6>
+                                <small>Diseño & Desarrollo</small>
                             </div>
                         </div>
                         <a 
@@ -65,6 +68,8 @@ export const ConcesionarioComponent = () => {
             </div>
         </div>
     </div>
+   < CustomizedTimeline/>
+   <Banner />
   
  <Testimonial />
  </>
