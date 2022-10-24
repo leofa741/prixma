@@ -22,7 +22,7 @@ export const NavBar = () => {
                     <p> <i className='bx bxs-phone-call'></i> 011 3603-8167</p>
                 </div>
                 <div className="col-auto social-icons">
-                    <a href="https://www.facebook.com/MiPlataformaWeb"><i className='bx bxl-facebook'></i></a>
+                    <a href="https://www.facebook.com/www.puentesdigitales.com.ar"><i className='bx bxl-facebook'></i></a>
                     {/* <a href="#"><i className='bx bxl-twitter'></i></a> */}
                     <a href="https://www.instagram.com/puentesdigitales.com.ar/"><i className='bx bxl-instagram'></i></a>
                     <a href="https://www.linkedin.com/in/leonardofarena/"><i className='bx bxl-linkedin'></i></a>
