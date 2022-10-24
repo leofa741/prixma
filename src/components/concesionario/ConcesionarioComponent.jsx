@@ -30,7 +30,7 @@ export const ConcesionarioComponent = () => {
                 </div>
                 <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div className="h-100">
-                        <h6 className="section-title bg-white text-start text-primary pe-3">Concesionaroa web</h6>
+                        <h6 className="section-title bg-white text-start text-primary pe-3">Concesionaria web</h6>
                         <h1 className="display-6 mb-4">#1 Digital Solution With <span className="text-primary">10 Years</span> Of Experience</h1>
                         <p>
                         Desde cualquier lugar, con cualquier dispositivo y a toda hora se pueden administrar
@@ -45,7 +45,7 @@ export const ConcesionarioComponent = () => {
                         </p>
                         <p>
                           facilidad de uso, con un diseño moderno y atractivo, se puede administrar los vehículos .
-                          
+
                         </p>
                         <div className="d-flex align-items-center mb-4 pb-2">
                             {/* <img className="flex-shrink-0 rounded-circle" src="../../../../icon3.png" alt="" style= 
