@@ -33,7 +33,7 @@ export const ConcesionarioComponent = () => {
                         <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
                         <p className="mb-4">Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam rebum amet diam ipsum. Clita clita labore, dolor duo nonumy clita sit at, sed sit sanctus dolor eos.</p>
                         <div className="d-flex align-items-center mb-4 pb-2">
-                            <img className="flex-shrink-0 rounded-circle" src="../src/assets/img/icon3.png" alt="" style= 
+                            <img className="flex-shrink-0 rounded-circle" src="../../assets/img/icon3.png" alt="" style= 
                             {{width: "80px"}}/>
                            
                             <div className="ps-4">
