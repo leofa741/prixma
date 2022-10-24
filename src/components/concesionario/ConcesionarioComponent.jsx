@@ -39,8 +39,13 @@ export const ConcesionarioComponent = () => {
 
                         </p>
                         <p className="mb-4">
-                        Desde cualquier lugar, con cualquier dispositivo y a toda hora se pueden administrar
+                      por medio de un sistema web, se puede administrar los vehículos y contar con un control de inventario.
+                      también poseer un portal web para que los clientes puedan ver los vehículos que se encuentran en stock.
 
+                        </p>
+                        <p>
+                          facilidad de uso, con un diseño moderno y atractivo, se puede administrar los vehículos .
+                          
                         </p>
                         <div className="d-flex align-items-center mb-4 pb-2">
                             {/* <img className="flex-shrink-0 rounded-circle" src="../../../../icon3.png" alt="" style= 
