@@ -5,6 +5,47 @@
     --light: #F8F8F8;
     --dark: #252525;
 }
+.img-border-img{
+    background-image: url("../../assets/img/transferencia-online-vehiculos.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 3rem;
+    left: 3rem;
+    width: calc(100% - 3rem);
+    height: calc(100% - 3rem);
+    object-fit: cover;
+    border-radius: 6px;
+
+    transition: all 0.3s ease-in-out;
+
+
+
+}
+
+.img-border-img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 0 var(--primary);
+}
+
+
+
+
+
+
+.img-icon{
+    background-image: url("../../assets/img/icon3.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+  
+ 
+}
 
 .img-border {
     position: relative;
