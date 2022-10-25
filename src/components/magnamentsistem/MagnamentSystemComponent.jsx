@@ -1,4 +1,6 @@
 import React from 'react'
+import { Portfolio } from '../servicedisweb/Portfolio'
+
 
 export const MagnamentSystemComponent = () => {
   return (
