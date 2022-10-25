@@ -12,31 +12,23 @@ export const ServicesComponent = () => {
     <>
     <Slider />
   <section id="services" class="text-center">
+
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="intro">
-                     
-                        <h1>¿Qué hacemos?</h1>
-
-                      
-
-                        <p class="mx-auto">
-
-                        Nos especializamos en Outsourcing de Innovación y Transformación Digital para Transformar cualquier tipo de negocio mediante Procesos transversales a nuestras Prácticas
-
+                    <div class="intro">                     
+                        <h1>¿Qué hacemos?</h1> 
+                          <p class="mx-auto">
+                        Nos especializamos en Outsourcing de Innovación y Transformación Digital para Transformar cualquier tipo de negocio 
+                        mediante Procesos transversales a nuestras Prácticas
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="row g-4">              
-             
-                
-      
 
-                <div class="col-lg-4 col-md-6">
-                    <div class="service">
-                   
+            <div class="row g-4">     
+                         <div class="col-lg-4 col-md-6">
+                    <div class="service">                   
                         <h5>Concesionarios de vehiculos</h5>                        
                         <p>
                          Podran administrar el inventario de sus vehiculos de manera eficiente y segura de forma online con su tablet, o su dispositivo movil.
@@ -130,16 +122,13 @@ export const ServicesComponent = () => {
                 </div>
 
                 <div class="col-lg-4 col-md-6">
-                    <div class="service">
-                   
-                        <h5>  Sistema de gestión de compras y ventas</h5>
-                        <p> 
+                    <div class="service">                   
+                        <h5>  Sistema de gestión de compras y ventas</h5>                        <p> 
                             Sistema de gestión de compras y ventas, que permite la gestión de los procesos de compras y ventas de una empresa, desde la solicitud de cotización hasta la facturación de la venta.
-                            con notificaciones en tiempo real, y un sistema de gestión de inventario.codigos de barras, etc.
-
-                        </p>
-                   
-                        <a href="#" class="btn btn-dark  ">Leer más</a>
+                            con notificaciones en tiempo real, y un sistema de gestión de inventario.codigos de barras, y máss...
+                        </p>                   
+                        <span    class="btn btn-dark  "><Link to="/magnamentsystem"  
+                        style={{ textDecoration: 'none', color: 'white' }}>Leer más</Link></span>
                     </div>
                 </div>
 

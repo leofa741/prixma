@@ -7,4 +7,5 @@ export * from './WebDesign';
 export * from './PuentesDigitales';
 export * from './Ecomerce';
 export * from './ConcesionariosOnline';
+export * from './MagnamentSystem';
 

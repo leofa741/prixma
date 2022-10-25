@@ -1,0 +1,11 @@
+import React from 'react'
+import { MagnamentSystemComponent } from '../components'
+
+export const MagnamentSystem = () => {
+  return (
+  <>
+  <MagnamentSystemComponent/>
+  
+  </>
+  )
+}

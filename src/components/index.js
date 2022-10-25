@@ -14,6 +14,7 @@ export * from './servicedisweb/WebDesignComponent';
 export * from './puentesdigitales/PuentesDigitalesComponent';
 export * from './ecomerce/EcomerceComponent';
 export * from './concesionario/ConcesionarioComponent';
+export * from './magnamentsistem/MagnamentSystemComponent';
 
 
 
