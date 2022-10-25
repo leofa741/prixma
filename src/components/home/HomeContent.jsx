@@ -113,7 +113,11 @@ export const HomeContent = () => {
 <ActionAreaCard/>
 
 
-<Milestone/>
+<Milestone
+title="Mantén la innovación cerca"
+descripcion="La innovación es la clave para el éxito de cualquier empresa.
+En Puentes Digitales nos encargamos de mantener la innovación cerca de tu empresa, para que puedas aprovechar las oportunidades que te ofrece el mercado."
+/>
 
 
 
