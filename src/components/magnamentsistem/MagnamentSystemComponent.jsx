@@ -7,7 +7,7 @@ export const MagnamentSystemComponent = () => {
     <>
     <Portfolio
         title="Sistema de Gestión"
-        descripcion="Sistema de gestión de turnos, para que puedas administrar tus turnos de manera eficiente y segura de forma online con tu tablet, o tu dispositivo móvil."
+        descripcion="Sistema de gestión para distribuidores de productos de consumo masivo, con el cual podrás administrar tu inventario de manera eficiente y segura de forma online ."
         />
 
     
