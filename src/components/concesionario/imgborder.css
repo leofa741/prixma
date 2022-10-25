@@ -11,8 +11,8 @@
     background-position: center;
     background-repeat: no-repeat;
     position: absolute;
-    top: 3rem;
-    left: 3rem;
+    top: 2rem;
+    left: 2rem;
     width: calc(100% - 3rem);
     height: calc(100% - 3rem);
     object-fit: cover;
@@ -24,6 +24,8 @@
     transform: scale(1.1);
     box-shadow: 0 0 10px 0 var(--primary);
     z-index: 2020;
+    top: 3rem;
+    left: 3rem;
 }
 
 
