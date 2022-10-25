@@ -1,7 +1,9 @@
 .cards-container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;   
+    justify-content: space-between, center; 
+    
+
     max-width: calc(100% - 60px);
     margin: 0 auto;
     padding: 0 30px;
@@ -309,6 +311,7 @@
         margin: 0 auto;
         padding: 0 20px;
         
+
         
     }
 
