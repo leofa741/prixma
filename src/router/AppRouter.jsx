@@ -1,6 +1,6 @@
 
 import {  Route, Routes} from 'react-router-dom';
-import {Home,Services,Login,Novedades,NotFound,WebDesign,PuentesDigitales,Ecomerce, ConcecionariosOnline, MagnamentSystem} from '../pages';
+import {Home,Services,Login,Novedades,NotFound,WebDesign,PuentesDigitales,Ecomerce, ConcecionariosOnline, MagnamentSystem, AppPedidosY} from '../pages';
 import {Footer, NavBar, Social} from '../components';
 
 
@@ -31,6 +31,7 @@ export const AppRouter = () => {
         <Route path="/webdesign" element={<WebDesign />} />
         <Route path="/ecomerce" element={<Ecomerce />} />
         <Route path="/concesionarioweb" element={<ConcecionariosOnline />} />
+        <Route path="/appnative" element={<AppPedidosY />} />
         <Route path="/magnamentsystem" element={<MagnamentSystem />} />
         <Route path="/puentesdigitales" element={<PuentesDigitales />} />
         <Route  exact path="/login" element={<Login />} />
