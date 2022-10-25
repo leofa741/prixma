@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-export const Portfolio = () => {
+export const Portfolio = ({title,descripcion}) => {
   return (
     <>
   <section className="portfolio" id="portfolio">
@@ -17,19 +17,16 @@ export const Portfolio = () => {
                             data-aos-duration="1000"
                             data-aos-delay="100"
                             
-                        >Diseño Web</h1>
+                        >{title}</h1>
                         </div>
                         <p className="mx-auto title__secondary">
-                        Creamos la página web para tu negocio. Diseño web profesional, moderno y adaptable a cualquier dispositivo.
+                        {descripcion}
 
-
-                        </p>
-                       
+                        </p>                       
                     </div>
                 </div>
             </div>
-        </div>
-       
+        </div>       
     </section>
 
     </>

@@ -2,6 +2,14 @@ import React from 'react'
 
 export const MagnamentSystemComponent = () => {
   return (
-    <div>MagnamentSystemComponent</div>
+    <>
+    <Portfolio
+        title="Sistema de Gestión"
+        descripcion="Sistema de gestión de turnos, para que puedas administrar tus turnos de manera eficiente y segura de forma online con tu tablet, o tu dispositivo móvil."
+        />
+
+    
+    </>
+
   )
 }
