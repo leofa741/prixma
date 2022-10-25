@@ -17,16 +17,13 @@
     height: calc(100% - 3rem);
     object-fit: cover;
     border-radius: 6px;
-
     transition: all 0.3s ease-in-out;
-
-
-
 }
 
 .img-border-img:hover{
     transform: scale(1.1);
     box-shadow: 0 0 10px 0 var(--primary);
+    z-index: 999;
 }
 
 
