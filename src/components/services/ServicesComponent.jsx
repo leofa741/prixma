@@ -112,7 +112,8 @@ export const ServicesComponent = () => {
                         <h5>Turnero Digital</h5>
                          <p>Llamador de turnos por pantalla digital.<br/><br/>Brinde un mejor servicio a sus clientes.
                             de forma eficiente y profesional.<br/><br/>Clinicas, Sanatorios, Hospitales, Consultorios Médicos
-                            y Odontológicos, etc.</p>
+                            y Odontológicos, Estudios Jurídicos, Administraciones Públicas, etc.
+                            </p>
                         
                         <span    className="btn btn-dark  "><Link to="/ecomerce"  
                         style={{ textDecoration: 'none', color: 'white' }}>Leer más</Link></span>
