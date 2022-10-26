@@ -9,4 +9,5 @@ export * from './Ecomerce';
 export * from './ConcesionariosOnline';
 export * from './MagnamentSystem';
 export * from  './AppPedidosY'
+export * from './ShiftMagnamentSystem';
 

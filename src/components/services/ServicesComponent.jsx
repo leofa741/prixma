@@ -115,7 +115,7 @@ export const ServicesComponent = () => {
                             y Odontológicos, Estudios Jurídicos, Administraciones Públicas, etc.
                             </p>
                         
-                        <span    className="btn btn-dark  "><Link to="/ecomerce"  
+                        <span    className="btn btn-dark  "><Link to="/shiftmagnamentsystem"  
                         style={{ textDecoration: 'none', color: 'white' }}>Leer más</Link></span>
                     </div>
                 </div>
