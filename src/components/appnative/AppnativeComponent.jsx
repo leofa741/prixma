@@ -25,13 +25,18 @@ export const AppnativeComponent = () => {
                             style={{ fontSize: 100 }}
                             variant="outlined" color="primary" 
                             tex
-                            /></h1>                           
-                        </div>
-                        <h3 className="lh-base mb-0">Software mobile </h3>
-                        <h5 className="lh-base mb-0">App-delivery </h5>
-                        <h5 className="lh-base mb-0">App-Restaurantes</h5>
+                            />  </h1>   <p>App Para la gestion de delivery</p>     
+      </div>
+                        <h3 className="lh-base mb-0">Software mobile </h3>                     
                     </div>
+                    <p className="mb-1"><i className="far fa-check-circle text-primary me-3"></i>Rotiserias </p>  
+   
+   <p className="mb-1"><i className="far fa-check-circle text-primary me-3"></i>Restaurantes</p>     
+   <p className="mb-1"><i className="far fa-check-circle text-primary me-3"></i>Pizzarias</p>      
+   <p className="mb-1"><i className="far fa-check-circle text-primary me-3"></i>Envios a domicilio</p>  
+
                     <p className="mb-4">
+                        <br/>
                     es un producto que permite a los usuarios acceder a la información y a los servicios de una empresa a través de dispositivos móviles, como teléfonos inteligentes y tabletas.
                     </p>
                     <p className="mb-4">El usuario puede buscar información del menú o los 
