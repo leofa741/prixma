@@ -24,7 +24,7 @@ export const ShiftMagnamentSystemCompnent = () => {
                             variant="outlined" color="primary" 
                             tex
                             /></h1>
-                            <span className="text-muted">Software TURNERO DIGITAL</span>
+                            <span className="text-muted">Software Digital Turnero</span>
                           
                         </div>
                         <h1 className="lh-base mb-0">SGT</h1>
