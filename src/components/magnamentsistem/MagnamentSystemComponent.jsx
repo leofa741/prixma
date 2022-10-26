@@ -19,7 +19,14 @@ export const MagnamentSystemComponent = () => {
             <div className="col-md-6">
                     <h2 className="text-center">Sistema de Gestión</h2>
                     <p className="text-center">Sistema de gestión para distribuidores de productos de consumo masivo, con el cual podrás administrar tu inventario de manera eficiente y segura de forma online .</p>
-                  
+                    <p className="mb-3"><i className="far fa-check-circle text-primary me-3"></i>Reportes en pdf </p>
+                    <p className="mb-3"><i className="far fa-check-circle text-primary me-3"></i>Codigo de barra para cada producto a la venta</p>
+                    <p className="mb-3"><i className="far fa-check-circle text-primary me-3"></i>Gestión de roles de usuarios como | Admin | Ventas | otros </p>
+                    <p className="mb-3"><i className="far fa-check-circle text-primary me-3"></i>Ingresos y Egresos de stock deposito</p>
+                    <p className="mb-3"><i className="far fa-check-circle text-primary me-3"></i>Proveedores</p>            
+                    <p className="mb-3"><i className="far fa-check-circle text-primary me-3"></i>Reportes en tiempo real al admin</p>
+                    <p className="mb-3"><i className="far fa-check-circle text-primary me-3"></i>Todo online y seguirdad con token </p>
+                    <p className="mb-3"><i className="far fa-check-circle text-primary me-3"></i>Más...</p>
                
                 </div>
                 <div className="col-md-6">
