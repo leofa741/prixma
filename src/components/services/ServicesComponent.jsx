@@ -100,15 +100,8 @@ export const ServicesComponent = () => {
                     <div className="service">             
                     <h5> App Pedidos Menú</h5>
                     <h5>   IOS - Android</h5>
-                    <div className="appstory"/>                   
-                
-                        <p>
-                        Aplicacion para pedidos y envios de menú gastronomico.
-                         </p>
-                         
-
-
-                        
+                    <div className="appstory"/>         
+                        <p>Aplicacion para pedidos y envios de menú gastronomico.  </p>                    
                         <span    className="btn btn-dark  "><Link to="/appnative"  
                         style={{ textDecoration: 'none', color: 'white' }}>Leer más</Link></span>
                     </div>
@@ -116,11 +109,11 @@ export const ServicesComponent = () => {
 
                 <div className="col-lg-4 col-md-6">
                     <div className="service">             
-                        <h5>Turismo</h5>
-                        <p>
-                        Desarrollamos una Pagina Web para Turismo, con la posibilidad de reservar habitaciones, tours, etc.                        
-
-                        </p>
+                        <h5>Turnero Digital</h5>
+                         <p>Llamador de turnos por pantalla digital.<br/><br/>Brinde un mejor servicio a sus clientes.
+                            de forma eficiente y profesional.<br/><br/>Clinicas, Sanatorios, Hospitales, Consultorios Médicos
+                            y Odontológicos, etc.</p>
+                        
                         <span    className="btn btn-dark  "><Link to="/ecomerce"  
                         style={{ textDecoration: 'none', color: 'white' }}>Leer más</Link></span>
                     </div>
