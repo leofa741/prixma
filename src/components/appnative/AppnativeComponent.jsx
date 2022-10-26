@@ -28,6 +28,8 @@ export const AppnativeComponent = () => {
                             /></h1>                           
                         </div>
                         <h3 className="lh-base mb-0">Software mobile App-PedidosMenú</h3>
+                        <h3 className="lh-base mb-0">App-delivery </h3>
+                        <h3 className="lh-base mb-0">App-Restaurantes</h3>
                     </div>
                     <p className="mb-4">
                     es un producto que permite a los usuarios acceder a la información y a los servicios de una empresa a través de dispositivos móviles, como teléfonos inteligentes y tabletas.
