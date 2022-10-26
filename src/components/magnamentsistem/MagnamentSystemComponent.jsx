@@ -16,6 +16,12 @@ export const MagnamentSystemComponent = () => {
 
         <div className="container">
             <div className="row">
+            <div className="col-md-6">
+                    <h2 className="text-center">Sistema de Gestión</h2>
+                    <p className="text-center">Sistema de gestión para distribuidores de productos de consumo masivo, con el cual podrás administrar tu inventario de manera eficiente y segura de forma online .</p>
+                  
+               
+                </div>
                 <div className="col-md-6">
                   <div className="card-img-magnament">
                   <div class="contenedor-texto">
@@ -28,12 +34,7 @@ export const MagnamentSystemComponent = () => {
                   </div>
                    
                 </div>
-                <div className="col-md-6">
-                    <h2 className="text-center">Sistema de Gestión</h2>
-                    <p className="text-center">Sistema de gestión para distribuidores de productos de consumo masivo, con el cual podrás administrar tu inventario de manera eficiente y segura de forma online .</p>
-                  
-               
-                </div>
+              
                 
             </div>
         </div>
