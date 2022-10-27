@@ -97,7 +97,21 @@
     margin: 0 auto;
     margin-bottom: 1rem;
     background-color: #9926f0;
+
+    transition: width 0.5s ease-in-out;
+  
+
   }
+
+  .heading-line:hover::after{
+    width: 7.3rem;
+ 
+    
+
+  }
+
+  
+
 
   .border-right {
     border-right: 0;
@@ -117,8 +131,9 @@
 
   @media (min-width: 768px) {
     .intro-section {
-        padding: 10rem 0 0 0; 
-        height: 20vh;
+
+      padding-top: 5rem;
+      padding-bottom: 5rem;
       
     }
     .display-2 {
