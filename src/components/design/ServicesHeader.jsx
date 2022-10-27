@@ -5,7 +5,7 @@ export const ServicesHeader = () => {
   <>
     <div className="container">
   <div className="row text-center">
-      <h1 className="display-3 fw-bold">Our Services</h1>
+      <h1 className=" fw-bold">Our Services</h1>
       <div className="heading-line mb-1"></div>
     </div>
 
