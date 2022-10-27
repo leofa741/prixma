@@ -61,6 +61,7 @@
 
   .display-3 {
     font-family: "Poppins", sans-serif;
+
   }
   .display-3--title {
     font-size: 1.2rem;
@@ -74,7 +75,7 @@
     -webkit-text-fill-color: transparent;
   }
   .fw-bold {
-    font-weight: 700 !important;
+    font-weight: 300 !important;
   }
   
 
