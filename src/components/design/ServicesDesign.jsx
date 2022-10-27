@@ -48,18 +48,9 @@ export const ServicesDesign = () => {
 
 
     </div>
-
+<br></br>
 
 </div>
-
-
-  
-  
-
-  
-
-
-
   
 
  </>

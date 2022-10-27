@@ -16,11 +16,12 @@ export const DesignComponent = () => {
 
     <DesignHeader />
 
+    
+    <Contenido />
     <ServicesHeader />
-
     <ServicesDesign />
 
-   <Contenido />
+   
 
 <Milestone 
     title="Nuestro proceso de diseño"
