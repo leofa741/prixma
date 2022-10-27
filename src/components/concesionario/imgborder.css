@@ -28,6 +28,31 @@
     left: 3rem;
 }
 
+.img-border-graf{
+    background-image: url("../../assets/img/gaaleriaa-1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    width: calc(100% - 3rem);
+    height: calc(100% - 3rem);
+    object-fit: cover;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+}
+
+.img-border-graf:hover{
+    background-image: url("../../assets/img/1-Avisos-Corporeos.jpg");
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 0 var(--primary);
+    z-index: 2020;
+    top: 3rem;
+    left: 3rem;
+}
+
+
 
 
 
