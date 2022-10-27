@@ -10,7 +10,7 @@ export const ServicesDesign = () => {
 
   <div className="container">
 
-    <div className="row">
+    <div className="">
       <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
         <div className="services__content">
           <div className="icon d-block fas fa-paper-plane"></div>
@@ -32,7 +32,7 @@ export const ServicesDesign = () => {
       </div>
     </div>
   
-    <div className="row">
+    <div className="">
       <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-start">
         <div className="services__pic">
           <img src="images/services/service-2.png" alt="web development illustration" className="img-fluid"/>
@@ -54,7 +54,7 @@ export const ServicesDesign = () => {
       </div>
     </div>
    
-    <div className="row">
+    <div className="">
       <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
         <div className="services__content">
           <div className="icon d-block fas fa-cloud-upload-alt"></div>

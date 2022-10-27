@@ -4,8 +4,8 @@ export const ServicesHeader = () => {
   return (
   <>
     <div className="container">
-  <div className="row text-center">
-      <h1 className="display-3 ">Our Services</h1>
+  <div className=" text-center">
+      <h1 className="display-3 fw-bold">Our Services</h1>
       <div className="heading-line mb-1"></div>
     </div>
 
