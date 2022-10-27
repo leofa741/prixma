@@ -32,7 +32,7 @@ export const AppnativeComponent = () => {
                     <p className="mb-1"><i className="far fa-check-circle text-primary me-3"></i>Rotiserias </p>  
    
    <p className="mb-1"><i className="far fa-check-circle text-primary me-3"></i>Restaurantes</p>     
-   <p className="mb-1"><i className="far fa-check-circle text-primary me-3"></i>Pizzarias</p>      
+   <p className="mb-1"><i className="far fa-check-circle text-primary me-3"></i>Pizzerias</p>      
    <p className="mb-1"><i className="far fa-check-circle text-primary me-3"></i>Envios a domicilio</p>  
 
                     <p className="mb-4">
