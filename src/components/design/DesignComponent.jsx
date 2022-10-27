@@ -1,6 +1,7 @@
 import React from 'react'
 import { DesignHeader } from './DesignHeader'
 import { ServicesDesign } from './ServicesDesign'
+import { ServicesHeader } from './ServicesHeader'
 
 
 export const DesignComponent = () => {
@@ -8,6 +9,8 @@ export const DesignComponent = () => {
     <>
 
     <DesignHeader />
+
+    <ServicesHeader />
 
     <ServicesDesign />
 
