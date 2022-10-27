@@ -1,15 +1,25 @@
 .intro-section {
     background: linear-gradient(to right, rgba(133, 14, 224, 0.95), rgba(213, 76, 228, 0.95));
-    background-size: cover;
+    background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    padding: 100px 0;
-    position: relative;
-    z-index: 1;
-    
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+ 
+    padding: 0 20px;
+
+
+
+
+
 
   }
+
   .text-white {
     color: #fff !important;
   }
