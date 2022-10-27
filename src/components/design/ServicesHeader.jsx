@@ -9,7 +9,7 @@ export const ServicesHeader = () => {
       <div className="heading-line mb-1"></div>
     </div>
 
-    <div className="row pt-2 pb-2 mt-0 mb-3">
+    <div className=" pt-2 pb-2 mt-0 mb-3">
       <div className="col-md-6 border-right">
         <div className="bg-white p-3">
           <h2 className="fw-bold text-capitalize text-center">
