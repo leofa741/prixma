@@ -7,13 +7,13 @@
 
   }   
 
-    .testimonials .section-title {
+    .testimonials .section-title-1{
         color: #fff !important;
         margin-bottom: 10px;
         text-transform: uppercase;
     }
 
-    .testimonials .section-title h2 {
+    .testimonials .section-title-1 h2 {
         font-size: 36px;
         font-weight: 600;
         margin-bottom: 0;
@@ -21,7 +21,7 @@
         color: #fff;
     }
 
-    .testimonials .section-title h2 span {
+    .testimonials .section-title-1 h2 span {
         color: #f1c40f;
     }
 

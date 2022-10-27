@@ -12,7 +12,7 @@ export const Testimonial = () => {
             
                   <div className="row">
                       <div className="col-lg-12">
-                          <div className="section-title">                            
+                          <div className="section-title-1">                            
                               <h2>Contáctanos
                               
                                 </h2>                            
