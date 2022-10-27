@@ -4,7 +4,7 @@ export const ServicesDesign = () => {
   return (
  <>
  <section id="services" className="services">
-  <div className="">
+
     <div className="row text-center">
       <h1 className="display-3 fw-bold">Our Services</h1>
       <div className="heading-line mb-1"></div>
@@ -28,10 +28,10 @@ export const ServicesDesign = () => {
         </div>
       </div>
     </div>
-  </div>
 
 
-  <div className="container">
+
+
 
     <div className="row">
       <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
@@ -98,7 +98,7 @@ export const ServicesDesign = () => {
         </div>
       </div>
     </div>
-  </div>
+
 </section>
  </>
   )
