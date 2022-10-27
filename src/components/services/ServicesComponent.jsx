@@ -42,11 +42,13 @@ export const ServicesComponent = () => {
                 <div className="col-lg-4 col-md-6">
                     <div className="service">
                        
-                        <h5>Grafica comercial</h5>
+                        <h5>Gráfica </h5>
                         <p>
-                        La gráfica comercial es un tipo de gráfica que se utiliza para la publicidad y el marketing.
+                      Creamos tu imagen corporativa, desde el logo hasta la imagen grafica de tu empresa,como ploteos y rotulacion de vehiculos.
+                      corporeos y máss..
                         </p>
-                        <a href="#" className="btn btn-dark  ">Leer más</a>
+                        <span    className="btn btn-dark  "><Link to="/design"  
+                        style={{ textDecoration: 'none', color: 'white' }}>Leer más</Link></span>  
                     </div>
                 </div>
 
