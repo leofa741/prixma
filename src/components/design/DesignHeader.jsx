@@ -16,7 +16,7 @@ export const DesignHeader = () => {
           </span>
           <span className="display-2--description lh-base">
              Desarrollamos la imagen de tu empresa, diseño gráfico a medida
-               Tenemos 20 años de experiencia de Diseño Gráfico.
+               Tenemos años de experiencia de Diseño Gráfico.
               Contamos con profesionales expertos en Diseño Gráfico.
           </span>
         </h1>    
