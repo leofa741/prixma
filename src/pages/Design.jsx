@@ -5,6 +5,10 @@ export const Design = () => {
   return (
  <>
  <DesignComponent />
+
+ 
+
+ 
  </>
   )
 }

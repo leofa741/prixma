@@ -15,8 +15,9 @@ export const DesignHeader = () => {
 
           </span>
           <span className="display-2--description lh-base">
-          Transformamos tu idea en una imagen corporativa, desde el logo hasta la imagen grafica de tu empresa,como ploteos y rotulacion de vehiculos.
-          Corporeos y más..
+            dsgfdsgdsgdfsgdfggfd                  
+
+
           </span>
         </h1>
     
