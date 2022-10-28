@@ -41,7 +41,7 @@ export const NovedadesComponent = () => {
 
 
 
-
+        <div className="novedades">
 
         <div className="novedades__container">
           <div className="novedades__container__title1">
@@ -66,6 +66,7 @@ export const NovedadesComponent = () => {
           </div>
         </div>
 
+      </div>
       </div>
 
 
