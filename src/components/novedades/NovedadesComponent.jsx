@@ -38,6 +38,7 @@ export const NovedadesComponent = () => {
             </div>
           </div>
         </div>
+         </div>
 
 
 
@@ -67,7 +68,7 @@ export const NovedadesComponent = () => {
         </div>
 
       </div>
-      </div>
+    
 
 
 
