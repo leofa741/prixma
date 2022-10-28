@@ -9,11 +9,20 @@
     color: #fff;
     position: relative;
     z-index: 1;
-    
+      }   
 
-    
-
-  }   
+      .testimonialsmilestone {
+        padding: 30px 10px;
+        text-align: center;
+        background: linear-gradient(#f94b4281, #F94B42), url(../../assets/img/ecomerce.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color: #fff;
+        position: relative;
+        z-index: 1;
+          }   
 
     .testimonials .section-title-1{
         color: #fff !important;
