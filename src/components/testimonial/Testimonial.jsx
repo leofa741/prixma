@@ -13,11 +13,8 @@ export const Testimonial = () => {
                   <div className="row">
                       <div className="col-lg-12">
                           <div className="section-title-1">                            
-                              <h2>Contáctanos
-                              
-                                </h2>                            
-                              </div>                            
-                                                   
+                              <h2> Te ayudamos a diseñar tu tienda online.  </h2>                            
+                              </div>                                              
 
                                   <div className="testimonials-item">
                                         <div className="testimonials-item-image">
