@@ -420,6 +420,14 @@ section {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: #fff;
+    position: relative;
+    
+
+
+
 }
 
 #milestone h1,
