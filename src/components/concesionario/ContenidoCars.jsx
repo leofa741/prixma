@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './imgborder.css'
 export const ContenidoCars = () => {
   return (
     <>

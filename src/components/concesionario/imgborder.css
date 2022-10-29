@@ -1,6 +1,6 @@
 
 :root {
-    --primary: #ff0000;
+    --primary: #001aff;
     --secondary: #777777;
     --light: #F8F8F8;
     --dark: #252525;
@@ -45,6 +45,7 @@
 
 .img-border-graf:hover{
     background-image: url("../../assets/img/1-Avisos-Corporeos.jpg");
+    width: calc(100% - 3rem);
     transform: scale(1.1);
     box-shadow: 0 0 10px 0 var(--primary);
     z-index: 2020;
