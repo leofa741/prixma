@@ -8,7 +8,7 @@ export const Header = ({title,descripcion}) => {
 
 <header>
 	<div className="overlay">
-<h1 >{title}</h1>
+<h1  className='titleh1'>{title}</h1>
 <h3 >
 
 </h3>

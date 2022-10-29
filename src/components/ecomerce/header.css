@@ -31,9 +31,12 @@ header :hover{
 .titleh1 {
     width: 50%;
 	font-size: 3em;
-    font-weight: 700;
-    margin: 0;
-    padding: 0;
+    font-weight: 800;
+    margin: 0 auto;
+color: #333;
+   
+
+
 }
 
 .titleh3, p {
