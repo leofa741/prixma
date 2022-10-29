@@ -4,20 +4,20 @@ export const ContenidoCars = () => {
   return (
     <>
     
-    <div className="container-xxl py-5">
+    <div className="container-xl ">
         <div className="container">
             <div className="row g-5">
-                <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div className="col-lg-6 " >
                     <div className="img-border">
                       <div className="img-border-img"/>
                      
                      
                     </div>
                 </div>
-                <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div className="col-lg-6 " >
                     <div className="h-100">
                     <h1 className="display-6 mb-4">  <span className="text-primary">DataCare</span>  </h1>
-                        <h6 className="section-title bg-white text-start text-primary pe-3">Concesionaria web</h6>
+                        <h6 className="section-title1 bg-white text-start text-primary pe-3">Concesionaria web</h6>
                         <h1 className="display-6 mb-4">#1 Digital Solution With <span className="text-primary">10 Years</span> Of Experience</h1>
                         <p>
                      Soluciones digitales para concesionarios de vehículos,gestión de inventario,Otorga Acceso a Datos en Tiempo Real,
