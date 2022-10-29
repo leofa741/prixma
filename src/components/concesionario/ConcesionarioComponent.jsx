@@ -10,14 +10,7 @@ import CustomizedTimeline from './TimelineConc'
 export const ConcesionarioComponent = () => {
   return (
  <>
- <Header
-  title="Concesionarios Online"
-  descripcion="Desde cualquier lugar, con cualquier dispositivo y a toda hora se pueden administrar 
-  los vehículos que se encuentran en stock,
-  los que se encuentran en venta y los que se encuentran en alquiler."
-  
-  />
-
+ 
 
 <CardConcesionaria />
 
@@ -69,7 +62,7 @@ export const ConcesionarioComponent = () => {
         </div>
     </div>
    < CustomizedTimeline/>
-  
+   <Banner />
   
  <Testimonial />
  </>
