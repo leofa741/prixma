@@ -69,9 +69,9 @@ export const ConcesionarioComponent = () => {
         </div>
     </div>
    < CustomizedTimeline/>
-   <Banner />
   
- 
+  
+ <Testimonial />
  </>
   )
 }
