@@ -3,6 +3,7 @@ import { Banner } from '../banner/Banner'
 import { Header } from '../ecomerce/Header'
 import { Testimonial } from '../testimonial/Testimonial'
 import { CardConcesionaria } from './CardConcesionaria'
+import { ContenidoCars } from './ContenidoCars'
 import './imgborder.css'
 import CustomizedTimeline from './TimelineConc'
 
@@ -21,7 +22,7 @@ export const ConcesionarioComponent = () => {
 
 <CardConcesionaria />
 
-
+<ContenidoCars />
    < CustomizedTimeline/>
    <Banner />
   
