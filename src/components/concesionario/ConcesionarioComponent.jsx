@@ -71,7 +71,7 @@ export const ConcesionarioComponent = () => {
    < CustomizedTimeline/>
    <Banner />
   
- <Testimonial />
+ 
  </>
   )
 }
