@@ -56,7 +56,7 @@ export const Personalizada = () => {
                     </div>
                     <p className="mb-0">¿Qué incluye el Abono mensual?</p>
                     <p className="mb-3"><i className="far fa-check-circle text-primary me-3"></i>Hosting | Alojamiento de su página web en Internet.</p>
-                    <p className="mb-3"><i className="far fa-check-circle text-primary me-3"></i>Dominio | te registramos tu dominio</p>
+                    <p className="mb-3"><i className="far fa-check-circle text-primary me-3"></i>Dominio | te registramos tu dominio | tiene costo anual</p>
                     <p className="mb-3"><i className="far fa-check-circle text-primary me-3"></i>Actualizaciones | Actualización de tu página web. Actualización de imágenes y textos según tu necesidad</p>
                     <p className="mb-3"><i className="far fa-check-circle text-primary me-3"></i>SSL | Certificación para que tu página web sea segura</p>
                     <p className="mb-3"><i className="far fa-check-circle text-primary me-3"></i>Seguridad | Protección de tu página web contra ataques de hackers</p>            
