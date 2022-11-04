@@ -2,6 +2,7 @@ import React from 'react'
 import { Link, NavLink } from 'react-router-dom';
 
 import MenuIcon from '@mui/icons-material/Menu';
+import './navbar.css'
 
 
 
@@ -56,9 +57,26 @@ export const NavBar = () => {
                 <li className="nav-item">
                     <NavLink   className="nav-link" to="/home">Home</NavLink >
                 </li>
+                <div className="dropdown">
                 <li className="nav-item">
                     <NavLink  className="nav-link" to="/services" >Soluciones</NavLink >
                 </li>
+
+               
+  
+  <div className="dropdown-content">
+  <a  > <NavLink   to="/concesionarioweb" >Concesionario web</NavLink ></a>
+  <a   > <NavLink   to="/design" >Design</NavLink ></a>
+  <a   > <NavLink   to="/webdesign" >Web Design</NavLink ></a>
+  <a   > <NavLink   to="/ecomerce" >E-comerce</NavLink ></a>
+    <a   > <NavLink   to="/appnative" >Mobile</NavLink ></a>
+    <a   > <NavLink   to="/shiftmagnamentsystem" >SGM</NavLink ></a>
+    <a   > <NavLink   to="/magnamentsystem" >Sistema de gestion</NavLink ></a>
+  </div>
+</div>
+
+
+
                 <li className="nav-item">
                     <NavLink  className="nav-link" to="/novedades">Novedades</NavLink >
                 </li>
