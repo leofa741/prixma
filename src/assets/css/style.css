@@ -239,7 +239,7 @@ section {
     font-weight: 700;
     color: var(--brand-light);
     margin-top: 37px;
-    margin-left: -188px;  
+    margin-left: -118px;  
     z-index: -999;
     color: var(--dark);
     text-decoration: none;
@@ -256,7 +256,7 @@ display: none;
         font-weight: 700;
         color: var(--brand-light);
         margin-top: 37px;
-        margin-left: -272px;  
+        margin-left: -212px;  
         z-index: -999;
         color: var(--dark);
         text-decoration: none;
