@@ -20,21 +20,21 @@ export const CustomersComponent = () => {
   www.asesoramientocontable.com.ar</a>
  </li>
  
-				<li>
-        <a href='https://www.asesoramientocontable.com.ar/'  alt='Asesoramiento Contable' target='_blank' rel="noreferrer"><img src="http://youghaltennisclub.ie/wp-content/uploads/2014/06/Tennis-Wallpaper-High-Definition-700x300.jpg" alt=""/>
-pagina en construccion</a>
- 
-</li>
-				<li>
-        <a href='https://www.asesoramientocontable.com.ar/'  alt='Asesoramiento Contable' target='_blank' rel="noreferrer"><img src="http://welltechnically.com/wp-content/uploads/2013/08/android-wallpapers-700x300.jpg" alt=""/>
-
-pagina en construccion</a>
-</li>
-			<li>
-      <a href='https://www.asesoramientocontable.com.ar/'  alt='Asesoramiento Contable' target='_blank' rel="noreferrer"> <img src="https://github.com/leofa741/prixma/blob/master/src/assets/img/optimizacion.jpg?raw=true" alt=""/>
-     
-pagina en construccion</a>
-</li>
+ <li>
+  <a href='https://www.asesoramientocontable.com.ar/'  alt='Asesoramiento Contable' target='_blank' rel="noreferrer">
+  <img src="https://github.com/leofa741/prixma/blob/master/src/assets/img/coustomer-mg.png?raw=true" alt=""/>
+  www.asesoramientocontable.com.ar</a>
+ </li>
+ <li>
+  <a href='https://www.asesoramientocontable.com.ar/'  alt='Asesoramiento Contable' target='_blank' rel="noreferrer">
+  <img src="https://github.com/leofa741/prixma/blob/master/src/assets/img/coustomer-mg.png?raw=true" alt=""/>
+  www.asesoramientocontable.com.ar</a>
+ </li>
+ <li>
+  <a href='https://www.asesoramientocontable.com.ar/'  alt='Asesoramiento Contable' target='_blank' rel="noreferrer">
+  <img src="https://github.com/leofa741/prixma/blob/master/src/assets/img/coustomer-mg.png?raw=true" alt=""/>
+  www.asesoramientocontable.com.ar</a>
+ </li>
 			</ul>
 
 
