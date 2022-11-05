@@ -18,6 +18,7 @@ export * from './magnamentsistem/MagnamentSystemComponent';
 export * from './appnative/AppnativeComponent';
 export * from './shiftmagnamentsystem/ShiftMagnamentSystemCompnent';
 export * from './design/DesignComponent';
+export * from './customers/CustomersComponent';
 
 
 
