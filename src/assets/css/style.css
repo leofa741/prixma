@@ -211,7 +211,14 @@ section {
 .navbar .navbar-nav .nav-link:hover {
     color: var(--dark);
 }
-
+.logo{
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: -10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
 
 .social-icons a {
     width: 28px;
