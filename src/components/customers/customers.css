@@ -137,6 +137,10 @@
 		font-size: 20px;
 		line-height: 50px;
 	}
-	
+	.slider img{
+		border-radius: 5px;
+		width: 100%;
+	}
+
 	
 }
