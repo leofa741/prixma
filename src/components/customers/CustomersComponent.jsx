@@ -1,5 +1,6 @@
 import React from 'react'
 import { Header } from '../ecomerce/Header'
+import { Milestone } from '../milestone/Milestone'
 import './customers.css'
 
 export const CustomersComponent = () => {
@@ -9,34 +10,41 @@ export const CustomersComponent = () => {
     title='Nuestros Clientes'
     descripcion='Nuestros clientes son nuestra mejor carta de presentación'
     />
+    <br/>
    
    <div className="slider">
 			<ul>
 				<li>
+  <a href='https://www.asesoramientocontable.com.ar/'  alt='Asesoramiento Contable' target='_blank' rel="noreferrer">
   <img src="https://github.com/leofa741/prixma/blob/master/src/assets/img/coustomer-mg.png?raw=true" alt=""/>
-
+  www.asesoramientocontable.com.ar</a>
  </li>
  
 				<li>
-  <img src="http://youghaltennisclub.ie/wp-content/uploads/2014/06/Tennis-Wallpaper-High-Definition-700x300.jpg" alt=""/>
+        <a href='https://www.asesoramientocontable.com.ar/'  alt='Asesoramiento Contable' target='_blank' rel="noreferrer"><img src="http://youghaltennisclub.ie/wp-content/uploads/2014/06/Tennis-Wallpaper-High-Definition-700x300.jpg" alt=""/>
+pagina en construccion</a>
+ 
 </li>
 				<li>
-  <img src="http://welltechnically.com/wp-content/uploads/2013/08/android-wallpapers-700x300.jpg" alt=""/>
+        <a href='https://www.asesoramientocontable.com.ar/'  alt='Asesoramiento Contable' target='_blank' rel="noreferrer"><img src="http://welltechnically.com/wp-content/uploads/2013/08/android-wallpapers-700x300.jpg" alt=""/>
+
+pagina en construccion</a>
 </li>
-				<li>
-  <img src="http://welltechnically.com/wp-content/uploads/2013/09/android-widescreen-wallpaper-14165-hd-wallpapers-700x300.jpg" alt=""/>
+			<li>
+      <a href='https://www.asesoramientocontable.com.ar/'  alt='Asesoramiento Contable' target='_blank' rel="noreferrer"> <img src="https://github.com/leofa741/prixma/blob/master/src/assets/img/optimizacion.jpg?raw=true" alt=""/>
+     
+pagina en construccion</a>
 </li>
 			</ul>
 
 
-
-
-          
-
-
-
-
 		</div>
+
+    <Milestone
+    title='Mantén la innovación cerca'
+    descripcion='La innovación es la clave para el éxito de cualquier empresa.
+    Mantén la innovación cerca de tu empresa, con el sistema de gestión de inventario de productos de consumo masivo, podrás administrar tu inventario de manera eficiente y segura de forma online.'
+    />
         
    
    </>
