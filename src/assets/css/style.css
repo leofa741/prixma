@@ -224,10 +224,10 @@ section {
     width: 25px;
     height: 25px;
     margin-top: 10px;
-    margin-left: -223px;
+    margin-left: -243px;
     margin-bottom: 10px;
     margin-right: 10px;
-    z-index: -999;
+    z-index: 999;
 }
 @media (max-width: 767px) {
     .logo{

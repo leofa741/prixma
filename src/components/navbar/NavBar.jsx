@@ -36,7 +36,7 @@ export const NavBar = () => {
  <nav className="navbar navbar-expand-lg navbar-light bg-white sticky-top">
     <div className="container">
          <Link  className="navbar-brand" to='/' >PuentesDigitales</Link> <img src="https://github.com/leofa741/prixma/blob/master/src/assets/img/favicon.ico?raw=true" alt="logo" className="logo" />
-         <img src="https://github.com/leofa741/prixma/blob/master/src/assets/img/favicon.ico?raw=true" alt="logo" className="logo1" />
+         <img src="https://github.com/leofa741/prixma/blob/master/src/assets/img/half-circle-line-sharp.webp?raw=true" alt="logo" className="logo1" />
        
 
              <span className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
