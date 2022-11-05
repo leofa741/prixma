@@ -13,7 +13,7 @@ export const CustomersComponent = () => {
    <div className="slider">
 			<ul>
 				<li>
-  <img src="http://dominicushoeve.com/wp-content/uploads/ktz/latest-high-resolution-wallpaper-1920x1080-70558-pictures-high-resolution-wallpaper-30whtvl34j4r12m8b0c1sa.jpg" alt=""/>
+  <img src="https://github.com/leofa741/prixma/blob/master/src/assets/img/coustomer-mg.png?raw=true" alt=""/>
 
  </li>
  
