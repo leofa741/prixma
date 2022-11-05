@@ -35,6 +35,7 @@ export const NavBar = () => {
     
  <nav className="navbar navbar-expand-lg navbar-light bg-white sticky-top">
     <div className="container">
+       
          <Link  className="navbar-brand" to='/' >PuentesDigitales</Link> <img src="https://github.com/leofa741/prixma/blob/master/src/assets/img/favicon.ico?raw=true" alt="logo" className="logo" />
        <a className='textlogo'>deploying ideas  </a>
        

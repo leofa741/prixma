@@ -211,6 +211,20 @@ section {
 .navbar .navbar-nav .nav-link:hover {
     color: var(--dark);
 }
+.navba-logo{
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    color: var(--dark);    
+    animation: rotation 19s infinite linear;
+    margin-right: auto;
+  }
+
+  
+  
+    
+
 .logo{
     width: 25px;
     height: 25px;
@@ -225,7 +239,7 @@ section {
     font-weight: 700;
     color: var(--brand-light);
     margin-top: 37px;
-    margin-left: -118px;  
+    margin-left: -128px;  
     z-index: -999;
     color: var(--dark);
     text-decoration: none;
