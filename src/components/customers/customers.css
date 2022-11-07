@@ -134,8 +134,8 @@
 	}
 
 	.slider li a{
-		font-size: 10px;
-		line-height: 50px;
+		display: unset;
+
 	}
 
 
