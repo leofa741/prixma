@@ -134,7 +134,7 @@
 	}
 
 	.slider li a{
-		display: unset;
+		display: block;
 
 	}
 
