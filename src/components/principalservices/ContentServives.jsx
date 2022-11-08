@@ -105,7 +105,7 @@ export const ContentServives = () => {
                                     <img className="img-fluid" src="https://github.com/leofa741/prixma/blob/master/src/assets/img/Community-Manager.png?raw=true" alt="alternative" />
                                 </div>
                                 <div className="card-body">
-                                    <h4 className="card-title"> marketing digital</h4>
+                                    <h4 className="card-title"> Marketing Digital</h4>
                                     <p>
                                     Generamos tráfico y leads para tu negocio. Creamos campañas de marketing digital para que tu negocio crezca. Aumentamos la visibilidad de tu marca y la notoriedad de tus productos. ¿Querés aumentar tus ventas? ¡Conocé más y empezá a crecer!
                                     </p>
