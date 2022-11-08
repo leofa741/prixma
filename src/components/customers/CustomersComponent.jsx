@@ -22,7 +22,10 @@ export const CustomersComponent = () => {
   <TextpenduloComponent 
   title='En Construcción'
   />
- 
+   <br/>
+    <br/>
+    <br/>
+    <br/>
     <Milestone
     title='Mantén la innovación cerca'
     descripcion='La innovación es la clave para el éxito de cualquier empresa.
