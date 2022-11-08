@@ -1,7 +1,14 @@
 import React from 'react'
 import { Header } from '../ecomerce/Header'
 import { Milestone } from '../milestone/Milestone'
-import './customers.css'
+import { TextpenduloComponent } from '../textopendulo/TextpenduloComponent'
+import { CarrouselComponent } from './CarrouselComponent'
+ 
+
+
+
+// 2026665219A
+
 
 export const CustomersComponent = () => {
   return (
@@ -11,35 +18,11 @@ export const CustomersComponent = () => {
     descripcion='Nuestros clientes son nuestra mejor carta de presentación'
     />
     <br/>
-   
-   <div className="slider">
-			<ul>
-				<li>
-  <a href='https://www.asesoramientocontable.com.ar/'  alt='Asesoramiento Contable' target='_blank' rel="noreferrer">
-  <img src="https://github.com/leofa741/prixma/blob/master/src/assets/img/coustomer-mg.png?raw=true" alt=""/>
-  www.asesoramientocontable.com.ar</a>
- </li>
+    <br/>
+  <TextpenduloComponent 
+  title='En Construcción'
+  />
  
- <li>
-  <a href='https://www.asesoramientocontable.com.ar/'  alt='Asesoramiento Contable' target='_blank' rel="noreferrer">
-  <img src="https://github.com/leofa741/prixma/blob/master/src/assets/img/coustomer-mg.png?raw=true" alt=""/>
-  www.asesoramientocontable.com.ar</a>
- </li>
- <li>
-  <a href='https://www.asesoramientocontable.com.ar/'  alt='Asesoramiento Contable' target='_blank' rel="noreferrer">
-  <img src="https://github.com/leofa741/prixma/blob/master/src/assets/img/coustomer-mg.png?raw=true" alt=""/>
-  www.asesoramientocontable.com.ar</a>
- </li>
- <li>
-  <a href='https://www.asesoramientocontable.com.ar/'  alt='Asesoramiento Contable' target='_blank' rel="noreferrer">
-  <img src="https://github.com/leofa741/prixma/blob/master/src/assets/img/coustomer-mg.png?raw=true" alt=""/>
-  www.asesoramientocontable.com.ar</a>
- </li>
-			</ul>
-
-
-		</div>
-
     <Milestone
     title='Mantén la innovación cerca'
     descripcion='La innovación es la clave para el éxito de cualquier empresa.

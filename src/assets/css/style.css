@@ -242,8 +242,22 @@ section {
     margin-left: -108px;  
     z-index: -999;
     color: var(--dark);
-    text-decoration: none;
+    text-decoration: none;  
+    transition: all 0.4s ease;
+    cursor: pointer;
+
+    
+
 }
+
+.textlogo:hover{
+    color: var(--brand-light) !important;
+    text-decoration: none;
+    transform: rotate(360deg ) !important;
+    transition: all 0.4s ease;
+}
+
+
 
 @media (max-width: 992px) {
     .logo{

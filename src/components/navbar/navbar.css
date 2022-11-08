@@ -15,7 +15,7 @@
     display: block;
   }
   .dropdown-content a {
-    display: block;
+    display: block; 
     color: #000000;
     padding: 5px;
     text-decoration: none;

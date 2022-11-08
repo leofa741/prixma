@@ -50,7 +50,7 @@ export const NavBar = () => {
                         fontSize: 35,
                     },
 
-                }}/></span>
+                }}/></span> 
               
             
         
