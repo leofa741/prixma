@@ -12,5 +12,6 @@ export * from  './AppPedidosY'
 export * from './ShiftMagnamentSystem';
 export * from './Design';
 export * from './Customers';
+export * from './OurHistoryPage';
 
 

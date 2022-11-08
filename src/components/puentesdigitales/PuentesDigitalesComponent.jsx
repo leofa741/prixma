@@ -1,5 +1,4 @@
-import React from 'react'
-import { LineaDeTiempo } from './LineaDeTiempo'
+
 
 
 
@@ -41,7 +40,7 @@ export const PuentesDigitalesComponent = () => {
       
       </section>
       
-      <LineaDeTiempo />
+   
 
     </>
   )

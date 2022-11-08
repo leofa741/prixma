@@ -12,6 +12,7 @@ export * from './testimonial/Testimonial';
 export * from './novedades/NovedadesComponent';
 export * from './servicedisweb/WebDesignComponent';
 export * from './puentesdigitales/PuentesDigitalesComponent';
+export * from './puentesdigitales/OurHistory';
 export * from './ecomerce/EcomerceComponent';
 export * from './concesionario/ConcesionarioComponent';
 export * from './magnamentsistem/MagnamentSystemComponent';

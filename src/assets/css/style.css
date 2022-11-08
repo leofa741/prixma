@@ -431,6 +431,15 @@ display: none;
     color: var(--dark-2);
     text-transform: uppercase;
     margin-bottom: 20px;
+    transition: all 0.4s ease;
+}
+
+.portfolio .title__secondary:hover{
+    color: var(--dark);
+ color: var(--dark);
+
+   
+
 }
 
 

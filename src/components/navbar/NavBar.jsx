@@ -59,12 +59,12 @@ export const NavBar = () => {
                 <li className="nav-item">
                     <NavLink   className="nav-link" to="/home">Home</NavLink >
                 </li>
+
+
                 <div className="dropdown">
                 <li className="nav-item">
                     <NavLink  className="nav-link" to="/services" >Soluciones</NavLink >
-                </li>
-
-               
+                </li>               
   
   <div className="dropdown-content">
   <a  > <NavLink   to="/concesionarioweb" >Concesionario web</NavLink ></a>
@@ -84,10 +84,20 @@ export const NavBar = () => {
                 <li className="nav-item">
                     <NavLink  className="nav-link" to="/novedades">Novedades</NavLink >
                 </li>
+                <div className="dropdown">
                 <li className="nav-item">
-                    <NavLink  className="nav-link" to="/puentesdigitales">Nosotros</NavLink >
+                    <NavLink  className="nav-link" >Empresa</NavLink >
                 </li>
 
+                <div className="dropdown-content">
+  <a  > <NavLink   to="/puentesdigitales" >Nosotros</NavLink ></a>
+  <a   > <NavLink   to="/our-history" >Nuestra Historia</NavLink ></a>
+ 
+  </div>
+
+
+
+                </div>
 
                 {/* <li className="nav-item">
                     <NavLink  className="nav-link" to="/login">Portfolio</NavLink >
