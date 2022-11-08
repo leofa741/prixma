@@ -87,7 +87,7 @@ export const ContentServives = () => {
                             <div className="card">
                                 <div className="card-image">
 
-                                    <img className="img-fluid" src="https://github.com/leofa741/prixma/blob/master/src/assets/img/description-1.png?raw=true" alt="alternative" />
+                                    <img className="img-fluid" src="https://github.com/leofa741/prixma/blob/master/src/assets/img/Mobile-UI-UX-Design.png?raw=true" alt="alternative" />
                                 </div>
                                 <div className="card-body">
                                     <h4 className="card-title">Diseño UX/UI</h4>
