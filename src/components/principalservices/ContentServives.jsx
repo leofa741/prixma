@@ -23,7 +23,7 @@ export const ContentServives = () => {
                             <div className="card">
                                 <div className="card-image">
 
-                                    <img className="img-fluid" src="../src/assets/img/description-1.png" alt="alternative" />
+                                    <img className="img-fluid" src="https://github.com/leofa741/prixma/blob/master/src/assets/img/description-1.png?raw=true" alt="alternative" />
                                 </div>
                                 <div className="card-body">
                                     <h4 className="card-title">Sistemas web a medida</h4>
@@ -38,7 +38,7 @@ export const ContentServives = () => {
                             <div className="card">
                                 <div className="card-image">
 
-                                    <img className="img-fluid" src="../src/assets/img/E-Commerce.png" alt="alternative" />
+                                    <img className="img-fluid" src="https://github.com/leofa741/prixma/blob/master/src/assets/img/E-Commerce.png?raw=true" alt="alternative" />
                                 </div>
                                 <div className="card-body">
                                     <h4 className="card-title">E-commerce</h4>
@@ -53,7 +53,7 @@ export const ContentServives = () => {
                             <div className="card">
                                 <div className="card-image">
 
-                                    <img className="img-fluid" src="../src/assets/img/description-2.png" alt="alternative" />
+                                    <img className="img-fluid" src="https://github.com/leofa741/prixma/blob/master/src/assets/img/description-2.png?raw=true" alt="alternative" />
                                 </div>
                                 <div className="card-body">
                                     <h4 className="card-title">Sitios web & Landing Page</h4>
@@ -72,7 +72,7 @@ export const ContentServives = () => {
                             <div className="card">
                                 <div className="card-image">
 
-                                    <img className="img-fluid" src="../src/assets/img/image1-4.png" alt="alternative" />
+                                    <img className="img-fluid" src="https://github.com/leofa741/prixma/blob/master/src/assets/img/image1-4.png?raw=true" alt="alternative" />
                                 </div>
                                 <div className="card-body">
                                     <h4 className="card-title">App móvil</h4>
@@ -87,7 +87,7 @@ export const ContentServives = () => {
                             <div className="card">
                                 <div className="card-image">
 
-                                    <img className="img-fluid" src="../src/assets/img/description-1.png" alt="alternative" />
+                                    <img className="img-fluid" src="https://github.com/leofa741/prixma/blob/master/src/assets/img/description-1.png?raw=true" alt="alternative" />
                                 </div>
                                 <div className="card-body">
                                     <h4 className="card-title">Diseño UX/UI</h4>
@@ -102,7 +102,7 @@ export const ContentServives = () => {
                             <div className="card">
                                 <div className="card-image">
 
-                                    <img className="img-fluid" src="../src/assets/img/Community-Manager.png" alt="alternative" />
+                                    <img className="img-fluid" src="https://github.com/leofa741/prixma/blob/master/src/assets/img/Community-Manager.png?raw=true" alt="alternative" />
                                 </div>
                                 <div className="card-body">
                                     <h4 className="card-title"> marketing digital</h4>
