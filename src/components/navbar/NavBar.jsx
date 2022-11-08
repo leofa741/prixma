@@ -59,7 +59,9 @@ export const NavBar = () => {
                 <li className="nav-item">
                     <NavLink   className="nav-link" to="/home">Home</NavLink >
                 </li>
-
+                <li className="nav-item">
+                    <NavLink   className="nav-link" to="/main-services">Servicios</NavLink >
+                </li>
 
                 <div className="dropdown">
                 <li className="nav-item">
@@ -86,7 +88,7 @@ export const NavBar = () => {
                 </li>
                 <div className="dropdown">
                 <li className="nav-item">
-                    <NavLink  className="nav-link" >Empresa</NavLink >
+                    <NavLink  className="nav-link"  to="/puentesdigitales" >Empresa</NavLink >
                 </li>
 
                 <div className="dropdown-content">
