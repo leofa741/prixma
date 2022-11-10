@@ -4,7 +4,9 @@ import { FcIdea  } from "@react-icons/all-files/fc/FcIdea ";
 export const Milestone = ({title,descripcion}) => {
   return (
 <>
-<section  className='testimonialsmilestone'>
+<section  id='testimonialsmilestone'>
+  <div clasName='testimonialsmilestone_bg'>
+
         <div className="container">
             <div className="row text-center justify-content-center gy-4">
                 <div className="col-lg-6 col-md-6 ">
@@ -14,6 +16,7 @@ export const Milestone = ({title,descripcion}) => {
                                                  
                     </div>
                  </div>               
+            </div>
             </div>
         </div>
 </section>

@@ -419,11 +419,7 @@ display: none;
 .portfolio .title__primary:hover{
     color: var(--dark);
     transform: translateY(-21px) translateZ(50px);
-   
-
 }
-
-
 
 .portfolio .title__secondary{
     font-size: 18px;
@@ -436,14 +432,9 @@ display: none;
 
 .portfolio .title__secondary:hover{
     color: var(--dark);
- color: var(--dark);
-
-   
+ color: var(--dark);  
 
 }
-
-
-
 .portfolio .title {
     font-size: 36px;
     font-weight: 700;

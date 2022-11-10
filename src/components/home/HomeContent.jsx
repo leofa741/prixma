@@ -9,6 +9,7 @@ import { Milestone } from '../milestone/Milestone';
 import BrushIcon from '@mui/icons-material/Brush';
 import CodeIcon from '@mui/icons-material/Code';
 import {GoBrowser} from "@react-icons/all-files/go/GoBrowser"; 
+import { Follows } from '../folloows/Follows';
 
 export const HomeContent = () => {   
 
@@ -111,6 +112,10 @@ export const HomeContent = () => {
 
 
 <ActionAreaCard/>
+<Follows 
+    title="Seguimos las mejores prácticas de desarrollo web"
+    descrip="Nuestro equipo de desarrollo web está formado por profesionales con más de 10 años de experiencia en el sector. Nuestro objetivo es ayudar a nuestros clientes a alcanzar sus objetivos de negocio, a través de la implementación de soluciones tecnológicas que les permitan mejorar su productividad y competitividad."
+/>
 
 
 <Milestone

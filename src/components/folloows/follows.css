@@ -1,0 +1,65 @@
+
+#social {
+    background-image: url(../../assets/img/bg_banner1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 100px 0;
+    position: relative;
+    height: 400px;
+    z-index: 1;
+
+   
+   
+}
+
+#social .overlay {
+    background: url("../../assets/img/slide_bg.png") repeat scroll 0 0 #07a8ec71;
+  
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+    
+}
+
+.social-button {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.social-button li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-button li:nth-child(2) {
+    margin: 0 10px 0 0;
+    
+}
+
+.social-button li a {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    color: #fff;
+    display: block;
+    height: 90px;
+    line-height: 96px;
+    width: 90px;
+    
+    -webkit-transition: all 0.2s ease 0s;
+       -moz-transition: all 0.2s ease 0s;
+        -ms-transition: all 0.2s ease 0s;
+         -o-transition: all 0.2s ease 0s;
+            transition: all 0.2s ease 0s;
+}
+
+.social-button li a:hover {
+    color: #008ECC;
+    border: 2px solid #008ECC;
+}
+
