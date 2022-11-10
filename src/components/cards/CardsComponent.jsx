@@ -38,8 +38,8 @@ export default function ActionAreaCard() {
                                 className="card-body">
                                 <Typography gutterBottom variant="h2" component="div"
                                     sx={{ color: 'black' }}
-                                    fontWeight="bold"
-                                    fontSize="1.3rem"
+                                   
+                                    fontSize="1rem"
                                 >
                                     Involucrar a clientes y usuarios
                                 </Typography>
@@ -47,7 +47,7 @@ export default function ActionAreaCard() {
                                     sx={{
                                         color: 'black',
                                         fontWeight: 'bold',
-                                        fontSize: '3.3rem'
+                                        fontSize: '2.3rem'
                                     }}   />
                                 <Typography variant="body2"
                                     className="card-text">
@@ -71,8 +71,7 @@ export default function ActionAreaCard() {
                                 className="card-body">
                                 <Typography gutterBottom variant="h2" component="div"
                                     sx={{ color: 'black' }}
-                                    fontWeight="bold"
-                                    fontSize="1.3rem"
+                                    fontSize="1rem"
                                 >
                                     Negocio y Producto Innovadores
                                 </Typography>
@@ -80,7 +79,7 @@ export default function ActionAreaCard() {
                                     sx={{
                                         color: 'black',
                                         fontWeight: 'bold',
-                                        fontSize: '3.3rem'
+                                        fontSize: '2.3rem'
                                     }}  />
                                 <Typography variant="body2"
                                     className="card-text">
@@ -104,8 +103,7 @@ export default function ActionAreaCard() {
                                 className="card-body">
                                 <Typography gutterBottom variant="h2" component="div"
                                     sx={{ color: 'black' }}
-                                    fontWeight="bold"
-                                    fontSize="1.3rem"
+                                    fontSize="1rem"
                                 >
                                     Optimización de aplicaciones e infraestructura de operaciones
                                 </Typography>
@@ -114,7 +112,7 @@ export default function ActionAreaCard() {
                                     sx={{
                                         color: 'black',
                                         fontWeight: 'bold',
-                                        fontSize: '3.3rem'
+                                        fontSize: '2.3rem'
                                     }}
                                 />
                                 <Typography variant="body2"
@@ -142,8 +140,7 @@ un mejor desarrollo de aplicaciones en menor tiempo y a menor costo.
                                 className="card-body">
                                 <Typography gutterBottom variant="h2" component="div"
                                     sx={{ color: 'black' }}
-                                    fontWeight="bold"
-                                    fontSize="1.3rem"
+                                    fontSize="1rem"
                                 >
                                     Empoderar a los empleados
                                 </Typography>
@@ -151,7 +148,7 @@ un mejor desarrollo de aplicaciones en menor tiempo y a menor costo.
                                     sx={{
                                         color: 'black',
                                         fontWeight: 'bold',
-                                        fontSize: '3.3rem'
+                                        fontSize: '2.3rem'
                                     }}
                                 />
                                 <Typography variant="body2"
