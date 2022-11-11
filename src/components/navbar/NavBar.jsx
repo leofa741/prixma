@@ -63,21 +63,6 @@ export const NavBar = () => {
                     <NavLink   className="nav-link" to="/main-services">Servicios</NavLink >
                 </li>
 
-                <div className="dropdown">
-                <li className="nav-item">
-                    <NavLink  className="nav-link" to="/services" >Soluciones</NavLink >
-                </li>               
-  
-  <div className="dropdown-content">
-  <a  > <NavLink   to="/concesionarioweb" >Concesionario web</NavLink ></a>
-  <a   > <NavLink   to="/design" >Design</NavLink ></a>
-  <a   > <NavLink   to="/webdesign" >Web Design</NavLink ></a>
-  <a   > <NavLink   to="/ecomerce" >E-comerce</NavLink ></a>
-    <a   > <NavLink   to="/appnative" >Mobile</NavLink ></a>
-    <a   > <NavLink   to="/shiftmagnamentsystem" >SGM</NavLink ></a>
-    <a   > <NavLink   to="/magnamentsystem" >Sistema de gestion</NavLink ></a>
-  </div>
-</div>
 
 
                 <li className="nav-item">
@@ -92,15 +77,27 @@ export const NavBar = () => {
                 </li>
 
                 <div className="dropdown-content">
-  <a  > <NavLink   to="/puentesdigitales" >Nosotros</NavLink ></a>
-  <a   > <NavLink   to="/our-history" >Nuestra Historia</NavLink ></a>
+                     <a  > <NavLink   to="/puentesdigitales" >Nosotros</NavLink ></a>
+                   <a   > <NavLink   to="/our-history" >Nuestra Historia</NavLink ></a>
  
+                  </div>
+                 </div>
+
+                 <div className="dropdown">
+                <li className="nav-item">
+                    <NavLink  className="nav-link" to="/services" >Soluciones</NavLink >
+                </li>               
+  
+  <div className="dropdown-content">
+  <a  > <NavLink   to="/concesionarioweb" >Concesionario web</NavLink ></a>
+  <a   > <NavLink   to="/design" >Design</NavLink ></a>
+  <a   > <NavLink   to="/webdesign" >Web Design</NavLink ></a>
+  <a   > <NavLink   to="/ecomerce" >E-comerce</NavLink ></a>
+    <a   > <NavLink   to="/appnative" >Mobile</NavLink ></a>
+    <a   > <NavLink   to="/shiftmagnamentsystem" >SGM</NavLink ></a>
+    <a   > <NavLink   to="/magnamentsystem" >Sistema de gestion</NavLink ></a>
   </div>
-
-
-
-                </div>
-
+</div>
                 {/* <li className="nav-item">
                     <NavLink  className="nav-link" to="/login">Portfolio</NavLink >
                 </li>
