@@ -4,7 +4,9 @@ import { DesignComponent } from '../components'
 export const Design = () => {
   return (
  <>
- <DesignComponent />
+ <DesignComponent 
+  title='Diseño'
+ />
 
  
 

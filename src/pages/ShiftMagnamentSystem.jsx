@@ -4,7 +4,9 @@ import { ShiftMagnamentSystemCompnent } from '../components'
 export const ShiftMagnamentSystem = () => {
   return (
 <>
-<ShiftMagnamentSystemCompnent/>
+<ShiftMagnamentSystemCompnent
+title='Shift Magnament System'
+/>
 </>
   )
 }

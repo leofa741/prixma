@@ -7,7 +7,10 @@ import {  ServicesComponent} from '../components';
 export const Services = () => {
   return (
     <>
-    <ServicesComponent />
+    <ServicesComponent
+
+    title='Nuestros Proyectos'
+     />
   </>
   )
 }

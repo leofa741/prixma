@@ -4,7 +4,9 @@ import { MagnamentSystemComponent } from '../components'
 export const MagnamentSystem = () => {
   return (
   <>
-  <MagnamentSystemComponent/>
+  <MagnamentSystemComponent
+  title='Sistema de Gestion'
+  />
   
   </>
   )

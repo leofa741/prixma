@@ -4,7 +4,9 @@ import { ConcesionarioComponent } from '../components'
 export const ConcecionariosOnline = () => {
   return (
   <>
-  <ConcesionarioComponent />
+  <ConcesionarioComponent
+  title='Concesionarios Online'
+   />
   </>
   )
 }

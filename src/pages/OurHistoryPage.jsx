@@ -3,6 +3,8 @@ import { OurHistory } from '../components'
 
 export const OurHistoryPage = () => {
   return (
-   <OurHistory />
+   <OurHistory 
+    title='Nuestra Historia'
+   />
   )
 }

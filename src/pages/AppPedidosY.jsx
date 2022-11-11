@@ -4,7 +4,9 @@ import { AppnativeComponent } from '../components'
 export const AppPedidosY = () => {
   return (
     <>
-    <AppnativeComponent />
+    <AppnativeComponent 
+    title='App Pedidos delivery'
+    />
     
     </>
   )

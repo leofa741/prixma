@@ -3,6 +3,8 @@ import { CustomersComponent } from '../components'
 
 export const Customers = () => {
   return (
-    <CustomersComponent />
+    <CustomersComponent
+      title='Nuestros Clientes'
+     />
   )
 }

@@ -4,7 +4,9 @@ import {EcomerceComponent} from '../components'
 export const Ecomerce = () => {
   return (
     <>
-    <EcomerceComponent/>
+    <EcomerceComponent
+    title='Ecomerce'
+    />
     </>
   )
 }

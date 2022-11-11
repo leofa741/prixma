@@ -5,7 +5,9 @@ export const PuentesDigitales = () => {
   return (
 <>
 
-<PuentesDigitalesComponent />
+<PuentesDigitalesComponent
+title='Puentes Digitales'
+ />
 </>
   )
 }

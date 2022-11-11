@@ -8,7 +8,9 @@ export const Novedades = () => {
   return (
    <>
 
-   <NovedadesComponent />
+   <NovedadesComponent 
+    title='Novedades'
+   />
  
 
    
