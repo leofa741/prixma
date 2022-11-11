@@ -5,7 +5,7 @@ export const Milestone = ({title,descripcion}) => {
   return (
 <>
 <section  id='testimonialsmilestone'>
-  <div clasName='testimonialsmilestone_bg'>
+  <div className=''>
 
         <div className="container">
             <div className="row text-center justify-content-center gy-4">

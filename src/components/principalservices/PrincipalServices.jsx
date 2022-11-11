@@ -5,7 +5,10 @@ export const PrincipalServices = () => {
   return (
  <>
  
- <ContentServives   />
+ <ContentServives 
+  title="PRINCIPALES SERVICIOS ELEGIDOS POR NUESTROS CLIENTES"
+ 
+ />
  
  
  </>

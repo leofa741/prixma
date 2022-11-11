@@ -8,7 +8,7 @@ export const Home = () => {
   return (
    
   <>  
-  <HomeContent/>
+  <HomeContent title="Vienvenido a www.puentesdigitales.com.ar"/>
   </>
   )
 }
