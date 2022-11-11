@@ -30,18 +30,20 @@ export default function ActionAreaCard() {
                     className="card"
                 >
                     <CardActionArea
+                    sx={{ backgroundColor: '#000000' }}
                     >
                         <CardMedia
+                        
                             className="card-img">
 
-                            <CardContent
-                                className="card-body">
-                                <Typography gutterBottom variant="h2" component="div"
+                            <CardContent>
+                                <Typography gutterBottom variant="h2" component="h2"
+                                
                                     sx={{ color: 'black' }}
                                    
                                     fontSize="1rem"
                                 >
-                                    Involucrar a clientes y usuarios
+                                  
                                 </Typography>
                                 <GroupAddIcon
                                     sx={{
@@ -49,9 +51,13 @@ export default function ActionAreaCard() {
                                         fontWeight: 'bold',
                                         fontSize: '2.3rem'
                                     }}   />
-                                <Typography variant="body2"
-                                    className="card-text">
-                                    <p>Enfocamos nuestros esfuerzos en involucrar a nuestros clientes y usuarios en el desarrollo de nuestros proyectos, para que puedan aportar sus ideas y sugerencias, y así poder ofrecerles un producto final que cumpla con sus expectativas.</p>
+                                <Typography gutterBottom  variant="h3" component="h3"
+                                    sx={{ color: 'black' ,
+                                  
+                                }}
+                                   
+                                    fontSize="1.2rem">
+                                     Involucrar a clientes y usuarios.
                                 </Typography>
                             </CardContent>
                         </CardMedia>
@@ -67,13 +73,12 @@ export default function ActionAreaCard() {
                     <CardActionArea >
                         <CardMedia
                             className="card-img1">
-                            <CardContent
-                                className="card-body">
+                            <CardContent>
                                 <Typography gutterBottom variant="h2" component="div"
                                     sx={{ color: 'black' }}
                                     fontSize="1rem"
                                 >
-                                    Negocio y Producto Innovadores
+                                   
                                 </Typography>
                                 <TipsAndUpdatesIcon
                                     sx={{
@@ -81,10 +86,13 @@ export default function ActionAreaCard() {
                                         fontWeight: 'bold',
                                         fontSize: '2.3rem'
                                     }}  />
-                                <Typography variant="body2"
-                                    className="card-text">
-                                    Los productos innovadores son productos diseñados para estimular las ventas y a la vez generar una mayor tasa de recompra.
-
+                                 <Typography gutterBottom  variant="h3" component="h3"
+                                    sx={{ color: 'black' ,
+                                  
+                                }}
+                                   
+                                    fontSize="1.2rem">
+                               Nuevas ideas y soluciones.
                                 </Typography>
                             </CardContent>
                         </CardMedia>
@@ -100,12 +108,12 @@ export default function ActionAreaCard() {
                         <CardMedia
                             className="card-img2">
                             <CardContent
-                                className="card-body">
+                                >
                                 <Typography gutterBottom variant="h2" component="div"
                                     sx={{ color: 'black' }}
                                     fontSize="1rem"
                                 >
-                                    Optimización de aplicaciones e infraestructura de operaciones
+                                  
                                 </Typography>
 
                                 <MiscellaneousServicesIcon
@@ -115,10 +123,13 @@ export default function ActionAreaCard() {
                                         fontSize: '2.3rem'
                                     }}
                                 />
-                                <Typography variant="body2"
-                                    className="card-text">
-                                        Innovamos con nuevos marcos y filosofías de trabajo que logran
-un mejor desarrollo de aplicaciones en menor tiempo y a menor costo.
+                                <Typography gutterBottom  variant="h3" component="h3"
+                                    sx={{ color: 'black' ,
+                                  
+                                }}
+                                   
+                                    fontSize="1.2rem">
+                                 Mejorar la experiencia de los usuarios.
                                 </Typography>
                             </CardContent>
                         </CardMedia>
@@ -137,12 +148,12 @@ un mejor desarrollo de aplicaciones en menor tiempo y a menor costo.
                             className="card-img3">
 
                             <CardContent
-                                className="card-body">
+                               >
                                 <Typography gutterBottom variant="h2" component="div"
                                     sx={{ color: 'black' }}
                                     fontSize="1rem"
                                 >
-                                    Empoderar a los empleados
+                                    
                                 </Typography>
                                 <PersonAddAltIcon
                                     sx={{
@@ -151,8 +162,13 @@ un mejor desarrollo de aplicaciones en menor tiempo y a menor costo.
                                         fontSize: '2.3rem'
                                     }}
                                 />
-                                <Typography variant="body2"
-                                    className="card-text">
+                                 <Typography gutterBottom  variant="h3" component="h3"
+                                    sx={{ color: 'black' ,
+                                  
+                                }}
+                                   
+                                    fontSize="1.2rem">
+                                    Aumentar la participación de los usuarios.
                                 </Typography>
                             </CardContent>
                         </CardMedia>

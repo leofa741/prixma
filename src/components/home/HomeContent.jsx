@@ -10,12 +10,12 @@ import BrushIcon from '@mui/icons-material/Brush';
 import CodeIcon from '@mui/icons-material/Code';
 import {GoBrowser} from "@react-icons/all-files/go/GoBrowser"; 
 import { Follows } from '../folloows/Follows';
+import { ParallaxComponent } from '../parallax/ParallaxComponent';
 
 export const HomeContent = () => {   
 
   return (
   <>
-  
 
 <section id="about">
     <div className="container">
@@ -27,10 +27,10 @@ export const HomeContent = () => {
                     <p className="text-center">Somos los Puentes Digitales de tus proyectos, con más de 10 años de experiencia en el mercado ofreciendo soluciones tecnológicas a medida para empresas de todos los tamaños. Nuestro objetivo es ayudar a nuestros clientes a alcanzar sus objetivos de negocio, a través de la implementación de soluciones tecnológicas que les permitan mejorar su productividad y competitividad.</p>
           
             </div>
-            
+            <ActionAreaCard/>
         </div>
       
-        <ActionAreaCard/>     
+        
             <div className="col-lg-5 py-5">
                 <div className="row">
                     <div className="col-12">
