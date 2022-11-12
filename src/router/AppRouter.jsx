@@ -4,6 +4,7 @@ import {Home,Services,Login,Novedades,NotFound,WebDesign,PuentesDigitales,Ecomer
 import {Footer, NavBar, Social} from '../components';
 
 
+
 export const AppRouter = () => {
 
     const auttStatus = 'not-authenticated';
@@ -11,6 +12,7 @@ export const AppRouter = () => {
   return (   
     <>
      <NavBar/>
+ 
     <Routes>
         {/* {
             auttStatus === 'authenticated' ? (

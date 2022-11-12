@@ -24,10 +24,23 @@
     font-size: 12px;
   }
   .dropdown-content a:hover {
-    color: #0186AA  ;
-
-    
- 
+    color: #0186AA  ; 
   
  
+  }
+  .collaps{
+    width: 100%;
+  }
+
+  .navbar-collaps {
+    display: flex;
+    justify-content: flex-end;
+  }
+  @media screen and (max-width: 992px) {
+    .navbar-collaps {
+      display: none;
+    }
+    .collaps{
+      display: none;
+    }
   }

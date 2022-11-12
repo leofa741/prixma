@@ -3,17 +3,15 @@ import { Link, NavLink } from 'react-router-dom';
 
 import MenuIcon from '@mui/icons-material/Menu';
 import './navbar.css'
+import { Drawer } from '@mui/material';
 
 
 
 
 export const NavBar = () => {
 
- 
-  return (
+      return (
  <>
-
-
 
 <div className="top-nav" id="home">
         <div className="container">
@@ -54,22 +52,11 @@ export const NavBar = () => {
               
             
         
-        <div className="collapse navbar-collapse" id="navbarNav">
+        <div className="collapse navbar-collapse" id="navbarNav"    >
             <ul className="navbar-nav ms-auto">
                 <li className="nav-item">
-                    <NavLink   className="nav-link" to="/home">Home</NavLink >
-                </li>
-                <li className="nav-item">
-                    <NavLink   className="nav-link" to="/main-services">Servicios</NavLink >
-                </li>
-
-
-
-                <li className="nav-item">
-                    <NavLink  className="nav-link" to="/customers">Clientes</NavLink >
-                </li>
-                <li className="nav-item">
-                    <NavLink  className="nav-link" to="/novedades">Novedades</NavLink >
+                    <NavLink   className="nav-link" to="/home"   onClick={() => this.handleClick()}   >Home</NavLink>
+                   
                 </li>
                 <div className="dropdown">
                 <li className="nav-item">
@@ -82,6 +69,21 @@ export const NavBar = () => {
  
                   </div>
                  </div>
+
+
+                <li className="nav-item"     >
+                    <NavLink   className="nav-link" to="/main-services">Servicios</NavLink >
+                </li>
+
+
+
+                <li className="nav-item">
+                    <NavLink  className="nav-link" to="/customers">Clientes</NavLink >
+                </li>
+                <li className="nav-item">
+                    <NavLink  className="nav-link" to="/novedades">Novedades</NavLink >
+                </li>
+             
 
                  <div className="dropdown">
                 <li className="nav-item">
@@ -116,6 +118,8 @@ export const NavBar = () => {
         </div>
     </div>
 </nav>
+
+
 
  </>
   )
