@@ -35,8 +35,7 @@ export const NavBar = () => {
     <div className="container">
        
          <Link  className="navbar-brand" to='/' >PuentesDigitales</Link> <img src="https://github.com/leofa741/prixma/blob/master/src/assets/img/favicon.ico?raw=true" alt="logo" className="logo" />
-       <a className='textlogo'>deploying ideas  </a>
-       
+       <a className='textlogo'>deploying ideas  </a>       
 
              <span className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><MenuIcon 
@@ -47,57 +46,55 @@ export const NavBar = () => {
                         color: 'white',
                         fontSize: 35,
                     },
-
-                }}/></span> 
-              
+                }}/></span>            
             
         
-        <div className="collapse navbar-collapse" id="navbarNav"    >
+        <div className="collapse navbar-collapse" id="navbarNav" >
             <ul className="navbar-nav ms-auto">
-                <li className="nav-item">
-                    <NavLink   className="nav-link" to="/home"   onClick={() => this.handleClick()}   >Home</NavLink>
-                   
+                <li className="nav-item" >
+                <NavLink   className="nav-link" to="/home">   <span data-bs-toggle="collapse" data-bs-target="#navbarNav">  Home  </span>       </NavLink>           
                 </li>
+
                 <div className="dropdown">
                 <li className="nav-item">
-                    <NavLink  className="nav-link"  to="/puentesdigitales" >Empresa</NavLink >
+                    <NavLink  className="nav-link" to="/puentesdigitales" ><span data-bs-toggle="collapse" data-bs-target="#navbarNav">  Empresa  </span>  </NavLink >
                 </li>
 
                 <div className="dropdown-content">
-                     <a  > <NavLink   to="/puentesdigitales" >Nosotros</NavLink ></a>
-                   <a   > <NavLink   to="/our-history" >Nuestra Historia</NavLink ></a>
+                     <a  > <NavLink   to="/puentesdigitales" ><span data-bs-toggle="collapse" data-bs-target="#navbarNav">  Nosotros  </span>  </NavLink ></a>
+                   <a   > <NavLink   to="/our-history" ><span data-bs-toggle="collapse" data-bs-target="#navbarNav">  Nuestra Historia </span>  </NavLink ></a>
  
                   </div>
                  </div>
 
 
                 <li className="nav-item"     >
-                    <NavLink   className="nav-link" to="/main-services">Servicios</NavLink >
+                    <NavLink   className="nav-link" to="/main-services"><span data-bs-toggle="collapse" data-bs-target="#navbarNav"> Servicios </span> </NavLink >
                 </li>
 
 
 
                 <li className="nav-item">
-                    <NavLink  className="nav-link" to="/customers">Clientes</NavLink >
+                    <NavLink  className="nav-link" to="/customers"><span data-bs-toggle="collapse" data-bs-target="#navbarNav">  Clientes </span> </NavLink >
                 </li>
                 <li className="nav-item">
-                    <NavLink  className="nav-link" to="/novedades">Novedades</NavLink >
+                    <NavLink  className="nav-link" to="/novedades"><span data-bs-toggle="collapse" data-bs-target="#navbarNav"> Novedades </span> </NavLink >
                 </li>
              
 
                  <div className="dropdown">
                 <li className="nav-item">
-                    <NavLink  className="nav-link" to="/services" >Soluciones</NavLink >
+                    <NavLink  className="nav-link" to="/services" ><span data-bs-toggle="collapse" data-bs-target="#navbarNav"> Soluciones </span> </NavLink >
                 </li>               
   
   <div className="dropdown-content">
-  <a  > <NavLink   to="/concesionarioweb" >Concesionario web</NavLink ></a>
-  <a   > <NavLink   to="/design" >Design</NavLink ></a>
-  <a   > <NavLink   to="/webdesign" >Web Design</NavLink ></a>
-  <a   > <NavLink   to="/ecomerce" >E-comerce</NavLink ></a>
-    <a   > <NavLink   to="/appnative" >Mobile</NavLink ></a>
-    <a   > <NavLink   to="/shiftmagnamentsystem" >SGM</NavLink ></a>
-    <a   > <NavLink   to="/magnamentsystem" >Sistema de gestion</NavLink ></a>
+  <a  > <NavLink   to="/concesionarioweb" ><span data-bs-toggle="collapse" data-bs-target="#navbarNav"> Cars Online </span> </NavLink ></a>
+  <a   > <NavLink   to="/design" ><span data-bs-toggle="collapse" data-bs-target="#navbarNav">Desing  </span> </NavLink ></a>
+  <a   > <NavLink   to="/webdesign" ><span data-bs-toggle="collapse" data-bs-target="#navbarNav">Web Desing</span> </NavLink ></a>
+  <a   > <NavLink   to="/ecomerce" ><span data-bs-toggle="collapse" data-bs-target="#navbarNav">E-Comerce</span> </NavLink ></a>
+    <a   > <NavLink   to="/appnative" ><span data-bs-toggle="collapse" data-bs-target="#navbarNav"> Mobile Delivery</span> </NavLink ></a>
+    <a   > <NavLink   to="/shiftmagnamentsystem" ><span data-bs-toggle="collapse" data-bs-target="#navbarNav"> SGM  </span> </NavLink ></a>
+    <a   > <NavLink   to="/magnamentsystem" ><span data-bs-toggle="collapse" data-bs-target="#navbarNav"> Sist. de Gestion</span> </NavLink ></a>
   </div>
 </div>
                 {/* <li className="nav-item">
