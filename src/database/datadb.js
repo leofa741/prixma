@@ -4,8 +4,8 @@ const  productos=[
     {
         id: 1,
         name: "John",
-        age: 25,
-        precio: 200,
+        age: blogpuentes,
+        precio: Leof_22016,
         Category: "landig page",
     },
     {
