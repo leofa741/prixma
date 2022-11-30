@@ -3,10 +3,10 @@
 const  productos=[
     {
         id: 1,
-        name: "John",
-        age: blogpuentes,
-        precio: Leof_22016,
-        Category: "landig page",
+        name: "blogpuentes",
+        age: 22,
+        precio:22 ,
+        Category: "lLeof_22016",
     },
     {
         id: 2,
