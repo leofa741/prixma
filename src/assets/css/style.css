@@ -240,7 +240,7 @@ section {
     font-size: 10px;
     font-weight: 400;
     font-family: "Barlow", sans-serif;    
-    color: var(--brand-light) !important;
+    color: var(--dark-2) !important;
     margin-top: 37px;
     margin-left: -108px;  
     z-index: -999; 
