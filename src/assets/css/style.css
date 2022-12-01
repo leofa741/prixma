@@ -238,8 +238,9 @@ section {
 }
 .textlogo{
     font-size: 10px;
-    font-weight: 700;
-    color: var(--brand-light);
+    font-weight: 400;
+    font-family: "Barlow", sans-serif;    
+    color: var(--brand-light) !important;
     margin-top: 37px;
     margin-left: -108px;  
     z-index: -999;
