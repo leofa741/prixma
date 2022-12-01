@@ -8,7 +8,6 @@ export const Services = () => {
   return (
     <>
     <ServicesComponent
-
     title='Nuestros Proyectos'
      />
   </>

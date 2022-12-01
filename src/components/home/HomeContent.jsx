@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 
 
-import ActionAreaCard from '../cards/CardsComponent'
+
 import { FcIdea  } from "@react-icons/all-files/fc/FcIdea ";
 
 import { FcServices } from "react-icons/fc";
@@ -11,8 +11,8 @@ import CodeIcon from '@mui/icons-material/Code';
 import {GoBrowser} from "@react-icons/all-files/go/GoBrowser"; 
 import { Follows } from '../folloows/Follows';
 import { ParallaxComponent } from '../parallax/ParallaxComponent';
-import { customFetch, fetchProductBycategory } from '../../database/customfech';
-import { useParams } from 'react-router-dom';
+import { customFetch} from '../../database/customfech';
+
 import { Box, LinearProgress } from '@mui/material';
 import productos from '../../database/datadb';
 
@@ -21,32 +21,16 @@ import productos from '../../database/datadb';
 export const HomeContent = (props) => {   
 
     const [items, setItems] = useState([]);
-
-
-    const { Category } = useParams();
-  
-   
   
   
-    useEffect(() => {
-      if (!Category) {
-        customFetch(3000, productos).then((data) => setItems(data));
-      }
-        // if (Category) {
-        //     fetchProductBycategory(2000, productos, Category).then((data) =>
-        //         setItems(data)
-        //     );
-        // }
-    }, [Category]);
-   
-
-
+    useEffect(() => {        
+        customFetch(2000, productos).then((data) => setItems(data));
+       }, []);  
 
      
     if (items.length === 0) {
         return (
-            <div className="container">
-   
+            <div className="container">   
             <div className="row justify-content-center">
             <div className="about-section">
             <div className="col-md-12">
@@ -66,16 +50,10 @@ export const HomeContent = (props) => {
           </div>
         );
     }
-
    
    else {
-
   return (
-
-
   <>
-
-
 
 <section id="about">
     <div className="container">
@@ -88,7 +66,7 @@ export const HomeContent = (props) => {
           
             </div>
 
-            <ActionAreaCard/>
+       
         </div>
       
         
@@ -175,17 +153,11 @@ title="Mantén la innovación cerca"
 descripcion="La innovación es la clave para el éxito de cualquier empresa.
 En Puentes Digitales nos encargamos de mantener la innovación cerca de tu empresa, para que puedas aprovechar las oportunidades que te ofrece el mercado."
 />
-
-
-
-
-
 </>
 
   )  
 
-    }
-  
+    }  
 }
 
 

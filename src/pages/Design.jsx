@@ -7,9 +7,6 @@ export const Design = () => {
  <DesignComponent 
   title='Diseño'
  />
-
- 
-
  
  </>
   )

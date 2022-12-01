@@ -61,7 +61,7 @@ export const AppnativeComponent=(props) => {
                             variant="outlined" color="primary" 
                             tex
                             />  </h1>   <p>App Para la gestion de delivery</p>     
-      </div>
+                         </div>
                         <h3 className="lh-base mb-0">Software mobile </h3>                     
                     </div>
                     <p className="mb-1"><i className="far fa-check-circle text-primary me-3"></i>Rotiserias </p>  
@@ -124,17 +124,12 @@ export const AppnativeComponent=(props) => {
             </div>
         </div>
     </div>
-
-
-
     <Banner />
 
     <Portfolio
     title="Software mobile"
    descripcion="Nuestros trabajos son de calidad y con un diseño profesional"
-    />
-
-   
+    />  
     
     </>
   )

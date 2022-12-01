@@ -24,27 +24,13 @@ export default function ActionAreaCard() {
             alignItems="center"
             className="cards-container">
 
-            <Grid item xs={12} sm={6} md={4} lg={3}
-            >
-                <Card sx={{ maxWidth: 345 }}
-                    className="card"
-                >
-                    <CardActionArea
-                    sx={{ backgroundColor: '#000000' }}
-                    >
-                        <CardMedia
-                        
-                            className="card-img">
-
+            <Grid item xs={12} sm={6} md={4} lg={3} >
+                <Card sx={{ maxWidth: 345 }} className="card"  >
+                    <CardActionArea  sx={{ backgroundColor: '#000000' }}  >
+                        <CardMedia  className="card-img">
                             <CardContent>
-                                <Typography gutterBottom variant="h2" component="h2"
-                                
-                                    sx={{ color: 'black' }}
-                                   
-                                    fontSize="1rem"
-                                >
-                                  
-                                </Typography>
+                                <Typography gutterBottom variant="h2" component="h2" sx={{ color: 'black' }}fontSize="1rem" />                                  
+                             
                                 <GroupAddIcon
                                     sx={{
                                         color: 'black',
@@ -54,8 +40,7 @@ export default function ActionAreaCard() {
                                 <Typography gutterBottom  variant="h3" component="h3"
                                     sx={{ color: 'black' ,
                                   
-                                }}
-                                   
+                                }}                                   
                                     fontSize="1.2rem">
                                      Involucrar a clientes y usuarios.
                                 </Typography>

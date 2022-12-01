@@ -21,8 +21,7 @@ export const NavBar = () => {
                     <p> <i className='bx bxs-phone-call'></i> 011 3603-8167</p>
                 </div>
                 <div className="col-auto social-icons">
-                    <a href="https://www.facebook.com/www.puentesdigitales.com.ar"><i className='bx bxl-facebook'></i></a>
-                    {/* <a href="#"><i className='bx bxl-twitter'></i></a> */}
+                    <a href="https://www.facebook.com/www.puentesdigitales.com.ar"><i className='bx bxl-facebook'></i></a>                 
                     <a href="https://www.instagram.com/puentesdigitales.com.ar/"><i className='bx bxl-instagram'></i></a>
                     <a href="https://www.linkedin.com/in/leonardofarena/"><i className='bx bxl-linkedin'></i></a>
                 </div>
@@ -61,8 +60,8 @@ export const NavBar = () => {
                 </li>
 
                 <div className="dropdown-content">
-                     <a  > <NavLink   to="/puentesdigitales" ><span data-bs-toggle="collapse" data-bs-target="#navbarNav">  Nosotros  </span>  </NavLink ></a>
-                   <a   > <NavLink   to="/our-history" ><span data-bs-toggle="collapse" data-bs-target="#navbarNav">  Nuestra Historia </span>  </NavLink ></a>
+                     <a> <NavLink   to="/puentesdigitales" ><span data-bs-toggle="collapse" data-bs-target="#navbarNav">  Nosotros  </span>  </NavLink ></a>
+                     <a> <NavLink   to="/our-history" ><span data-bs-toggle="collapse" data-bs-target="#navbarNav">  Nuestra Historia </span>  </NavLink ></a>
  
                   </div>
                  </div>
@@ -72,15 +71,13 @@ export const NavBar = () => {
                     <NavLink   className="nav-link" to="/main-services"><span data-bs-toggle="collapse" data-bs-target="#navbarNav"> Servicios </span> </NavLink >
                 </li>
 
-
-
                 <li className="nav-item">
                     <NavLink  className="nav-link" to="/customers"><span data-bs-toggle="collapse" data-bs-target="#navbarNav">  Clientes </span> </NavLink >
                 </li>
+
                 <li className="nav-item">
                     <NavLink  className="nav-link" to="/novedades"><span data-bs-toggle="collapse" data-bs-target="#navbarNav"> Novedades </span> </NavLink >
-                </li>
-             
+                </li>           
 
                  <div className="dropdown">
                 <li className="nav-item">
@@ -88,13 +85,13 @@ export const NavBar = () => {
                 </li>               
   
   <div className="dropdown-content">
-  <a  > <NavLink   to="/concesionarioweb" ><span data-bs-toggle="collapse" data-bs-target="#navbarNav"> Cars Online </span> </NavLink ></a>
-  <a   > <NavLink   to="/design" ><span data-bs-toggle="collapse" data-bs-target="#navbarNav">Desing  </span> </NavLink ></a>
-  <a   > <NavLink   to="/webdesign" ><span data-bs-toggle="collapse" data-bs-target="#navbarNav">Web Desing</span> </NavLink ></a>
-  <a   > <NavLink   to="/ecomerce" ><span data-bs-toggle="collapse" data-bs-target="#navbarNav">E-Comerce</span> </NavLink ></a>
-    <a   > <NavLink   to="/appnative" ><span data-bs-toggle="collapse" data-bs-target="#navbarNav"> Mobile Delivery</span> </NavLink ></a>
-    <a   > <NavLink   to="/shiftmagnamentsystem" ><span data-bs-toggle="collapse" data-bs-target="#navbarNav"> SGM  </span> </NavLink ></a>
-    <a   > <NavLink   to="/magnamentsystem" ><span data-bs-toggle="collapse" data-bs-target="#navbarNav"> Sist. de Gestion</span> </NavLink ></a>
+    <a> <NavLink   to="/concesionarioweb" ><span data-bs-toggle="collapse" data-bs-target="#navbarNav"> Cars Online </span> </NavLink ></a>
+    <a> <NavLink   to="/design" ><span data-bs-toggle="collapse" data-bs-target="#navbarNav">Desing  </span> </NavLink ></a>
+    <a> <NavLink   to="/webdesign" ><span data-bs-toggle="collapse" data-bs-target="#navbarNav">Web Desing</span> </NavLink ></a>
+    <a> <NavLink   to="/ecomerce" ><span data-bs-toggle="collapse" data-bs-target="#navbarNav">E-Comerce</span> </NavLink ></a>
+    <a> <NavLink   to="/appnative" ><span data-bs-toggle="collapse" data-bs-target="#navbarNav"> Mobile Delivery</span> </NavLink ></a>
+    <a> <NavLink   to="/shiftmagnamentsystem" ><span data-bs-toggle="collapse" data-bs-target="#navbarNav"> SGM  </span> </NavLink ></a>
+    <a> <NavLink   to="/magnamentsystem" ><span data-bs-toggle="collapse" data-bs-target="#navbarNav"> Sist. de Gestion</span> </NavLink ></a>
   </div>
 </div>
                 {/* <li className="nav-item">
@@ -115,8 +112,6 @@ export const NavBar = () => {
         </div>
     </div>
 </nav>
-
-
 
  </>
   )
