@@ -62,10 +62,10 @@ export const NavBar = () => {
                 <li className="nav-item"     >
                     <NavLink   className="nav-link" to="/main-services"><span data-bs-toggle="collapse" data-bs-target="#navbarNav"> Servicios </span> </NavLink >
                 </li>
-
+{/* 
                 <li className="nav-item">
                     <NavLink  className="nav-link" to="/customers"><span data-bs-toggle="collapse" data-bs-target="#navbarNav">  Clientes </span> </NavLink >
-                </li>
+                </li> */}
 
                 <li className="nav-item">
                     <NavLink  className="nav-link" to="/novedades"><span data-bs-toggle="collapse" data-bs-target="#navbarNav"> Novedades </span> </NavLink >
