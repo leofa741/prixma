@@ -190,10 +190,12 @@ section {
    
 
 .navbar .navbar-brand {
-    font-weight: 400;
+    font-weight: 500;
     color: var(--brand-light);
     font-size: 24px;
+    font-family: "Barlow", sans-serif;
     transition: all 0.4s ease;
+
 }
 
 .navbar .navbar-brand:hover {

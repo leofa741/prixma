@@ -31,21 +31,13 @@ export const NavBar = () => {
 
     
  <nav className="navbar navbar-expand-lg navbar-light bg-white sticky-top">
-    <div className="container">
-       
+    <div className="container">       
          <Link  className="navbar-brand" to='/' >PuentesDigitales</Link> <img src="https://github.com/leofa741/prixma/blob/master/src/assets/img/favicon.ico?raw=true" alt="logo" className="logo" />
        <a className='textlogo'>deploying ideas  </a>       
 
              <span className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><MenuIcon 
-                sx={{
-                    color: 'white',
-                    fontSize: 30,
-                    '&:hover': {
-                        color: 'white',
-                        fontSize: 35,
-                    },
-                }}/></span>            
+                sx={{ color: 'white',fontSize: 30,'&:hover': {color: 'white',fontSize: 35, },}}/></span>            
             
         
         <div className="collapse navbar-collapse" id="navbarNav" >
