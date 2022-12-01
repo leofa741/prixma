@@ -1,9 +1,5 @@
 import React, { useEffect, useState } from 'react'
 
-
-
-import { FcIdea  } from "@react-icons/all-files/fc/FcIdea ";
-
 import { FcServices } from "react-icons/fc";
 import { Milestone } from '../milestone/Milestone';
 import BrushIcon from '@mui/icons-material/Brush';
@@ -37,8 +33,7 @@ export const HomeContent = (props) => {
                     <h4 className="text-center"> {props.title}</h4>                 
                     <p className="text-center">Somos los Puentes Digitales de tus proyectos, con más de 10 años de experiencia en el mercado ofreciendo soluciones tecnológicas a medida para empresas de todos los tamaños. Nuestro objetivo es ayudar a nuestros clientes a alcanzar sus objetivos de negocio, a través de la implementación de soluciones tecnológicas que les permitan mejorar su productividad y competitividad.</p>
           
-            </div>
-    
+            </div>    
           
             <Box sx={{ width: "100%"      }}>
               <h5>Cargando... </h5> 

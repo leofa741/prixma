@@ -197,7 +197,7 @@ section {
 }
 
 .navbar .navbar-brand:hover {
-    color: var(--brand-light);
+    color: var(--dark);
 }
 
 
