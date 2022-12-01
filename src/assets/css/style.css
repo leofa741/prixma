@@ -190,7 +190,7 @@ section {
    
 
 .navbar .navbar-brand {
-    font-weight: 700;
+    font-weight: 400;
     color: var(--brand-light);
     font-size: 24px;
     transition: all 0.4s ease;
