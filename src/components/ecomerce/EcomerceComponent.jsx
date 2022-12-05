@@ -10,8 +10,7 @@ import { Box, LinearProgress } from '@mui/material'
 export const EcomerceComponent =(props) => {
   const [items, setItems] = useState([]);
 
-  useEffect(() => {
-      
+  useEffect(() => {      
         customFetch(2000, productos).then((data) => setItems(data));
        }, []);
 
@@ -25,8 +24,7 @@ export const EcomerceComponent =(props) => {
                       <h4 className="text-center"> {props.title}</h4>                 
                       <p className="text-center">Somos los Puentes Digitales de tus proyectos, con más de 10 años de experiencia en el mercado ofreciendo soluciones tecnológicas a medida para empresas de todos los tamaños. Nuestro objetivo es ayudar a nuestros clientes a alcanzar sus objetivos de negocio, a través de la implementación de soluciones tecnológicas que les permitan mejorar su productividad y competitividad.</p>
             
-              </div>
-      
+              </div>   
             
               <Box sx={{ width: "100%"      }}>
                 <h5>Cargando... </h5> 
@@ -50,12 +48,14 @@ export const EcomerceComponent =(props) => {
      <div className="container">
       <div className="row">
         <div className="col-md-6">
-          <h1 className="text-center">Implementación</h1>
+          <h1 className="text-center"
+          style={{color: "#000000", fontSize: "40px", fontWeight: "bold", marginTop: "50px"}}
+      
           </div>
           <div className="col-md-9">
           <p className="text-center">
           La implementación de Puentes Digitales 
-          consta de un Portal Web de eCommerce y una App Mobile que permita gestionar y comercializar toda la gama de productos que nuestro cliente (proveedor) ofrece.          
+          consta de un Portal Web de e-Commerce que permita gestionar y comercializar toda la gama de productos que nuestro cliente (proveedor) ofrece.          
           </p>
         </div>
         <div className="col-md-3">
