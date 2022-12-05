@@ -49,8 +49,8 @@ export const EcomerceComponent =(props) => {
       <div className="row">
         <div className="col-md-6">
           <h1 className="text-center"
-          style={{color: "#000000", fontSize: "40px", fontWeight: "bold", marginTop: "50px"}}
-      
+                 style={{color: "#000000", fontSize: "40px", fontWeight: "bold", marginTop: "50px"}}
+          >Implementación</h1>
           </div>
           <div className="col-md-9">
           <p className="text-center">
