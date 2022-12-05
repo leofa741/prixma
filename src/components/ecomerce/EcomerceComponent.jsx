@@ -55,7 +55,7 @@ export const EcomerceComponent =(props) => {
           <div className="col-md-9">
           <p className="text-center">
           La implementación de Puentes Digitales 
-          consta de un Portal Web de e-Commerce que permita gestionar y comercializar toda la gama de productos que nuestro cliente (proveedor) ofrece.          
+          consta de un Portal Web de E-commerce que permita gestionar y comercializar toda la gama de productos que nuestro cliente (proveedor) ofrece.          
           </p>
         </div>
         <div className="col-md-3">
