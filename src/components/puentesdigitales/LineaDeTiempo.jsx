@@ -63,7 +63,7 @@ export const LineaDeTiempo = () => {
     <div className="content">
       <h2>Nos Expandimos </h2>         
       <p>
-      En 2017, nos expandimos a la ciudad de la Plata , Argentina, y comenzamos a trabajar con clientes de todo el país.
+      En 2017, nos expandimos en nuetra Argentina, y comenzamos a trabajar con clientes de todo el país.
       </p>
     </div>
   </div>
