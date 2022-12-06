@@ -5,7 +5,7 @@ export const ConcecionariosOnline = () => {
   return (
   <>
   <ConcesionarioComponent
-  title='Concesionarios Online'
+  title='Online Cars'
    />
   </>
   )

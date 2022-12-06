@@ -27,12 +27,10 @@ export const ConcesionarioComponent  =(props) => {
               <div className="about-section">
               <div className="col-md-12">
                       <h4 className="text-center"> {props.title}</h4>                 
-                      <p className="text-center">Somos los Puentes Digitales de tus proyectos, con más de 10 años de experiencia en el mercado ofreciendo soluciones tecnológicas a medida para empresas de todos los tamaños. Nuestro objetivo es ayudar a nuestros clientes a alcanzar sus objetivos de negocio, a través de la implementación de soluciones tecnológicas que les permitan mejorar su productividad y competitividad.</p>
+                      <p className="text-center">Somos los Puentes Digitales de tus proyectos, con más de 10 años de experiencia en el mercado ofreciendo soluciones tecnológicas a medida para empresas de todos los tamaños. Nuestro objetivo es ayudar a nuestros clientes a alcanzar sus objetivos de negocio, a través de la implementación de soluciones tecnológicas que les permitan mejorar su productividad y competitividad.</p>            
+              </div>    
             
-              </div>
-      
-            
-              <Box sx={{ width: "100%"      }}>
+              <Box sx={{ width: "100%" }}>
                 <h5>Cargando... </h5> 
                 <LinearProgress />
                 <br></br>
@@ -50,8 +48,7 @@ export const ConcesionarioComponent  =(props) => {
   title="Online Cars"
   descripcion="Desde cualquier lugar, con cualquier dispositivo y a toda hora se pueden administrar 
   los vehículos que se encuentran en stock,
-  los que se encuentran en venta y los que se encuentran en alquiler."
-  
+  los que se encuentran en venta y los que se encuentran en alquiler."  
   />
 
 
