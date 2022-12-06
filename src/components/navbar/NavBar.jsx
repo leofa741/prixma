@@ -20,11 +20,11 @@ export const NavBar = () => {
                     <p> <i className='bx bxs-envelope'></i> infoplataformaweb@gmail.com</p>
                     <p> <i className='bx bxs-phone-call'></i> 011 3603-8167</p>
                 </div>
-                <div className="col-auto social-icons">
+                {/* <div className="col-auto social-icons">
                     <a href="https://www.facebook.com/www.puentesdigitales.com.ar"><i className='bx bxl-facebook'></i></a>                 
                     <a href="https://www.instagram.com/puentesdigitales.com.ar/"><i className='bx bxl-instagram'></i></a>
                     <a href="https://www.linkedin.com/in/leonardofarena/"><i className='bx bxl-linkedin'></i></a>
-                </div>
+                </div> */}
             </div>
         </div>
     </div>
