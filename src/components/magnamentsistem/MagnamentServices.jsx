@@ -63,10 +63,10 @@ export const MagnamentServices = () => {
                         <div className="ms-sm-4">
                             <h4 className="mb-3">Múltiples Dispositivos</h4>
                             <h6 className="mb-3"> 
-                                Aplicaciones móviles
+                                Aplicaciones multiplataforma
                              </h6>
                             <span>
-                                Desarrollo de aplicaciones móviles para Android e IOS, con el fin de que tu empresa tenga la facilidad de administrar su inventario de manera eficiente y segura de forma online.
+                                Desarrollo de aplicaciones multiplataforma, con el fin de que tu empresa tenga la facilidad de administrar su inventario de manera eficiente y segura de forma online.
                                </span>
                         </div>
                     </div>
