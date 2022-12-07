@@ -23,8 +23,7 @@ export const ContentServives = (props) => {
                         <h4 className="text-center"> {props.title}</h4>                 
                         <p className="text-center">Somos los Puentes Digitales de tus proyectos, con más de 10 años de experiencia en el mercado ofreciendo soluciones tecnológicas a medida para empresas de todos los tamaños. Nuestro objetivo es ayudar a nuestros clientes a alcanzar sus objetivos de negocio, a través de la implementación de soluciones tecnológicas que les permitan mejorar su productividad y competitividad.</p>
               
-                </div>
-        
+                </div>      
               
                 <Box sx={{ width: "100%"      }}>
                   <h5>Cargando... </h5> 
@@ -41,15 +40,11 @@ export const ContentServives = (props) => {
 
     return (
         <>
-
             <div className="cards-1">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-12">
-                      
-                            <h2 className="h2-heading">PRINCIPALES SERVICIOS ELEGIDOS POR NUESTROS CLIENTES</h2>
-
-                            
+                        <div className="col-lg-12">                      
+                            <h2 className="h2-heading">PRINCIPALES SERVICIOS ELEGIDOS POR NUESTROS CLIENTES</h2>                            
                         </div>
                     </div>
 
@@ -59,12 +54,11 @@ export const ContentServives = (props) => {
 
                             <div className="card">
                                 <div className="card-image">
-
                                     <img className="img-fluid" src="https://github.com/leofa741/prixma/blob/master/src/assets/img/description-1.png?raw=true" alt="alternative" />
                                 </div>
                                 <div className="card-body">
                                     <h4 className="card-title">Sistemas web a medida</h4>
-                                    <p>Desarrollamos tu sistema personalizado. Desarrollamos intranet, extranet, CRM, Marketplace, portales, ¡y más! Contanos tu proyecto, seguro podemos ayudarte</p>
+                                    <p>Desarrollamos tu sistema personalizado. Desarrollamos intranet, extranet, portales, portfolios ¡y más! Contanos tu proyecto, seguro podemos ayudarte</p>
                                 </div>
                             </div>
 
