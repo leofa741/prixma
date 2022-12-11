@@ -15,11 +15,12 @@ export const Social = () => {
     <>
     	<div className="social">
 		<ul>
-			<li><a href="https://www.facebook.com/www.puentesdigitales.com.ar" target="_blank" className="icon-facebook"><FacebookIcon/></a></li>
-			{/* <li><a href="http://www.twitter.com/falconmasters" target="_blank" className="icon-twitter"><TwitterIcon/></a></li> */}
+			{/* <li><a href="https://www.facebook.com/www.puentesdigitales.com.ar" target="_blank" className="icon-facebook"><FacebookIcon/></a></li> */}
+			<li><a href="https://twitter.com/puentesdig"              target="_blank" className="icon-twitter"><TwitterIcon/></a></li>
 			<li><a href="https://www.linkedin.com/in/leonardofarena/" target="_blank" className="icon-linkedin"><LinkedInIcon/></a></li>
+
 			<li><a href="https://www.instagram.com/puentesdigitales.com.ar/" target="_blank" className="icon-instagram"><InstagramIcon/></a></li>
-			{/* <li><a href="http://www.youtube.com/falconmasters" target="_blank" className="icon-youtube"><YouTubeIcon/></a></li> */}
+
 			<li><a href="https://wa.me/+541536038167" target="_blank" className="icon-whatsapp"><WhatsAppIcon/> </a></li>
 			<li><a href="mailto:infoplataformaweb@gmail.com" target="_blank" className="icon-mail"><MailOutlineIcon/> </a></li>
 	
