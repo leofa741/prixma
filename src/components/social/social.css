@@ -54,7 +54,9 @@
 		width: 40px; /* Establecemos el ancho de los enlaces */
 		height: 40px; /* Establecemos el alto de los enlaces */
 		align-items: center;
+		justify-content: center;
 		
+
 
 	
 	}
