@@ -47,15 +47,12 @@
 	.social ul {
 		list-style: none; /* Eliminamos los marcadores de la lista */
 
-			}
-
-     
+			}    
 		
 
-	  .social ul li a {
-	
+	  .social ul li a {	
 		width: 40px; /* Establecemos el ancho de los enlaces */
 		height: 40px; /* Establecemos el alto de los enlaces */	
-		padding: 10px 10px;
+		padding: 15px 10px;
 	  }
   }
