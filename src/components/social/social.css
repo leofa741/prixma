@@ -43,4 +43,22 @@
 		top: 250px; /* Bajamos la barra 200px de arriba a abajo */
 		z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
 	}
+
+	.social ul {
+		list-style: none; /* Eliminamos los marcadores de la lista */
+
+			}
+
+	.social ul li a {
+		display:   block; /* Hacemos que el ancho y alto de los enlaces sean los mismos que el de la imagen */
+		width: 30px; /* Establecemos el ancho de los enlaces */
+		height: 30px; /* Establecemos el alto de los enlaces */
+
+	
+	}
+
+	
+
+
+
   }
