@@ -53,6 +53,8 @@
 		display:   block; /* Hacemos que el ancho y alto de los enlaces sean los mismos que el de la imagen */
 		width: 40px; /* Establecemos el ancho de los enlaces */
 		height: 40px; /* Establecemos el alto de los enlaces */
+		align-items: center;
+		
 
 	
 	}
