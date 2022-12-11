@@ -51,8 +51,13 @@
 		
 
 	  .social ul li a {	
-		width: 40px; /* Establecemos el ancho de los enlaces */
-		height: 40px; /* Establecemos el alto de los enlaces */	
+		width: 37px; /* Establecemos el ancho de los enlaces */
+		height: 37px; /* Establecemos el alto de los enlaces */	
 		padding: 5px 10px;
 	  }
+
+	  .social ul li a:hover {
+		background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+		padding: 5px 10px;/* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+	}
   }
