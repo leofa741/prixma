@@ -49,24 +49,16 @@
 
 			}
 
-			.social ul li  {
-		
+      .social ul li  {		
 				align-items: center;
-				justify-content: center;
-			
+				justify-content: center;			
 			}
 		
 
-	.social ul li a {
-		display:   block; /* Hacemos que el ancho y alto de los enlaces sean los mismos que el de la imagen */
+	  .social ul li a {
+	
 		width: 40px; /* Establecemos el ancho de los enlaces */
-		height: 40px; /* Establecemos el alto de los enlaces */
-	
-	
-	}
-
-	
-
-
-
+		height: 40px; /* Establecemos el alto de los enlaces */	
+		padding: 10px 10px;
+	  }
   }
