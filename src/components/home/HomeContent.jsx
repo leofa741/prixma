@@ -56,8 +56,9 @@ export const HomeContent = (props) => {
         <div className="row justify-content-center">
         <div className="about-section">
             <div className="col-md-12">
-                    <h1 className="text-center">Conectamos tus Ideas Construyendo Puentes...</h1>                 
-                    <p className="text-center">Somos los Puentes Digitales de tus proyectos, con más de 10 años de experiencia en el mercado ofreciendo soluciones tecnológicas a medida para empresas de todos los tamaños. Nuestro objetivo es ayudar a nuestros clientes a alcanzar sus objetivos de negocio, a través de la implementación de soluciones tecnológicas que les permitan mejorar su productividad y competitividad.</p>
+                    <h1 className="text-center">Diseño Web 100% a medida.</h1>      
+                               
+                    <p className="text-center">Desarrollamos sitios webs con diseños profesionales.No utilizamos plantillas pre diseñadas.</p>
           
             </div>
 
