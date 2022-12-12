@@ -62,10 +62,10 @@ export const HomeContent = (props) => {
                     >Diseño Web 100% a medida.</h1>      
 
                     <p className="text-center"
-                    style={{color: '#050F97', fontWeight: 'bold', fontSize: '1.5rem', fontFamily: 'Roboto',  }}
+                    style={{color: '#000000', fontWeight: 'bold', fontSize: '1.5rem', fontFamily: 'Roboto',  }}
                     >Desarrollamos sitios webs con diseños profesionales.No utilizamos plantillas pre diseñadas.</p>
                     <p className="text-center"
-                    style={{color: '#050F97', fontWeight: 'bold', fontSize: '1.5rem', fontFamily: 'Roboto',  }}
+                    style={{color: '#000000', fontWeight: 'bold', fontSize: '1.5rem', fontFamily: 'Roboto',  }}
                     >Nuestro objetivo es ayudar a nuestros clientes a alcanzar sus objetivos de negocio, a través de la implementación de soluciones tecnológicas que les permitan mejorar su productividad y competitividad.</p>
           
             </div>
