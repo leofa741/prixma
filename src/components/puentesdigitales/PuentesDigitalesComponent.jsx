@@ -78,7 +78,7 @@ export const PuentesDigitalesComponent =(props) => {
                                  
                 </p>
                 <p className="text-center"
-                  style={{ color: "#404040", fontWeight: "bold", fontSize: "1rem" }}
+                  style={{ color: "#404040", fontWeight: "bold", fontSize: "0.8rem" }}
                 >
                   Operamos en la zona sur de Buenos Aires.
                   Nuestro objetivo es ayudar a nuestros clientes a alcanzar sus objetivos de negocio,
