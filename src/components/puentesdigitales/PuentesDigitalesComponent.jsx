@@ -83,7 +83,7 @@ export const PuentesDigitalesComponent =(props) => {
               textShadow: "2px 2px 4px #000000",
               textTransform: "uppercase",
             
-              textDecorationThickness: "5px",
+              textDecorationThickness: "25px",
               textUnderlineOffset: "10px",
               textRendering: "optimizeLegibility",
               textOrientation: "upright",
