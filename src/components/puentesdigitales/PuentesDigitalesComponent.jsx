@@ -51,7 +51,7 @@ export const PuentesDigitalesComponent =(props) => {
                     fontFamily: "Roboto",
                   }}
                 >
-                  HOLA  
+                  HOLA!
                 </h1>
 
                 <h1 className="text-left"
