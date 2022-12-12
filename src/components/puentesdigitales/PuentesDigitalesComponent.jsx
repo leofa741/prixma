@@ -45,8 +45,13 @@ export const PuentesDigitalesComponent =(props) => {
 				<div class="row">
 					<div class="col-xl-6 col-lg-12">
 						<div class="single-about-txt">
-							<h2>HOLA!</h2>
-              <h3>__</h3>
+							<h2
+                class="wow fadeInUp"
+                data-wow-duration="1s"
+                data-wow-delay=".3s"
+                
+              >HOLA!</h2>
+              <h2>__</h2>
 							<p>
 								<span>p</span>uentes Digitales es una empresa de desarrollo de software y diseño web. que se dedica a la creación de soluciones tecnológicas a medida para empresas de todos los tamaños. Puentes Digitales posee aliados estratégicos que nos permiten ofrecer soluciones integrales a nuestros clientes.
 							</p>
