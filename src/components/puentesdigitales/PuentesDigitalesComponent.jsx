@@ -68,7 +68,7 @@ export const PuentesDigitalesComponent =(props) => {
 
 
                 <p className="text-center"
-                  style={{ color: "#000000", fontWeight: "bold", fontSize: "0.9rem" }}
+                  style={{ color: "#000000", fontWeight: "bold", fontSize: "1rem" }}
                 >
                Puentes Digitales es una empresa de desarrollo de software y diseño web.
                que se dedica a la creación de soluciones tecnológicas a medida para empresas de todos los tamaños.
