@@ -43,16 +43,13 @@ export const PuentesDigitalesComponent =(props) => {
           <div className="row justify-content-center">
             <div className="about-section">
               <div className="col-md-12">
-                <h1 className="text-center">Conectamos tus Ideas Construyendo Puentes...</h1>
+                <h1 className="text-center"></h1>
 
                 <p className="text-center">
-                  Comenzé alla por 2009 ,como respuesta a las necesidades del mercado haciendo diseño web para pequeños proyectos y luego extendiendome para 
-                  pymes y grandes empresas,
-                   con el paso del tiempo me fui especializando en el desarrollo de aplicaciones web y móviles,
-                    y actualmente me dedico a la creación de soluciones tecnológicas a medida para empresas de todos los tamaños.
-                  En aquellos años los sitios web diseñados eran básicamente sitios web estáticos y muy sencillos,
-                  que cumplían con las exigencias del momento transcurrido.
-                  Hoy en día, los sitios web son mucho más complejos y requieren de una gran cantidad de conocimientos y experiencia para poder desarrollarlos.
+               Puentes Digitales es una empresa de desarrollo de software y diseño web.
+               que se dedica a la creación de soluciones tecnológicas a medida para empresas de todos los tamaños.
+
+               Puentes Digitales posee aliados estratégicos que nos permiten ofrecer soluciones integrales a nuestros clientes.
 
                                  
                 </p>
