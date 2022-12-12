@@ -56,7 +56,10 @@ export const HomeContent = (props) => {
         <div className="row justify-content-center">
         <div className="about-section">
             <div className="col-md-12">
-                    <h1 className="text-center">Diseño Web 100% a medida.</h1>      
+                    <h1 className="text-center"
+                    style={{color: '#FF7F27', fontWeight: 'bold', fontSize: '3rem', fontFamily: 'Roboto',  }}
+
+                    >Diseño Web 100% a medida.</h1>      
 
                     <p className="text-center">Desarrollamos sitios webs con diseños profesionales.No utilizamos plantillas pre diseñadas.</p>
                     <p className="text-center">Nuestro objetivo es ayudar a nuestros clientes a alcanzar sus objetivos de negocio, a través de la implementación de soluciones tecnológicas que les permitan mejorar su productividad y competitividad.</p>
