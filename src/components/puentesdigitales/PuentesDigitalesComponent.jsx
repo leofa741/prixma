@@ -43,7 +43,7 @@ export const PuentesDigitalesComponent =(props) => {
           <div className="row justify-content-center">
             <div className="about-section">
               <div className="col-md-12">
-                <h1 className="text-center"
+                <h1 className="text-left"
                   style={{
                     color: "#FF7F27",
                     fontWeight: "bold",
