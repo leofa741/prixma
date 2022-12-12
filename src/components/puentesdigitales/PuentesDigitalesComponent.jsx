@@ -46,10 +46,26 @@ export const PuentesDigitalesComponent =(props) => {
 					<div class="col-xl-6 col-lg-12">
 						<div class="single-about-txt">
 							<h2
-                class="wow fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay=".3s"
-                
+              style={{color: "white",
+              fontFamily: "sans-serif",
+              fontSize: "50px",
+              fontWeight: "bold",
+              textAlign: "center",
+              textShadow: "2px 2px 4px #000000",
+              textTransform: "uppercase",
+              textDecoration: "underline",
+              textDecorationColor: "white",
+              textDecorationStyle: "double",
+              textDecorationThickness: "5px",
+              textUnderlineOffset: "10px",
+              textRendering: "optimizeLegibility",
+              textOrientation: "upright",
+              textOverflow: "clip",
+              textIndent: "0px",
+            
+
+            }}
+
               >HOLA!</h2>
               <h2>__</h2>
 							<p>
