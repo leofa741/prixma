@@ -46,11 +46,12 @@ export const PuentesDigitalesComponent =(props) => {
 					<div class="col-xl-6 col-lg-12">
 						<div class="single-about-txt">
 							<h2
-              style={{color: "white",
+              style={{
+              color: "white",
               fontFamily: "sans-serif",
-              fontSize: "50px",
+              fontSize: "90px",
               fontWeight: "bold",
-              textAlign: "center",
+              textAlign: "left",
               textShadow: "2px 2px 4px #000000",
               textTransform: "uppercase",
               textDecoration: "underline",
@@ -62,6 +63,11 @@ export const PuentesDigitalesComponent =(props) => {
               textOrientation: "upright",
               textOverflow: "clip",
               textIndent: "0px",
+              textJustify: "auto",
+              textKashida: "auto",
+              textKashidaSpace: "0px",
+             
+
             
 
             }}
