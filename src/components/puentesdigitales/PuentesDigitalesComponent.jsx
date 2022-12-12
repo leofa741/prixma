@@ -43,7 +43,16 @@ export const PuentesDigitalesComponent =(props) => {
           <div className="row justify-content-center">
             <div className="about-section">
               <div className="col-md-12">
-                <h1 className="text-center"></h1>
+                <h1 className="text-center"
+                  style={{
+                    color: "#FF7F27",
+                    fontWeight: "bold",
+                    fontSize: "5rem",
+                    fontFamily: "Roboto",
+                  }}
+                >
+                  HOLA  
+                </h1>
 
                 <p className="text-center">
                Puentes Digitales es una empresa de desarrollo de software y diseño web.
