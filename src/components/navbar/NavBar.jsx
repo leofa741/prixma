@@ -67,9 +67,14 @@ export const NavBar = () => {
                     <NavLink  className="nav-link" to="/customers"><span data-bs-toggle="collapse" data-bs-target="#navbarNav">  Clientes </span> </NavLink >
                 </li> */}
 
+
+
                 <li className="nav-item">
                     <NavLink  className="nav-link" to="/novedades"><span data-bs-toggle="collapse" data-bs-target="#navbarNav"> Novedades </span> </NavLink >
-                </li>           
+                </li>    
+
+                
+
 
                  <div className="dropdown">
                 <li className="nav-item">
@@ -86,6 +91,8 @@ export const NavBar = () => {
     <a> <NavLink   to="/magnamentsystem" ><span data-bs-toggle="collapse" data-bs-target="#navbarNav"> Sist. de Gestion</span> </NavLink ></a>
   </div>
 </div>
+
+
                 {/* <li className="nav-item">
                     <NavLink  className="nav-link" to="/login">Portfolio</NavLink >
                 </li>

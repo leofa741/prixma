@@ -22,6 +22,7 @@ export * from './design/DesignComponent';
 export * from './customers/CustomersComponent';
 export * from './textopendulo/TextpenduloComponent';
 export * from './principalservices/PrincipalServices';
+export * from './contact/FormContact';
 
 
 

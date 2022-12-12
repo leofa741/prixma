@@ -14,5 +14,6 @@ export * from './Design';
 export * from './Customers';
 export * from './OurHistoryPage';
 export * from './PrincipalservicesPage';
+export * from './Contact';
 
 
