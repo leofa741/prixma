@@ -67,7 +67,9 @@ export const PuentesDigitalesComponent =(props) => {
 
 
 
-                <p className="text-center">
+                <p className="text-center"
+                  style={{ color: "#000000", fontWeight: "bold", fontSize: "2.5rem" }}
+                >
                Puentes Digitales es una empresa de desarrollo de software y diseño web.
                que se dedica a la creación de soluciones tecnológicas a medida para empresas de todos los tamaños.
 
@@ -75,7 +77,9 @@ export const PuentesDigitalesComponent =(props) => {
 
                                  
                 </p>
-                <p className="text-center">
+                <p className="text-center"
+                  style={{ color: "#404040", fontWeight: "bold", fontSize: "2.5rem" }}
+                >
                   Operamos en la zona sur de Buenos Aires.
                   Nuestro objetivo es ayudar a nuestros clientes a alcanzar sus objetivos de negocio,
                   a través de la implementación de soluciones tecnológicas que les permitan mejorar su productividad y competitividad.
