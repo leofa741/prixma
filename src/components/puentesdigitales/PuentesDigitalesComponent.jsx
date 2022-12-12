@@ -45,7 +45,7 @@ export const PuentesDigitalesComponent =(props) => {
               <div className="col-md-12">
                 <h1 className="text-left"
                   style={{
-                    color: "#FF7F27",
+                    color: "#000000",
                     fontWeight: "bold",
                     fontSize: "5rem",
                     fontFamily: "Roboto",
@@ -56,7 +56,7 @@ export const PuentesDigitalesComponent =(props) => {
 
                 <h1 className="text-left"
                   style={{
-                    color: "#FF7F27",
+                    color: "#000000",
                     fontWeight: "bold",
                     fontSize: "5rem",
                     fontFamily: "Roboto",
