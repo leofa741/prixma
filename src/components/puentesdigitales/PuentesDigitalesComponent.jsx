@@ -62,7 +62,7 @@ export const PuentesDigitalesComponent =(props) => {
                     fontFamily: "Roboto",
                   }}
                 >
-                  _
+                  ___
                 </h1>
 
 
