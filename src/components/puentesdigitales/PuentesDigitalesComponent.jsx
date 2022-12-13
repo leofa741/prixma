@@ -58,7 +58,7 @@ export const PuentesDigitalesComponent =(props) => {
               textDecorationColor: "white",
               textDecorationStyle: "solid",
               textDecorationThickness: "5px",
-              textUnderlineOffset: "5px",
+              textUnderlineOffset: "0px",
               textRendering: "optimizeLegibility",
               textOrientation: "upright",
               textOverflow: "clip",
