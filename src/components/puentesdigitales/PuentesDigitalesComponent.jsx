@@ -73,6 +73,8 @@ export const PuentesDigitalesComponent =(props) => {
               textEmphasisPosition: "over right",
               textEmphasisCustom: "none",
               textCombineUpright: "none",
+              textTransform: "none",
+              textTransform: "none",
                 
 
             }}
