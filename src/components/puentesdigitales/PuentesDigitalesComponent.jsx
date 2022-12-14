@@ -73,28 +73,7 @@ export const PuentesDigitalesComponent =(props) => {
             }}
 
               >HOLA!</h2>
-              <h2
-              style={{
-              color: "white",
-              fontFamily: "sans-serif",
-              fontSize: "90px",
-              fontWeight: "bold",
-              textAlign: "left",
-              textShadow: "2px 2px 4px #000000",
-              textTransform: "uppercase",
-            
-              textDecorationThickness: "25px",
-              textUnderlineOffset: "10px",
-              textRendering: "optimizeLegibility",
-              textOrientation: "upright",
-              textOverflow: "clip",
-              textIndent: "0px",
-              textJustify: "auto",
-              textKashida: "auto",
-              textKashidaSpace: "0px",
-
-            }}
-              >__</h2>
+              
 							<p>
 								<span>p</span>uentes Digitales es una empresa de desarrollo de software y diseño web. que se dedica a la creación de soluciones tecnológicas a medida para empresas de todos los tamaños. Puentes Digitales posee aliados estratégicos que nos permiten ofrecer soluciones integrales a nuestros clientes.
 							</p>
