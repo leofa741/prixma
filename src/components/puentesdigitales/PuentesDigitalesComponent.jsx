@@ -66,9 +66,14 @@ export const PuentesDigitalesComponent =(props) => {
               textJustify: "auto",
               textKashida: "auto",
               textKashidaSpace: "0px",
-             
-
-            
+              textAnchor: "start",
+              textEmphasis: "none",
+              textEmphasisColor: "currentcolor",
+              textEmphasisStyle: "none",
+              textEmphasisPosition: "over right",
+              textEmphasisCustom: "none",
+              textCombineUpright: "none",
+                
 
             }}
 
