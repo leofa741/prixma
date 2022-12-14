@@ -70,15 +70,21 @@ export const PuentesDigitalesComponent =(props) => {
               textEmphasis: "none",
               textEmphasisColor: "currentcolor",
               textEmphasisStyle: "none",
-              textEmphasisPosition: "over right",
+              textEmphasisPosition: "over right",              
               textEmphasisCustom: "none",
               textCombineUpright: "none",
               textTransform: "none",
-              textTransform: "none",
-                
+              textShadow: "none",
+              textOutline: "none",
+              textRendering: "auto",
+              textOrientation: "mixed",
+              textEmphasis: "none",
+              textEmphasisPosition: "over right",
+              textEmphasisCustom: "none",
+              
 
-            }}
 
+               }}
               >HOLA!</h2>
               
 							<p>
