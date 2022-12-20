@@ -8,7 +8,22 @@ import { Drawer } from '@mui/material';
 
 
 
+
 export const NavBar = () => {
+
+    const config = {
+        angle: "305",
+        spread: 360,
+        startVelocity: 40,
+        elementCount: "171",
+        dragFriction: "0.13",
+        duration: "1690",
+        stagger: "2",
+        width: "6px",
+        height: "6px",
+        perspective: "592px",
+        colors: ["#a864fd", "#29cdff", "#78ff44", "#ff718d", "#fdff6a"]
+      };
 
       return (
  <>
@@ -43,7 +58,9 @@ export const NavBar = () => {
         <div className="collapse navbar-collapse" id="navbarNav" >
             <ul className="navbar-nav ms-auto">
                 <li className="nav-item" >
-                <NavLink   className="nav-link" to="/home">   <span data-bs-toggle="collapse" data-bs-target="#navbarNav">  Home  </span>       </NavLink>           
+                <NavLink  className="nav-link" to="/home">   <span data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                
+                >  Home  </span>       </NavLink>           
                 </li>
 
                 <div className="dropdown">

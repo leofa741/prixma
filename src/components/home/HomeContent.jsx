@@ -11,7 +11,7 @@ import { customFetch} from '../../database/customfech';
 
 import { Box, LinearProgress } from '@mui/material';
 import productos from '../../database/datadb';
-
+import Confetti from 'react-confetti'
 
 
 export const HomeContent = (props) => {   
@@ -34,7 +34,19 @@ export const HomeContent = (props) => {
                     <p className="text-center">Somos los Puentes Digitales de tus proyectos, con más de 10 años de experiencia en el mercado ofreciendo soluciones tecnológicas a medida para empresas de todos los tamaños. Nuestro objetivo es ayudar a nuestros clientes a alcanzar sus objetivos de negocio, a través de la implementación de soluciones tecnológicas que les permitan mejorar su productividad y competitividad.</p>
           
             </div>    
-          
+            <Confetti
+  drawShape={ctx => {
+    ctx.beginPath()
+    for(let i = 0; i < 22; i++) {
+      const angle = 0.35 * i
+      const x = (0.2 + (1.5 * angle)) * Math.cos(angle)
+      const y = (0.2 + (1.5 * angle)) * Math.sin(angle)
+      ctx.lineTo(x, y)
+    }
+    ctx.stroke()
+    ctx.closePath()
+  }}
+/>
             <Box sx={{ width: "100%"      }}>
               <h5>Cargando... </h5> 
               <LinearProgress />
@@ -69,7 +81,7 @@ export const HomeContent = (props) => {
                     >Nuestro objetivo es ayudar a nuestros clientes a alcanzar sus objetivos de negocio, a través de la implementación de soluciones tecnológicas que les permitan mejorar su productividad y competitividad.</p>
           
             </div>
-
+        
        
         </div>
       
