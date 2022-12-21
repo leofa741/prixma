@@ -17,7 +17,7 @@ export const Social = () => {
 		<ul>
 			{/* <li><a href="https://www.facebook.com/www.puentesdigitales.com.ar" target="_blank" className="icon-facebook"><FacebookIcon/></a></li> */}
 			<li><a href="https://twitter.com/puentesdig"              target="_blank" className="icon-twitter"><TwitterIcon/></a></li>
-			<li><a href="https://www.linkedin.com/in/leonardofarena/" target="_blank" className="icon-linkedin"><LinkedInIcon/></a></li>
+			<li><a href="https://www.linkedin.com/in/leonardofdev/" target="_blank" className="icon-linkedin"><LinkedInIcon/></a></li>
 
 			<li><a href="https://www.instagram.com/puentesdigitales.com.ar/" target="_blank" className="icon-instagram"><InstagramIcon/></a></li>
 
