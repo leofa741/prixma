@@ -45,6 +45,7 @@ export const NavBar = () => {
 
             <li className="nav-item" >
                 <NavLink  className="nav-link" to="" 
+                 data-bs-toggle="collapse" data-bs-target="#navbarNav" 
                 onClick={() => confetti({
                     particleCount: 600,
                     spread: 170,
