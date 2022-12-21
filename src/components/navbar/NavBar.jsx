@@ -52,12 +52,13 @@ export const NavBar = () => {
                     origin: { y: 0.6 },
                     colors: [  '#26ccff', '#000000','#ffffff',]
                   })}
-                >    Capeones del Mundo     </NavLink>           
+                >   campeones del mundo    </NavLink>           
                 </li>
 
 
                 <li className="nav-item" >
-                <NavLink  className="nav-link" to="/home">   <span data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                <NavLink  to="/home"  className={ ({ isActive }) => `nav-link  dropdownn  ${isActive ? 'active':''}` } >  
+                  <span data-bs-toggle="collapse" data-bs-target="#navbarNav" 
                   >  Home  </span>       </NavLink>           
                 </li>
 
