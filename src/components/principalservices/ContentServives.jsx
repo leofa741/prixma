@@ -4,6 +4,7 @@ import React, { useEffect, useState } from 'react'
 import { customFetch } from '../../database/customfech';
 import productos from '../../database/datadb';
 import './contentservices.css'
+import { ImagenCard } from './ImagenCard';
 
 export const ContentServives = (props) => {
     const [items, setItems] = useState([]);
@@ -54,7 +55,9 @@ export const ContentServives = (props) => {
 
                             <div className="card">
                                 <div className="card-image">
-                                    <img className="img-fluid" src="https://github.com/leofa741/prixma/blob/master/src/assets/img/description-1.png?raw=true" alt="alternative" />
+                                         <ImagenCard
+                                        url={"https://github.com/leofa741/prixma/blob/master/src/assets/img/description-1.png?raw=true"}
+                                          />
                                 </div>
                                 <div className="card-body">
                                     <h4 className="card-title">Sistemas web a medida</h4>
@@ -68,8 +71,9 @@ export const ContentServives = (props) => {
 
                             <div className="card">
                                 <div className="card-image">
-
-                                    <img className="img-fluid" src="https://github.com/leofa741/prixma/blob/master/src/assets/img/E-Commerce.png?raw=true" alt="alternative" />
+                                    <ImagenCard
+                                        url={"https://github.com/leofa741/prixma/blob/master/src/assets/img/E-Commerce.png?raw=true"}
+                                            />
                                 </div>
                                 <div className="card-body">
                                     <h4 className="card-title">E-commerce</h4>
@@ -83,8 +87,9 @@ export const ContentServives = (props) => {
 
                             <div className="card">
                                 <div className="card-image">
-
-                                    <img className="img-fluid" src="https://github.com/leofa741/prixma/blob/master/src/assets/img/description-2.png?raw=true" alt="alternative" />
+                                <ImagenCard
+                                        url={"https://github.com/leofa741/prixma/blob/master/src/assets/img/description-2.png?raw=true"}
+                                            />
                                 </div>
                                 <div className="card-body">
                                     <h4 className="card-title">Sitios web & Landing Page</h4>
@@ -102,8 +107,9 @@ export const ContentServives = (props) => {
 
                             <div className="card">
                                 <div className="card-image">
-
-                                    <img className="img-fluid" src="https://github.com/leofa741/prixma/blob/master/src/assets/img/image1-4.png?raw=true" alt="alternative" />
+                                <ImagenCard
+                                        url={"https://github.com/leofa741/prixma/blob/master/src/assets/img/image1-4.png?raw=true"}
+                                            />
                                 </div>
                                 <div className="card-body">
                                     <h4 className="card-title">App móvil</h4>
@@ -117,8 +123,9 @@ export const ContentServives = (props) => {
 
                             <div className="card">
                                 <div className="card-image">
-
-                                    <img className="img-fluid" src="https://github.com/leofa741/prixma/blob/master/src/assets/img/Mobile-UI-UX-Design.png?raw=true" alt="alternative" />
+                                <ImagenCard
+                                        url={"https://github.com/leofa741/prixma/blob/master/src/assets/img/Mobile-UI-UX-Design.png?raw=true"}
+                                            />
                                 </div>
                                 <div className="card-body">
                                     <h4 className="card-title">Diseño UX/UI</h4>
@@ -132,8 +139,11 @@ export const ContentServives = (props) => {
 
                             <div className="card">
                                 <div className="card-image">
+                                <ImagenCard
+                                        url={  "https://github.com/leofa741/prixma/blob/master/src/assets/img/Community-Manager.png?raw=true"}
+                                            />
 
-                                    <img className="img-fluid" src="https://github.com/leofa741/prixma/blob/master/src/assets/img/Community-Manager.png?raw=true" alt="alternative" />
+
                                 </div>
                                 <div className="card-body">
                                     <h4 className="card-title"> Marketing Digital</h4>
