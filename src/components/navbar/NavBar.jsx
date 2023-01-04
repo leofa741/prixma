@@ -32,7 +32,38 @@ export const NavBar = () => {
     
  <nav className="navbar navbar-expand-lg navbar-light bg-white sticky-top">
     <div className="container">       
-         <Link  className="navbar-brand" to='/' >PuentesDigitales</Link> <img src="https://github.com/leofa741/prixma/blob/master/src/assets/img/logo.png?raw=true" alt="logo" className="logo" />
+         <Link  className="navbar-brand" to='/'
+          style={{
+            color: "white",
+            fontFamily: "sans-serif",
+            fontSize: "40px",
+            fontWeight: "bold",
+            textAlign: "left",
+            textShadow: "2px 2px 4px #000000",
+            textTransform: "uppercase",
+            
+            
+            textDecorationColor: "white",
+            textDecorationStyle: "solid",
+            textDecorationThickness: "15px",
+            textUnderlineOffset: "10px",
+            textRendering: "optimizeLegibility",
+            textOrientation: "upright",
+            textOverflow: "clip",
+            textIndent: "0px",
+            textJustify: "auto",
+            textKashida: "auto",
+            textKashidaSpace: "0px",
+            textAnchor: "start",
+            textEmphasis: "none",
+            textEmphasisColor: "currentcolor",
+            textEmphasisStyle: "none",
+            textEmphasisPosition: "over right",              
+            textEmphasisCustom: "none",
+            textCombineUpright: "none",
+            textOrientationVertical: "mixed",
+          
+          >PuentesDigitales</Link> <img src="https://github.com/leofa741/prixma/blob/master/src/assets/img/logo.png?raw=true" alt="logo" className="logo" />
        <a className='textlogo'>deploying ideas  </a>       
 
              <span className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
