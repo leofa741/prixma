@@ -22,7 +22,7 @@ export const Personalizada = () => {
                     </div>
                     <p className="mb-4">
                     Creamos la página web para tu negocio. Diseño web profesional, moderno y adaptable a cualquier dispositivo.
-                    página web con las ultimas tecnología de vangardia, te ofrecemos un diseño personalizado que se adapte a tus necesidades. Este servicio incluye diseñador gráfico, que realice el diseño de tu página, programador web que transforma ese diseño en una página web funcional y optimizada para los buscadores, y un asesor SEO que te ayude a posicionar tu página web en los primeros resultados de Google.
+                    página web con las ultimas tecnología de vanguardia, te ofrecemos un diseño personalizado que se adapte a tus necesidades. Este servicio incluye diseñador gráfico, que realice el diseño de tu página, programador web que transforma ese diseño en una página web funcional y optimizada para los buscadores, y un asesor SEO que te ayude a posicionar tu página web en los primeros resultados de Google.
                     </p>
                     <p className="mb-3"><i className="far fa-check-circle text-primary me-3"></i>compuesta por varias secciones </p>
                     <p className="mb-3"><i className="far fa-check-circle text-primary me-3"></i>Web adaptable a dispositivos</p>
