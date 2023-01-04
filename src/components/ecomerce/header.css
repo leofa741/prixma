@@ -29,7 +29,7 @@ header :hover{
 
 
 .titleh1 {
-    color: "white";
+    color: #fff;
     font-Family: "sans-serif";
     font-Size: "90px";
     font-Weight: "bold";
@@ -40,21 +40,11 @@ header :hover{
     text-Decoration-Color: "white";
     text-Decoration-Style: "solid";
     text-Decoration-Thickness: "15px";
-    text-Underline-Offset: "10px";
-    text-Rendering: "optimizeLegibility";
-    text-Orientation: "upright";
-    text-Overflow: "clip";
-    text-Indent: "0px";
-    text-Justify: "auto";
-    text-Kashida: "auto";
-    text-Kashida-Space: "0px";
-    text-Anchor: "start";
-    text-Emphasis: "none";
-    text-Emphasis-Color: "currentcolor";
-    text-Emphasis-Position: "over right";             
-    text-Emphasis-Custom: "none";
-    text-Combine-Upright: "none";
-    text-Orientation-Vertical: "mixed";
+    text-Decoration-Line: "underline";
+    text-Decoration-Color: "white";
+    text-Decoration-Style: "solid";
+    text-Decoration-Thickness: "15px";
+    
   
 
 
