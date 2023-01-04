@@ -29,14 +29,27 @@ header :hover{
 
 
 .titleh1 {
-    width: 50%;
-	font-size: 2.5em;
-    font-weight: 800;
-    margin: 0 auto;
-color: #333;
+    color: "white";
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3em;
+    font-size: bold;
+    text-align: left    ;
+    text-shadow: "2px 2px 4px #000000";
+    text-transform: uppercase ;
+    text-decoration: underline;
+    text-decoration-color: #9f05ff;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 10px;
+    text-decoration-style: wavy;
+    text-decoration-line: underline;
+    text-rendering: optimizeLegibility;
+    text-orientation: upright;
+    text-overflow: clip;
+    
    
 
 
+   
 }
 
 .titleh3, p {
