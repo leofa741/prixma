@@ -36,7 +36,7 @@ export const NavBar = () => {
           style={{
             color: "white",
             fontFamily: "sans-serif",
-            fontSize: "40px",
+            fontSize: "20px",
             fontWeight: "bold",
             textAlign: "left",
             textShadow: "2px 2px 4px #000000",
