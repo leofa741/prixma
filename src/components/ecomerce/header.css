@@ -38,14 +38,14 @@ header :hover{
     text-transform: uppercase ;
     text-decoration: underline;
     text-decoration-color: #9f05ff;
-    text-decoration-thickness: 5px;
+    text-decoration-thickness: 45px;
     text-underline-offset: 10px;
     text-decoration-style: wavy;
     text-decoration-line: underline;
     text-rendering: optimizeLegibility;
     text-orientation: upright;
     text-overflow: clip;
-    
+
    
 
 
