@@ -30,24 +30,32 @@ header :hover{
 
 .titleh1 {
     color: "white";
-    font-family: 'Open Sans', sans-serif;
-    font-size: 3em;
-    font-size: bold;
-    text-align: left    ;
-    text-shadow: "2px 2px 4px #000000";
-    text-transform: uppercase ;
-    text-decoration: underline;
-    text-decoration-color: #9f05ff;
-    text-decoration-thickness: 15px;
-    text-underline-offset: 10px;
-    text-decoration-style: wavy;
-    text-decoration-line: underline;
-    text-rendering: optimizeLegibility;
-    text-orientation: upright;
-    text-overflow: clip;
+    font-Family: "sans-serif";
+    font-Size: "90px";
+    font-Weight: "bold";
+    text-Align: "left";
+    text-Shadow: "2px 2px 4px #000000";
+    text-Transform: "uppercase";
+    text-Decoration: "underline";
+    text-Decoration-Color: "white";
+    text-Decoration-Style: "solid";
+    text-Decoration-Thickness: "15px";
+    text-Underline-Offset: "10px";
+    text-Rendering: "optimizeLegibility";
+    text-Orientation: "upright";
+    text-Overflow: "clip";
     text-Indent: "0px";
     text-Justify: "auto";
-
+    text-Kashida: "auto";
+    text-Kashida-Space: "0px";
+    text-Anchor: "start";
+    text-Emphasis: "none";
+    text-Emphasis-Color: "currentcolor";
+    text-Emphasis-Position: "over right";             
+    text-Emphasis-Custom: "none";
+    text-Combine-Upright: "none";
+    text-Orientation-Vertical: "mixed";
+  
 
 
    
