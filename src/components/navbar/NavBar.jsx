@@ -42,7 +42,6 @@ export const NavBar = () => {
             textShadow: "2px 2px 4px #000000",
             textTransform: "uppercase",
             
-            
             textDecorationColor: "white",
             textDecorationStyle: "solid",
             textDecorationThickness: "15px",
@@ -62,6 +61,7 @@ export const NavBar = () => {
             textEmphasisCustom: "none",
             textCombineUpright: "none",
             textOrientationVertical: "mixed",
+          }}
           
           >PuentesDigitales</Link> <img src="https://github.com/leofa741/prixma/blob/master/src/assets/img/logo.png?raw=true" alt="logo" className="logo" />
        <a className='textlogo'>deploying ideas  </a>       
