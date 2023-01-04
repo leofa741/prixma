@@ -17,7 +17,8 @@ export const Header = ({title,descripcion}) => {
   textAlign: "left",
   textShadow: "2px 2px 4px #000000",
   textTransform: "uppercase",
-  textDecoration: "underline",
+  
+  
   textDecorationColor: "white",
   textDecorationStyle: "solid",
   textDecorationThickness: "15px",
