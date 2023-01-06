@@ -112,15 +112,8 @@ export const HomeContent = (props) => {
                         textOrientation: 'mixed',
                         textOverflow: 'clip',
                         textRendering: 'auto',
-                        textShadow: 'none',
-                        textTransform: 'none',
-                        textUnderlinePosition: 'auto',
-                        whiteSpace: 'normal',
-                        wordBreak: 'normal',
-                        wordSpacing: 'normal',
-                        wordWrap: 'normal',
-                        writingMode: 'horizontal-tb',
-                        
+                     
+
 
 
                       }}
