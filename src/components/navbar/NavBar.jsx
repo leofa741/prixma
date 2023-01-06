@@ -74,7 +74,7 @@ export const NavBar = () => {
         <div className="collapse navbar-collapse" id="navbarNav" >
             <ul className="navbar-nav ms-auto">
 
-            <li className="nav-item" >
+            {/* <li className="nav-item" >
                 <NavLink  className="nav-link" to="" 
                  data-bs-toggle="collapse" data-bs-target="#navbarNav" 
                 onClick={() => confetti({
@@ -84,7 +84,7 @@ export const NavBar = () => {
                     colors: [  '#26ccff', '#000000','#ffffff',]
                   })}
                 >   campeones del mundo    </NavLink>           
-                </li>
+                </li> */}
 
 
                 <li className="nav-item" >
