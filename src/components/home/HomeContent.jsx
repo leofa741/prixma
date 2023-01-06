@@ -69,7 +69,13 @@ export const HomeContent = (props) => {
         <div className="about-section">
             <div className="col-md-12">
                     <h1 className="text-center"
-                    style={{color: '#FF7F27', fontWeight: 'bold', fontSize: '3rem', fontFamily: 'Roboto',  }}
+                    style={{
+                        color: '#000000', fontWeight: 'bold', fontSize: '3rem', fontFamily: 'Roboto',
+                        textShadow: '2px 2px 4px #000000', 
+                        
+
+
+                         }}
 
                     >Diseño Web 100% a medida.</h1>      
 
