@@ -103,16 +103,6 @@ export const HomeContent = (props) => {
                         textKashidaSpace: '0',
                         textAnchor: 'start',
                         textCombineUpright: 'none',
-                        textCombineHorizontal: 'none',
-                        textDecoration: 'none',
-                        textDecorationColor: 'currentcolor',
-                        textDecorationStyle: 'solid',
-                        textDecorationThickness: 'auto',
-                        textIndent: '0',
-                        textOrientation: 'mixed',
-                        textOverflow: 'clip',
-                        textRendering: 'auto',
-                     
 
 
 
