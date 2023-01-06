@@ -83,7 +83,7 @@ export const HomeContent = (props) => {
                         textTransform: 'capitalize',
                         textDecoration: 'underline',
                         textDecorationColor: '#FF7F27',
-                        textDecorationStyle: 'double',
+                        textDecorationStyle: 'solid',
                         textDecorationThickness: '0.2rem',
                         textDecorationLine: 'underline',
                       }}
