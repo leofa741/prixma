@@ -70,7 +70,7 @@ export const HomeContent = (props) => {
             <div className="col-md-12">
                     <h1 className="text-center"
                     style={{
-                        color: '#000000', fontWeight: 'bold', fontSize: { xs: '1.5rem', sm: '2.5rem', md: '3rem'},
+                        color: '#000000', fontWeight: 'bold', fontSize: { xs: '1.2rem', sm: '2.5rem', md: '3rem'},
                          fontFamily: 'Roboto',
                         textShadow: '2px 2px 4px #000000', 
                         textTransform: 'uppercase',
