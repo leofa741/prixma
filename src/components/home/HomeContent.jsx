@@ -72,7 +72,12 @@ export const HomeContent = (props) => {
                     style={{
                         color: '#000000', fontWeight: 'bold', fontSize: '3rem', fontFamily: 'Roboto',
                         textShadow: '2px 2px 4px #000000', 
+                        textTransform: 'uppercase',
+                        letterSpacing: '0.1rem',
+                        lineHeight: '1.5rem',
+                        textAlign: 'center',
                         
+
 
 
                          }}
