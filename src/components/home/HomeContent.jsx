@@ -85,27 +85,7 @@ export const HomeContent = (props) => {
                         textDecorationColor: '#FF7F27',
                         textDecorationStyle: 'double',
                         textDecorationThickness: '0.2rem',
-                        textDecorationSkip: 'none',
-                        textDecorationSkipInk: 'none',
-                        textUnderlineOffset: '0.2rem',
-                        textRendering: 'optimizeLegibility',
-                        textShadow: '2px 2px 4px #000000',
-                        textTransform: 'uppercase',
-                        textOrientation: 'mixed',
-                        textEmphasis: 'none',
-                        textEmphasisColor: 'currentcolor',
-                        textEmphasisStyle: 'none',
-                        textEmphasisPosition: 'over right',
-                        textEmphasisSkip: 'none',
-                        textJustify: 'auto',
-                        textJustifyTrim: 'none',
-                        textKashida: 'auto',
-                        textKashidaSpace: '0',
-                        textAnchor: 'start',
-                        textCombineUpright: 'none',
-
-
-
+                        textDecorationLine: 'underline',
                       }}
 
                     >Diseño Web 100% a medida.</h1>      
