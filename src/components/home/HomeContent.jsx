@@ -77,8 +77,7 @@ export const HomeContent = (props) => {
                         letterSpacing: '1.1rem',
                         lineHeight: '2.5rem',
                         textAlign: 'center', 
-                        textJustify: 'inter-word ',
-                        
+                        textJustify: 'inter-word ',           
                                   
                         
                       }}
