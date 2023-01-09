@@ -29,7 +29,7 @@ export const Footer = () => {
                         textRendering: "optimizeLegibility",
                         textOrientation: "upright",
                         textOverflow: "clip",
-                        textIndent: "19px",
+                        textIndent: "0px",
                         textJustify: "auto",
                         textKashida: "auto",
                         textKashidaSpace: "0px",
