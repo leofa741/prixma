@@ -339,8 +339,8 @@ display: none;
 .about-section {
     background-color: var(--brand-light);
     color: rgb(43, 16, 16);
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 0px;
+    padding-bottom: 90px;
 }
 
 .about-section .title {
@@ -348,7 +348,7 @@ display: none;
     font-weight: 700;
     color: var(--brand);
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 420px;
 }
 
 .text-center-img {
