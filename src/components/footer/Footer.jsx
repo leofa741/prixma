@@ -23,11 +23,11 @@ export const Footer = () => {
                             <a href="https://www.instagram.com/puentesdigitales.com.ar/"><i className='bx bxl-instagram'></i></a>
                             <a href="https://www.linkedin.com/in/leonardofdev/"><i className='bx bxl-linkedin'></i></a>
                         </div>
-                        <div className="col-auto conditions-section">
+                        {/* <div className="col-auto conditions-section">
                             <a href="#">privacy</a>
                             <a href="#">cookies</a>
                             <a href="#">contáctanos</a>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

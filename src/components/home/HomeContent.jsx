@@ -70,21 +70,17 @@ export const HomeContent = (props) => {
             <div className="col-md-12">
                     <h1 className="text-center"
                     style={{
-                        color: '#000000', fontWeight: 'bold', fontSize: { xs: '1rem', sm: '3rem', md: '3.5rem',},
+                        color: '#000000', fontWeight: 'bold', fontSize:{ xs: '1rem', sm: '3rem', md: '3.5rem',},
                          fontFamily: 'Roboto',
-                        textShadow: '2px 2px 4px #000000', 
+                        textShadow: '4px 4px 9px #000000', 
                         textTransform: 'uppercase',
-                        letterSpacing: '0.1rem',
-                        lineHeight: '1.5rem',
+                        letterSpacing: '1.1rem',
+                        lineHeight: '2.5rem',
                         textAlign: 'center', 
-                        textJustify: 'inter-word',
-                        textIndent: '1rem',
-                        textOverflow: 'ellipsis',                       
-                        textDecoration: 'underline',
-                        textDecorationColor: '#FF7F27',
-                        textDecorationStyle: 'solid',
-                        textDecorationThickness: '0.2rem',
-                        textDecorationLine: 'underline',
+                        textJustify: 'inter-word ',
+                        
+                                  
+                        
                       }}
 
                     >Diseño Web 100% a medida.</h1>      
