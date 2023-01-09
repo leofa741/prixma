@@ -83,7 +83,7 @@ export const HomeContent = (props) => {
                         
                       }}
 
-                    >Diseño Web 100% a medida.</h1>      
+                    >Diseño Web 100% a medida</h1>      
 
                     <p className="text-center"
                     style={{color: '#000000', fontWeight: 'bold', fontSize: '1.5rem', fontFamily: 'Roboto',  }}
