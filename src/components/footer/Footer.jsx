@@ -24,7 +24,7 @@ export const Footer = () => {
                             textAlign: "center",
                             textJustify: "inter-word",                          
                           }}>
-                        Puentes Digitales<span className="dot">.</span></h4>
+                        Puentes Digitales</h4>
                         <p>
                             somos una empresa de desarrollo de software enfocada en la creación de soluciones digitales para empresas y emprendedores.
 
