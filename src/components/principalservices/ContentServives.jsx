@@ -45,7 +45,22 @@ export const ContentServives = (props) => {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">                      
-                            <h2 className="h2-heading">PRINCIPALES SERVICIOS ELEGIDOS POR NUESTROS CLIENTES</h2>                            
+                            <h2 className="h2-heading"
+                            style={{
+                            color: "black",
+                            textAlign: "center",
+                            fontWeight: "bold",
+                            fontSize:{xs:"1.5rem", sm:"2rem", md:"2.5rem", lg:"3rem", xl:"3.5rem"},
+                            fontFamily: "Roboto",
+                            textTransform: "uppercase",
+                            letterSpacing: "0.2rem",
+                            textShadow: "0px 1px  0.7rem #000000",
+
+
+
+                          
+                            }}>PRINCIPALES SERVICIOS ELEGIDOS POR NUESTROS CLIENTES</h2>
+                                                    
                         </div>
                     </div>
 
