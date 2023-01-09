@@ -12,7 +12,7 @@ export const Footer = () => {
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-lg-6 text-center">
-                        <h4 className="navbar-brand">Puentes<span className="dot">.</span>Digitales</h4>
+                        <h4 className="navbar-brand">Puentes Digitales<span className="dot">.</span></h4>
                         <p>
                             somos una empresa de desarrollo de software enfocada en la creación de soluciones digitales para empresas y emprendedores.
 
