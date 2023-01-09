@@ -13,16 +13,35 @@ export const Footer = () => {
                 <div className="row justify-content-center">
                     <div className="col-lg-6 text-center">
                         <h4 className="navbar-brand"
-                        style={{color: "black",
-                         fontSize: { xs: "0.6rem", sm: "3rem", md: "3.5rem",},
-                            fontWeight: "bold",
-                            fontFamily: "Roboto",
-                            textShadow: "4px 4px 9px #ffffff",
-                            textTransform: "uppercase",
-                            letterSpacing: "0.5rem",
-                            lineHeight: "2.5rem",
-                            textAlign: "center",
-                            textJustify: "inter-word",                          
+                        style={{  color: "white",
+                        fontFamily: "sans-serif",
+                        fontSize: "20px",
+                        fontWeight: "bold",
+                        textAlign: "center",
+                        textShadow: "2px 2px 4px #000000",
+                        textTransform: "uppercase",
+                        letterSpacing: '0.5rem',
+                        
+                        textDecorationColor: "white",
+                        textDecorationStyle: "solid",
+                        textDecorationThickness: "15px",
+                        textUnderlineOffset: "10px",
+                        textRendering: "optimizeLegibility",
+                        textOrientation: "upright",
+                        textOverflow: "clip",
+                        textIndent: "29px",
+                        textJustify: "auto",
+                        textKashida: "auto",
+                        textKashidaSpace: "0px",
+                        textAnchor: "start",
+                        textEmphasis: "none",
+                        textEmphasisColor: "currentcolor",
+                        textEmphasisStyle: "none",
+                        textEmphasisPosition: "over right",              
+                        textEmphasisCustom: "none",
+                        textCombineUpright: "none",
+                        textOrientationVertical: "mixed",
+
                           }}>
                         Puentes Digitales</h4>
                         <p>
