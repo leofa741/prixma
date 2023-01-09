@@ -14,12 +14,12 @@ export const Footer = () => {
                     <div className="col-lg-6 text-center">
                         <h4 className="navbar-brand"
                         style={{color: "white",
-                         fontSize: { xs: "1rem", sm: "3rem", md: "3.5rem",},
+                         fontSize: { xs: "0.6rem", sm: "3rem", md: "3.5rem",},
                           fontWeight: "bold",
                             fontFamily: "Roboto",
                             textShadow: "4px 4px 9px #000000",
                             textTransform: "uppercase",
-                            letterSpacing: "1.1rem",
+                            letterSpacing: { xs: "0.1rem", sm: "1.1rem", md: "1.1rem",},
                             lineHeight: "2.5rem",
                             textAlign: "center",
                             textJustify: "inter-word",                          
