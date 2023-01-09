@@ -74,6 +74,7 @@ export const PuentesDigitalesComponent =(props) => {
               textEmphasisCustom: "none",
               textCombineUpright: "none",
               textOrientationVertical: "mixed",
+            
 
 
                }}

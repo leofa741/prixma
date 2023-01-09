@@ -61,12 +61,13 @@
 /* .about-2 */
 
 
-.single-about-txt{ position: relative;}
-.single-about-txt h2{
-    font-size: 67px;
-    font-weight:800;
-    color: #383838;
-    margin-bottom: 73px;
+.single-about-txt{ 
+ 
+    position: relative;
+  
+}
+.single-about-txt h2{  
+    margin-top: -30px !important;
 }
 .single-about-txt p {
     font-size: 14px;
@@ -83,8 +84,7 @@
     .single-about-txt-2{padding: 120px 0 90px;}
     .single-about-txt-2 h4{margin-bottom: 47px;}
     .single-about-txt-2 p{margin: 50px 0;}
-    .single-about-txt{padding: 120px 0 90px;}
-    .single-about-txt h2{margin-bottom: 73px;}
+ 
     .single-about-txt p{margin: 43px 0;}
 }
 
