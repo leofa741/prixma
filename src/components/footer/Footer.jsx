@@ -14,7 +14,7 @@ export const Footer = () => {
                     <div className="col-lg-6 text-center">
                         <h4 className="navbar-brand"
                         style={{color: "white",
-                         fontSize: "1.5rem",
+                         fontSize: { xs: "1rem", sm: "3rem", md: "3.5rem",},
                           fontWeight: "bold",
                             fontFamily: "Roboto",
                             textShadow: "4px 4px 9px #000000",
@@ -22,11 +22,9 @@ export const Footer = () => {
                             letterSpacing: "1.1rem",
                             lineHeight: "2.5rem",
                             textAlign: "center",
-                            textJustify: "inter-word",
-                            
-                          
+                            textJustify: "inter-word",                          
                           }}>
-                        >Puentes Digitales<span className="dot">.</span></h4>
+                        Puentes Digitales<span className="dot">.</span></h4>
                         <p>
                             somos una empresa de desarrollo de software enfocada en la creación de soluciones digitales para empresas y emprendedores.
 
