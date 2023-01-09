@@ -19,7 +19,7 @@ export const Footer = () => {
                             fontFamily: "Roboto",
                             textShadow: "4px 4px 9px #000000",
                             textTransform: "uppercase",
-                            letterSpacing: { xs: "0.1rem", sm: "1.1rem", md: "1.1rem",},
+                            letterSpacing: "0.5rem",
                             lineHeight: "2.5rem",
                             textAlign: "center",
                             textJustify: "inter-word",                          
