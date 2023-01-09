@@ -54,7 +54,7 @@ export const ContentServives = (props) => {
                             fontFamily: "Roboto",
                             textTransform: "uppercase",
                             letterSpacing: "0.2rem",
-                            textShadow: "0px 1px  0.7rem #000000",
+                            textShadow: '4px 4px 9px #000000', 
 
 
 
