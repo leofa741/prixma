@@ -13,11 +13,11 @@ export const Footer = () => {
                 <div className="row justify-content-center">
                     <div className="col-lg-6 text-center">
                         <h4 className="navbar-brand"
-                        style={{color: "white",
+                        style={{color: "black",
                          fontSize: { xs: "0.6rem", sm: "3rem", md: "3.5rem",},
-                          fontWeight: "bold",
+                            fontWeight: "bold",
                             fontFamily: "Roboto",
-                            textShadow: "4px 4px 9px #000000",
+                            textShadow: "4px 4px 9px #ffffff",
                             textTransform: "uppercase",
                             letterSpacing: "0.5rem",
                             lineHeight: "2.5rem",
