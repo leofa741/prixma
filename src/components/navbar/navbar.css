@@ -1,0 +1,97 @@
+.dropdown {
+    display: inline-block;
+    position: relative;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 160px;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+    background-color: #ffffff;
+    border-radius: 9px;
+    z-index: 1000;  
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content a {
+    display: block; 
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+    width: 150px;
+    background-color: #ffffff;
+    font-size: 12px;
+  }
+  .dropdown-content a:hover {
+    color: #0186AA  ; 
+  
+ 
+  }
+  .collaps{
+    width: 100%;
+  }
+
+  .navbar-collaps {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+
+
+  .active1 {
+    text-decoration: none;
+ 
+    margin-bottom: 4px !important ; 
+    background: linear-gradient(to right, #F7F7FC 1%, #F7F7FC 20%, #F7F7FC 100%);
+    background-size: 0 2px;
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    transition: background-size .3s;  
+
+}
+
+.active1:hover {
+    background-size: 110% 2px;
+  
+
+}
+
+.active2 {
+  text-decoration: none;
+
+  margin-bottom: 4px !important ; 
+  background: linear-gradient(to right, #0b0bc4 1%, #0b0bc4 20%, #0b0bc4 100%);
+  background-size: 0 2px;
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  transition: background-size .3s;  
+
+}
+
+.active2:hover {
+  background-size: 110% 2px;
+
+
+}
+
+
+
+
+  @media screen and (max-width: 992px) {
+    .navbar-collaps {
+      display: none;
+    }
+    .collaps{
+      display: none;
+    }
+
+    .active1 {
+      background-size: 0% 2px;
+  }
+
+  .active1:hover {
+      background-size: 15% 2px;
+  }
+  }

@@ -1,0 +1,100 @@
+
+header {	
+	text-align: center;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+	border-radius: 0 0 85% 85% / 30%;
+}
+.overlay{
+	width: 100%;
+	height: 100%;
+	padding: 50px;
+	color: #FFF;	
+    background-image: linear-gradient( 135deg, #71B7E6 10%, #9B59B6 100%);
+    transition: all 0.5s ease; 
+	
+}
+
+header :hover{
+    background-image: linear-gradient( 535deg, #71B7E6 30%, #9B59B6 70%);
+    transition: all 444.5s ease;
+  
+
+}
+
+
+
+.titleh1 {
+    color: #fff;
+    font-Family: "sans-serif";
+    font-Size: "90px";
+    font-Weight: "bold";
+    text-Align: "left";
+    text-Shadow: "2px 2px 4px #000000";
+    text-Transform: "uppercase";
+    text-Decoration: "underline";
+    text-Decoration-Color: "white";
+    text-Decoration-Style: "solid";
+    text-Decoration-Thickness: "15px";
+    text-Decoration-Line: "underline";
+    text-Decoration-Color: "white";
+    text-Decoration-Style: "solid";
+    text-Decoration-Thickness: "15px";
+    
+  
+
+
+   
+}
+
+.titleh3, p {
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 30px;
+}
+
+button {
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+	border-radius: 50px;
+	color: #333;
+	background: #fff;
+	margin-bottom: 50px;
+	box-shadow: 0 3px 20px 0 #0000003b;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+	background: #9f05ff;
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        width: 100%;
+        height: auto;
+        border-radius: 0 0 50% 50% / 30%;
+    }
+
+    header .overlay {
+        padding: 20px;
+    }
+
+    .titleh1 {
+        font-size: 2em;
+    }
+
+    .titleh3, p {
+        font-size: 0.8em;
+    }
+
+    button {
+        padding: 10px 15px;
+        font-size: 0.8em;
+    }
+
+
+}

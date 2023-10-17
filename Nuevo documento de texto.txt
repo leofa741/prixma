@@ -1,0 +1,47 @@
+<div className="top-nav" id="home">
+        <div className="container">
+            <div className="row justify-content-between">
+                <div className="col-auto">
+                    <p
+                    style={{
+                        color: "white",
+                        fontFamily: "sans-serif",
+                        fontSize: "10px",
+                        fontWeight: "bold",
+                        textAlign: "left",
+                        textShadow: "2px 2px 4px #000000",
+                        textTransform: "uppercase",
+                        textDecorationColor: "white",
+                        textDecorationStyle: "solid",
+                        textDecorationThickness: "15px",
+                        textUnderlineOffset: "10px",
+                        textRendering: "optimizeLegibility",
+                        textOrientation: "upright",
+                        textOverflow: "clip",
+                        textIndent: "0px",
+                        textJustify: "auto",
+                        textKashida: "auto",
+                        textKashidaSpace: "0px",
+                        textAnchor: "start",
+                        textEmphasis: "none",
+                        textEmphasisColor: "currentcolor",
+                        textEmphasisStyle: "none",
+                        textEmphasisPosition: "over right",
+                        textEmphasisCustom: "none",
+                        textCombineUpright: "none",
+                        textOrientationVertical: "mixed",
+                        marginTop: "-10px",
+                      }}
+
+
+                    > <i className='bx bxs-envelope'></i> infoplataformaweb@gmail.com</p>
+                
+                </div>
+                {/* <div className="col-auto social-icons">
+                    <a href="https://www.facebook.com/www.puentesdigitales.com.ar"><i className='bx bxl-facebook'></i></a>                 
+                    <a href="https://www.instagram.com/puentesdigitales.com.ar/"><i className='bx bxl-instagram'></i></a>
+                    <a href="https://www.linkedin.com/in/leonardofarena/"><i className='bx bxl-linkedin'></i></a>
+                </div> */}
+            </div>
+        </div>
+    </div>

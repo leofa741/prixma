@@ -1,0 +1,117 @@
+.card-img-magnament{
+    background-image: url('../../assets/img/showcasebg.jpg');
+    width: 500px;
+    height: 500px;
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  
+  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+    overflow: hidden;
+    
+}
+
+.contenedor-texto {
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background: #00b3e067;
+    
+    transition: all 0.5s;
+    transform: translateX(-100%);
+  }
+
+  .card-img-magnament:hover .contenedor-texto {
+    transform: translateX(0);
+  }
+
+    .contenedor-texto h2 {
+        color: #fff;
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    .contenedor-texto p {
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+
+    .contenedor-texto a {
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: 300;
+        text-decoration: none;
+    }
+
+    .contenedor-texto a:hover {
+        color: #2cc5d3;
+    }
+
+    .contenedor-texto a i {
+        margin-left: 10px;
+    }
+
+    .contenedor-texto a i:hover {
+        transform: translateX(10px);
+    }
+
+    .contenedor-texto a i:hover {
+        transition: all 0.5s;
+    }
+
+    .contenedor-texto a i:hover {
+        transition-timing-function: ease-in-out;
+    }
+
+
+    @media screen and (max-width: 768px) {
+        .card-img-magnament {
+            width: 100%;
+            height: 100%;
+        }
+
+        .contenedor-texto {
+            width: 100%;
+            height: 100%;
+            z-index: 2001;
+        }
+
+    }
+
+
+    .service-item .bg-icon {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: url(../../assets/img/bg-icon.png) center center no-repeat;
+        background-size: cover;
+        transition: all 0.5s;
+    }
+
+    .service-item .bg-icon:hover {
+        width: 80px;
+        height: 80px;
+        background: url(../../assets/img/icon3.png) center center no-repeat;
+        background-size: cover;
+        z-index: 2000;
+    }
+
+    
+
+
+
+

@@ -1,0 +1,19 @@
+.container1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    background-color:#F7F7FC;  
+    margin-top: -220px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    border-bottom-left-radius: 560px 70px;
+    border-bottom-right-radius: 560px 70px;
+    
+   
+  
+}

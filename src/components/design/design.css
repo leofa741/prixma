@@ -1,0 +1,161 @@
+.intro-section {
+    background: linear-gradient(to right, rgba(133, 14, 224, 0.95), rgba(213, 76, 228, 0.95));
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+ 
+    padding: 0 20px;
+
+  }
+
+  .text-white {
+    color: #fff !important;
+  }
+  .align-items-center {
+    align-items: center !important;
+  }
+  .text-start {
+    text-align: left !important;
+  }
+  .display-2 {
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+  }
+  .display-2--intro {
+    display: inline-block;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+  }
+  .display-2--description {
+    font-size: 1rem;
+    display: block;
+    margin-top: 1.2rem;
+    text-transform: none;
+  }
+    
+
+  .text-center {
+    text-align: center !important;
+  }
+
+  .display-3 {
+    font-family: "Poppins", sans-serif;
+
+  }
+  .display-3--title {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    display: inline-block;
+    background-image: linear-gradient(to right, #9926f0, #d122e3);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .fw-bold {
+    font-weight: 300 !important;
+  }
+  
+
+  .heading-line::before {
+    content: "";
+    width: 10rem;
+    height: 0.1rem;
+    display: block;
+    margin: 0 auto;
+    background-color: #9926f0;
+  }
+  
+  .heading-line::after {
+    content: "";
+    width: 3rem;
+    padding-top: 0.5rem;
+    height: 0.2rem;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    background-color: #9926f0;
+
+    transition: width 0.5s ease-in-out;
+  
+
+  }
+
+  .heading-line:hover::after{
+    width: 7.3rem;
+    
+
+  }
+
+  .section-title::before {
+    position: absolute;
+    content: "";
+    width: calc(100% + 80px);
+    height: 2px;
+    top: 4px;
+    left: -40px;
+    background: var(--primary);
+    z-index: -1;
+}
+
+
+
+  
+
+
+  .border-right {
+    border-right: 0;
+  }
+
+  .bg-white {
+    background-color: #fff !important;
+  }
+
+  .text-capitalize {
+    text-transform: capitalize !important;
+  }
+  .fw-light {
+    font-weight: 300 !important;
+  }
+
+
+  @media (min-width: 768px) {
+    .intro-section {
+
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+      
+    }
+    .display-2 {
+      font-size: 3rem;
+    }
+    .display-2--description {
+      font-size: 1.2rem;
+    }
+    .services {
+      padding: 2rem 0;
+    }
+    .services__content {
+      padding: 2rem;
+    }
+    .services__content p {
+      font-size: 1rem;
+    }
+    .display-3 {
+      font-size: 1.5rem;
+    }
+    .display-3--title {
+      font-size: 1.5rem;
+    }
+  }
+
+  

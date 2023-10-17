@@ -1,0 +1,147 @@
+
+#social {
+    background-image: url(../../assets/img/diseño-web.jpg) !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 100px 0;
+    position: relative;
+    height: 320px;
+    z-index: 1;
+
+   
+   
+}
+
+#social .overlay {
+    background: url("../../assets/img/Mobile-UI-UX-Design.png") no-repeat scroll -90px -30px #11111693;  
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+    z-index: -1;
+    
+}
+
+.social-button {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.social-button li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-button li:nth-child(2) {
+    margin: 0 10px 0 0;
+    
+}
+
+.social-button li a {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    color: #fff;
+    display: block;
+    height: 90px;
+    line-height: 96px;
+    width: 90px;
+    
+    -webkit-transition: all 0.2s ease 0s;
+       -moz-transition: all 0.2s ease 0s;
+        -ms-transition: all 0.2s ease 0s;
+         -o-transition: all 0.2s ease 0s;
+            transition: all 0.2s ease 0s;
+}
+
+.social-button li a:hover {
+    color: #008ECC;
+    border: 2px solid #008ECC;
+}
+
+ .info {
+    
+    font-size: 20px;
+    font-weight: 700;
+     margin-top: 130px  !important;
+    text-align: center;
+}
+.info h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+    text-shadow: 0 0 10px #000;
+}
+
+.info h6 {
+    color: #070707;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+    text-indent:  50px;
+
+    margin:left 50px;
+    margin: right 50px;
+    text-align: center;
+    text-shadow: 0 0 10px #f0eaea;
+}
+
+.info p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    #social {
+        
+        padding: 50px 0;
+        height: 400px;
+
+    }
+
+    .social-button li {
+        margin: 0 5px;
+    }
+
+    .info
+    {
+        font-size: 10px;
+        width: 150%;
+      
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 15px  !important;
+        }
+
+    .info h2
+    {
+        font-size: 20px;
+        width: 150%;
+        margin-left: -35px;
+        margin-top: 50px  !important;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+  
+
+    .info h6
+    {
+        font-size: 12px;
+        width: 140%;
+        margin-left: -35px;        
+
+    }
+
+     
+}

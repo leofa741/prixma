@@ -1,0 +1,144 @@
+
+ .container11{
+    width: 100% !important;
+    height: 100% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 0 20px; 
+   
+   
+  }
+  
+  h1{
+    font-size: 2.5rem;
+    color: #333;      
+    margin-left: 20px;
+    }
+  
+  .gallery-wrap1 {  
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 50px;
+    border-bottom-left-radius: 300px 30px;
+    border-bottom-right-radius: 300px 30px;
+    
+
+  }
+  
+  .item {    
+    flex: 1;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    transition: all 0.8s ease;   
+  }
+  .item:hover {
+    flex: 2;
+  }
+  
+  .item-1 { 
+    background-image: url('../../assets/img/diseño-web.jpg');
+  }
+  
+  .item-2 { 
+    background-image: url('../../assets/img/apps.jpg');
+  }
+  
+  .item-3 { 
+    background-image: url('../../assets/img/Brand_Identity.jpg');
+  }
+  
+  .item-4 { 
+    background-image: url('../../assets/img/Buisnessconsulting.jpg');
+  }
+  
+  .item-5 { 
+    background-image: url('../../assets/img/diseno-logo.jpg');
+  }
+  
+  @media screen and (max-width: 360px) {
+
+    .container11{
+      width: 100% !important;
+      height: 100% !important;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;  
+   
+    }
+    
+    h1{
+      position: relative;
+      margin-bottom: 45px;
+      font-family: 'Oswald', sans-serif;
+      font-size: 14px;
+      text-transform: uppercase;
+      color: #424242;
+    }
+    
+    .gallery-wrap1 {   
+      margin-bottom: -190px; 
+      display: flex;     
+      width: 100%;
+      height: 40vh;
+      overflow: hidden;
+      position: relative;
+    justify-content: center;
+ 
+   
+
+
+     
+    }
+    
+    .item {
+      flex: 1;
+      height: 80%;
+      width: 100%;
+      background-position: center;
+      background-size: cover;
+      background-repeat: none;
+      transition: all 0.8s ease;
+   
+      
+    }
+    .item:hover {
+      flex: 10;
+      height: 100%;
+      border-bottom-left-radius: 100px 30px;
+      border-bottom-right-radius: 100px 30px;
+    }
+
+    .item-1 { 
+      background-image: url('../../assets/img/diseño-web.jpg')  ;
+
+     }
+    
+    .item-2 { 
+      background-image: url('../../assets/img/apps.jpg');
+    }
+    
+    .item-3 { 
+      background-image: url('../../assets/img/Brand_Identity.jpg');
+    }
+    
+    .item-4 { 
+      background-image: url('../../assets/img/Buisnessconsulting.jpg');
+    }
+    
+    .item-5 { 
+      background-image: url('../../assets/img/diseno-logo.jpg');
+    }
+  }
+
+    
+  

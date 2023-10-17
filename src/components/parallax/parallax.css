@@ -1,0 +1,42 @@
+.basic-5 {
+	padding-top: 9.5rem;
+	padding-bottom: 9rem;
+	background: url('../../assets/img/process-background.jpg') center center no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+.basic-5 h2 {
+	color: #ffffff;
+	margin-bottom: 1.5rem;
+}
+
+.basic-5 .hr-heading {
+	background-color: #ffffff;
+	margin-right: auto;
+	margin-bottom: 4.5rem;
+	margin-left: auto;
+}
+
+.basic-5 .step-container {
+	margin-bottom: 2.5rem;
+}
+
+.basic-5 .step {
+	display: block;
+	margin-bottom: 1.5rem;
+	padding: 1.75rem 3.25rem;
+	border: 1px solid #ffffff;
+	border-radius: 4px;
+	color: #ffffff;
+	font-size: 2rem;
+}
+
+.basic-5 .fas {
+	display: none;
+}
+
+.basic-5 p {
+	color: #ffffff;
+	opacity: 0.9;
+}

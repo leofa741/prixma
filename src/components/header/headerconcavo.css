@@ -1,0 +1,22 @@
+header {
+    position: relative;
+    height: 100px;
+
+
+    background-color: white;
+    border-bottom-left-radius: 130px 90px;
+    border-bottom-right-radius: 130px 90px;
+    margin-top: -70px;
+    rotate: 180deg;
+  }
+  
+  h1 {
+    margin: 0;
+    padding: 100px 0;
+    font: 44px "Arial";
+    text-align: center;
+  }
+  
+  header h1 {
+    color: white;
+  }

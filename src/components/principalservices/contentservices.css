@@ -1,0 +1,47 @@
+.cards-1 {
+	padding-top: 3.25rem;
+	padding-bottom: 3rem;
+	text-align: center;
+}
+
+.cards-1 .h2-heading {
+	margin-bottom: 3.5rem;
+}
+
+.cards-1 .card {
+	max-width: 21rem;
+	margin-right: auto;
+	margin-bottom: 3.5rem;
+	margin-left: auto;
+	padding: 0;
+	border: none;
+}
+
+.cards-1 .card-image {
+	max-width: 16rem;
+	margin-right: auto;
+	margin-bottom: 2rem;
+	margin-left: auto;
+    transition: all 0.3s ease-in-out;
+}
+
+.cards-1 .card-image:hover {
+    opacity: 0.8;
+}
+
+.cards-1 .card-title {
+	margin-bottom: 0.5rem;
+    width: 100%;
+    
+}
+
+.cards-1 .card-body {
+	padding: 0;
+    width: 100%;
+    
+}
+.above-heading {
+	color: #5f4dee;
+	font: 700 0.75rem/0.875rem "Open Sans", sans-serif;
+	text-align: center;
+}

@@ -1,0 +1,443 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;    
+}
+
+.flipcard-container-title {
+    width: 99.4%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f1f1f1;
+}
+
+.flipcard-container-title h1 {
+    font-size: 45px;
+    color: #0e0d0d;
+    text-align: center;
+    margin-top: 20px;  
+}
+
+.flipcard-container-title p {
+    font-size: 20px;
+    color: #131212;
+    text-align: center;    
+    width: 80%;
+    margin: 0 auto;
+    margin-top: -100px;   
+}
+
+
+.flipcard-container {
+    width: 99.4%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f1f1f1;
+}
+
+.flipcard {
+    width: 200px;
+    height: 400px;
+    perspective: 900px;
+    margin: 0 20px;
+}
+
+.flipcard div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transition: transform 0.5s;
+    border-radius: 10px;
+}
+
+.flipcard .front {
+    background-image: url("../../assets/img/innovacion.webp") ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: perspective(500px) rotateY(0deg);
+}
+
+.flipcard .back {
+    background: #0684aa;
+    transform: perspective(500px) rotateY(180deg);
+}
+
+
+.flipcard:hover .front {   
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.flipcard:hover .back {   
+    transform: perspective(500px) rotateY(360deg);
+}
+
+.flipcard div h1 {
+    font-size: 27px;
+    color: #fff;
+    text-align: center; 
+    margin-top: 40px;
+    text-shadow: 1px 1px 1px #000;  
+}
+
+.flipcard div p {
+    font-size: 17px;
+    color: #fff;
+    text-align: center; 
+    margin-top: 40px;
+    text-shadow: 1px 1px 1px #000;
+}
+
+
+
+
+
+.flipcard1 {
+    width: 200px;
+    height: 400px;
+    perspective: 900px;
+    margin: 0 20px;
+}
+
+.flipcard1 div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transition: transform 0.5s;
+    border-radius: 10px;
+}
+
+.flipcard1 .front1 {
+    background-image: url("../../assets/img/ux.jpg") ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: perspective(500px) rotateY(0deg);
+}
+
+.flipcard1 .back1 {
+    background: #0684aa;
+    transform: perspective(500px) rotateY(180deg);
+}
+
+
+.flipcard1:hover .front1 {   
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.flipcard1:hover .back1 {   
+    transform: perspective(500px) rotateY(360deg);
+}
+
+.flipcard1 div h1 {
+    font-size: 27px;
+    color: #fff;
+    text-align: center; 
+    margin-top: 40px;
+    text-shadow: 1px 1px 1px #000;  
+}
+
+.flipcard1 div p {
+    font-size: 17px;
+    color: #fff;
+    text-align: center; 
+    margin-top: 40px;
+    text-shadow: 1px 1px 1px #000;
+}
+
+
+
+
+.flipcard2 {
+    width: 200px;
+    height: 400px;
+    perspective: 900px;
+    margin: 0 20px;
+}
+
+.flipcard2 div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transition: transform 0.5s;
+    border-radius: 10px;
+}
+
+.flipcard2 .front2 {
+    background-image: url("../../assets/img/writing.jpg") ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: perspective(500px) rotateY(0deg);
+}
+
+.flipcard2 .back2 {
+    background: #0684aa;
+    transform: perspective(500px) rotateY(180deg);
+}
+
+
+.flipcard2:hover .front2 {   
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.flipcard2:hover .back2 {   
+    transform: perspective(500px) rotateY(360deg);
+}
+
+.flipcard2 div h1 {
+    font-size: 27px;
+    color: #fff;
+    text-align: center; 
+    margin-top: 40px;
+    text-shadow: 1px 1px 1px #000;  
+}
+
+.flipcard2 div p {
+    font-size: 17px;
+    color: #fff;
+    text-align: center; 
+    margin-top: 40px;
+    text-shadow: 1px 1px 1px #000;
+}
+
+
+
+
+
+.flipcard3 {
+    width: 200px;
+    height: 400px;
+    perspective: 900px;
+    margin: 0 20px;
+}
+
+.flipcard3 div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transition: transform 0.5s;
+    border-radius: 10px;
+}
+
+.flipcard3 .front3 {
+    background-image: url("../../assets/img/AdobeStock_210093658.webp") ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: perspective(500px) rotateY(0deg);
+}
+
+.flipcard3 .back3 {
+    background: #0684aa;
+    transform: perspective(500px) rotateY(180deg);
+}
+
+
+.flipcard3:hover .front3 {   
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.flipcard3:hover .back3 {   
+    transform: perspective(500px) rotateY(360deg);
+}
+
+.flipcard3 div h1 {
+    font-size: 27px;
+    color: #fff;
+    text-align: center; 
+    margin-top: 40px;
+    text-shadow: 1px 1px 1px #000;  
+}
+
+.flipcard3 div p {
+    font-size: 17px;
+    color: #fff;
+    text-align: center; 
+    margin-top: 40px;
+    text-shadow: 1px 1px 1px #000;
+}
+
+
+
+
+
+.flipcard4 {
+    width: 200px;
+    height: 400px;
+    perspective: 900px;
+    margin: 0 20px;
+}
+
+.flipcard4 div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transition: transform 0.5s;
+    border-radius: 10px;
+}
+
+.flipcard4 .front4 {
+    background-image: url("../../assets/img/usabilidad.jpg") ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: perspective(500px) rotateY(0deg);
+}
+
+.flipcard4 .back4 {
+    background: #0684aa;
+    transform: perspective(500px) rotateY(180deg);
+}
+
+
+.flipcard4:hover .front4 {   
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.flipcard4:hover .back4 {   
+    transform: perspective(500px) rotateY(360deg);
+}
+
+.flipcard4 div h1 {
+    font-size: 27px;
+    color: #fff;
+    text-align: center; 
+    margin-top: 40px;
+    text-shadow: 1px 1px 1px #000;  
+}
+
+.flipcard4 div p {
+    font-size: 17px;
+    color: #fff;
+    text-align: center; 
+    margin-top: 40px;
+    text-shadow: 1px 1px 1px #000;
+}
+
+@media screen and (max-width: 768px) {
+
+   
+    .flipcard-container-title {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .flipcard-container-title h1 {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+    .flipcard-container-title p {
+        font-size: 15px;
+        margin-top: -100px;
+    }
+
+
+    .flipcard-container {
+        flex-direction: column;
+       
+        height: 198%;
+
+    }
+
+    .flipcard {
+        margin: 0 0 20px 0;
+        width: 270px;
+        height: 300px;
+    }
+
+    .flipcard1 {
+        margin: 0 0 20px 0;
+        width: 270px;
+        height: 300px;
+    }
+
+    .flipcard2 {
+        margin: 0 0 20px 0;
+        width: 270px;
+        height: 300px;
+    }
+
+    .flipcard3 {
+        margin: 0 0 20px 0;
+        width: 270px;
+        height: 300px;
+    }
+
+    .flipcard4 {
+        margin: 0 0 20px 0;
+        width: 270px;
+        height: 300px;
+    }
+
+    .flipcard div h1 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .flipcard div p {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    .flipcard1 div h1 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .flipcard1 div p {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    .flipcard2 div h1 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .flipcard2 div p {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    .flipcard3 div h1 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .flipcard3 div p {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    .flipcard4 div h1 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .flipcard4 div p {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+
+
+
+
+
+
+
+}
+    

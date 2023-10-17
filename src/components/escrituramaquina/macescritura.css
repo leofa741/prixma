@@ -1,0 +1,36 @@
+.contenedor {
+	margin: auto;
+	display: table;
+}
+
+.h1w { 
+	position: relative; 
+	float: left;
+	background: tomato;
+	color: #fff;
+	padding: 10px;
+}
+
+h1 span {
+    position:absolute;
+    right:0;
+    width:0;
+    background: tomato;
+    border-left: 1px solid #000;
+    height: 80%;
+    
+  
+    animation: escribir 5s steps(30) infinite alternate;
+}
+
+@keyframes escribir {
+    from { width: 100% }
+    to { width:0 }
+}
+
+
+@media screen and (max-width: 600px) {
+    .contenedor {
+        display: none;
+    }
+}

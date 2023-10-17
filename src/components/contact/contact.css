@@ -1,0 +1,91 @@
+.containercontact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #f5f5f5;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  border-bottom-left-radius: 560px 70px;
+    border-bottom-right-radius: 560px 70px;
+  margin-top: -300px;
+}
+
+.containercontact .cardcontact {
+  width: 100%;
+  max-width: 1000px;
+  height: 300px;
+  max-height: 1500px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 20px;  
+  z-index: 1;
+
+   transition: all 0.3s ease;
+
+}
+
+.card-text-contact {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #413b3b;
+  margin-bottom: 20px;
+}
+
+.btncontact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  z-index: 1;
+  margin-left: -520px;
+}
+
+.btn-successs {
+  background-color: #0084A9 ;
+  border: none;
+  color: #fff;
+  padding: 20px 45px;
+  border-radius: 8px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;  
+  z-index: 1;
+}
+
+.btn-successs:hover {
+  background-color:   #0084A9 ;
+  color: #110344;
+}
+
+.btn-successs:active {
+  background-color: #0084A9 ;
+  color: #110344;
+}
+
+
+@media screen and (max-width: 768px) {
+  .btn-successs {
+    margin-left: 520px;
+  }
+  .card-title-contact {
+    font-size: 3.5rem !important;
+    margin-top: 80px;
+  }
+
+
+}
