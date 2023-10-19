@@ -61,7 +61,7 @@ export const WebEconomica = () => {
                     textShadow: '1px 1px 10px black',
 
 
-                         }}>¿Qué incluye el Abono mensual?</p>
+                         }}>¿Qué incluye el Abono?</p>
                     <p className="mb-3"><i className="far fa-check-circle text-primary me-3"></i>Hosting | Alojamiento de su página web en Internet.</p>
                     <p className="mb-3"><i className="far fa-check-circle text-primary me-3"></i>Dominio | te registramos tu dominio | tiene costo anual</p>
                     <p className="mb-3"><i className="far fa-check-circle text-primary me-3"></i>Actualizaciones | Actualización de tu página web. Actualización de imágenes y textos según tu necesidad</p>
