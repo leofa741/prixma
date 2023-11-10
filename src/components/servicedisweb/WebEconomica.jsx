@@ -45,12 +45,12 @@ export const WebEconomica = () => {
                     </div>
                     <div className="d-flex align-items-center mb-3">
                         <h5 className="border-end pe-3 me-3 mb-0">VALOR</h5>
-                        <h2 className="text-primary fw-bold mb-0" data-toggle="counter-up">$ 65.000</h2>
+                        <h2 className="text-primary fw-bold mb-0" data-toggle="counter-up">$ 75.000</h2>
                     </div>
                     <p className="mb-4">El valor de la página, incluye el dominio y actualizaciones de la info </p>                 
                     <div className="d-flex align-items-center mb-3">
                         <h5 className="border-end pe-3 me-3 mb-0">ABONO BIMESTRAL</h5>
-                        <h2 className="text-primary fw-bold mb-0" data-toggle="counter-up">$ 7.300</h2>
+                        <h2 className="text-primary fw-bold mb-0" data-toggle="counter-up">$ 9.000</h2>
                     </div>
                     <p className="mb-0"
 
