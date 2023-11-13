@@ -47,9 +47,7 @@
 }
 
 .animacion-block {
-	width: 100px;
-	height: 100px;
-	background-color: #3498db;
+	
 	animation: fadeIn 1s ease-out forwards;
   }
   @keyframes fadeIn {
