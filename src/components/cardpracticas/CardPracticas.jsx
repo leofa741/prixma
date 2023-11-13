@@ -14,8 +14,7 @@ export const CardPracticas = () => {
   return (
     <>
 
-    <div className="containercard">
- 
+    <div className="containercard"> 
 
         <div className="card">
             <div className="face face1">
@@ -27,7 +26,7 @@ export const CardPracticas = () => {
             <div className="face face2">
                 <div className="content">
                     <p> Desarrollamos software a medida, para que tu empresa pueda crecer y adaptarse a los cambios del mercado.  </p>
-                        <a href="#">Read More</a>
+                      
                 </div>
             </div>
         </div>
@@ -42,7 +41,7 @@ export const CardPracticas = () => {
             <div className="face face2">
                 <div className="content">
                     <p>Brindamos servicios de consultoría en Arquitectura de Software en función de sus necesidades.  </p>
-                        <a href="#">Read More</a>
+                       
                 </div>
             </div>
         </div>
@@ -57,7 +56,7 @@ export const CardPracticas = () => {
             <div className="face face2">
                 <div className="content">
                     <p>Innovamos con nuevos marcos de trabajo que logran un desarrollo de aplicaciones en menor tiempo y a menor costo. </p>
-                        <a href="#">Read More</a>
+                       
                 </div>
             </div>
         </div>
@@ -66,13 +65,13 @@ export const CardPracticas = () => {
             <div className="face face1">
                 <div className="content">
                 <img src={sistemasweb} alt="sistemasweb"/>                    
-                   <h3>Dessarrollo de aplicaciones</h3>
+                 
                 </div>
             </div>
             <div className="face face2">
                 <div className="content">
                     <p>Desarrollamos aplicaciones web, aplicaciones móviles para android /IOS ,desarrollo de software a medida. </p>
-                        <a href="#">Read More</a>
+                     
                 </div>
             </div>
         </div>
@@ -86,7 +85,7 @@ export const CardPracticas = () => {
             <div className="face face2">
                 <div className="content">
                     <p>Creamos y administramos bases de datos, para que su empresa pueda crecer y adaptarse a los cambios .  </p>
-                        <a href="#">Read More</a>
+                      
                 </div>
             </div>
         </div>
@@ -94,19 +93,17 @@ export const CardPracticas = () => {
             <div className="face face1">
                 <div className="content">
                 <img src={ecomerce} alt="ecomerce"   />                    
-                   <h3>E-commerce</h3>
+                 
                 </div>
             </div>
             <div className="face face2">
                 <div className="content">
                     <p>Diseño de tiendas online, con la mejor tecnología y experiencia de usuario. </p>
-                        <a href="#">Read More</a>
+                    
                 </div>
             </div>
         </div>
     </div>
-
-
 
     </>
   )
