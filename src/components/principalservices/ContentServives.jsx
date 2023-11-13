@@ -42,7 +42,7 @@ export const ContentServives = (props) => {
     return (
         <>
             <div className="cards-1">
-                <div className="container animacion-block">
+                <div className="container ">
                     <div className="row">
                         <div className="col-lg-12">                      
                             <h2 className="h2-heading"
@@ -66,7 +66,7 @@ export const ContentServives = (props) => {
                     <div className="row">
                         <div className="col-lg-4">
 
-                            <div className="card">
+                            <div className="card animacion-block">
                                 <div className="card-image">
                                          <ImagenCard
                                         url={"https://github.com/leofa741/prixma/blob/master/src/assets/img/description-1.png?raw=true"}
@@ -82,7 +82,7 @@ export const ContentServives = (props) => {
 
                         <div className="col-lg-4">
 
-                            <div className="card">
+                            <div className="card animacion-block">
                                 <div className="card-image">
                                     <ImagenCard
                                         url={"https://github.com/leofa741/prixma/blob/master/src/assets/img/E-Commerce.png?raw=true"}
@@ -98,7 +98,7 @@ export const ContentServives = (props) => {
 
                         <div className="col-lg-4">
 
-                            <div className="card">
+                            <div className="card animacion-block">
                                 <div className="card-image">
                                 <ImagenCard
                                         url={"https://github.com/leofa741/prixma/blob/master/src/assets/img/description-2.png?raw=true"}
@@ -109,7 +109,6 @@ export const ContentServives = (props) => {
                                     <p>Diseñamos tu sitio web o landig Page. Somos expertos en diseño y usabilidad. Mejoramos la experiencia de navegación de tus clientes y aumentamos la visibilidad de tus productos. Tu Sitio Web o Landing Page está a un clic de volverse realidad.</p>
                                 </div>
                             </div>
-
                         </div>
                     </div>
 
@@ -118,7 +117,7 @@ export const ContentServives = (props) => {
                       <div className="row">
                         <div className="col-lg-4">
 
-                            <div className="card">
+                            <div className="card animacion-block">
                                 <div className="card-image">
                                 <ImagenCard
                                         url={"https://github.com/leofa741/prixma/blob/master/src/assets/img/image1-4.png?raw=true"}
@@ -129,12 +128,11 @@ export const ContentServives = (props) => {
                                     <p>Tu aplicación para iOS y Android . Si querés lanzar un proyecto único,o facilitar y automatizar tus procesos, la mejor opción es una app. Amigable, poderosa, flexible y 100% escalable.</p>
                                 </div>
                             </div>
-
                         </div>
 
                         <div className="col-lg-4">
 
-                            <div className="card">
+                            <div className="card animacion-block">
                                 <div className="card-image">
                                 <ImagenCard
                                         url={"https://github.com/leofa741/prixma/blob/master/src/assets/img/Mobile-UI-UX-Design.png?raw=true"}
@@ -145,20 +143,16 @@ export const ContentServives = (props) => {
                                     <p>Tu plataforma digital es el nexo directo con tu público. Por eso la experiencia de usuarios debe ser óptima, para que tus valores se reflejen en tu producto o servicio. Potenciamos adaptando las etapas de interacción según: el rubro, las capacidades de tu audiencia </p>
                                 </div>
                             </div>
-
                         </div>
 
                         <div className="col-lg-4">
                              <br />
                                 <br />
                                 <br />
-                            <div className="card">
+                            <div className="card animacion-block">
                                 <div className="card-image">
                                 <ImagenCard
-                                        url={  "https://raw.githubusercontent.com/leofa741/prixma/master/src/assets/img/services/producto3.webp"}
-                                            />
-
-
+                                        url={  "https://raw.githubusercontent.com/leofa741/prixma/master/src/assets/img/services/producto3.webp"}  />
                                 </div>
                                 <br />
                                 <br />
