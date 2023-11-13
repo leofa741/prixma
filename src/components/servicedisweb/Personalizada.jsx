@@ -47,12 +47,12 @@ export const Personalizada = () => {
                     </div>
                     <div className="d-flex align-items-center mb-3">
                         <h5 className="border-end pe-3 me-3 mb-0">VALOR</h5>
-                        <h2 className="text-primary fw-bold mb-0" data-toggle="counter-up">$ 95.000</h2>
+                        <h2 className="text-primary fw-bold mb-0" data-toggle="counter-up">$95.000</h2>
                     </div>
                     <p className="mb-4">El precio incluye el diseño de la página web, el desarrollo de la misma y el posicionamiento SEO.</p>
                     <div className="d-flex align-items-center mb-3">
-                        <h5 className="border-end pe-3 me-3 mb-0">ABONO BIMESTRAL</h5>
-                        <h2 className="text-primary fw-bold mb-0" data-toggle="counter-up">$10.000</h2>
+                        <h5 className="border-end pe-3 me-3 mb-0">ABONO MENSUAL</h5>
+                        <h2 className="text-primary fw-bold mb-0" data-toggle="counter-up">$12.000</h2>
                     </div>
                     <p className="mb-0"
 
