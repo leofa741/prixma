@@ -67,7 +67,7 @@ export const ContentServives = (props) => {
                         <div className="col-lg-4">
 
                             <div className="card animacion-block">
-                                <div className="card-image animacion-block">
+                                <div className="card-image ">
                                          <ImagenCard
                                         url={"https://github.com/leofa741/prixma/blob/master/src/assets/img/description-1.png?raw=true"}
                                           />
@@ -83,7 +83,7 @@ export const ContentServives = (props) => {
                         <div className="col-lg-4">
 
                             <div className="card animacion-block">
-                                <div className="card-image animacion-block">
+                                <div className="card-image ">
                                     <ImagenCard
                                         url={"https://github.com/leofa741/prixma/blob/master/src/assets/img/E-Commerce.png?raw=true"}
                                             />
@@ -99,7 +99,7 @@ export const ContentServives = (props) => {
                         <div className="col-lg-4">
 
                             <div className="card animacion-block">
-                                <div className="card-image animacion-block">
+                                <div className="card-image ">
                                 <ImagenCard
                                         url={"https://github.com/leofa741/prixma/blob/master/src/assets/img/description-2.png?raw=true"}
                                             />
@@ -118,7 +118,7 @@ export const ContentServives = (props) => {
                         <div className="col-lg-4">
 
                             <div className="card animacion-block">
-                                <div className="card-image animacion-block">
+                                <div className="card-image ">
                                 <ImagenCard
                                         url={"https://github.com/leofa741/prixma/blob/master/src/assets/img/image1-4.png?raw=true"}
                                             />
@@ -133,7 +133,7 @@ export const ContentServives = (props) => {
                         <div className="col-lg-4">
 
                             <div className="card animacion-block">
-                                <div className="card-image animacion-block">
+                                <div className="card-image ">
                                 <ImagenCard
                                         url={"https://github.com/leofa741/prixma/blob/master/src/assets/img/Mobile-UI-UX-Design.png?raw=true"}
                                             />
@@ -150,7 +150,7 @@ export const ContentServives = (props) => {
                                 <br />
                                 <br />
                             <div className="card animacion-block">
-                                <div className="card-image animacion-block">
+                                <div className="card-image ">
                                 <ImagenCard
                                         url={  "https://raw.githubusercontent.com/leofa741/prixma/master/src/assets/img/services/producto3.webp"}  />
                                 </div>

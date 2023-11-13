@@ -50,6 +50,12 @@
 	
 	animation: fadeIn 1s ease-out forwards;
   }
+
+  .animacion-block1 {
+	
+	animation: fadeIn 2s ease-out forwards;
+  }
+
   @keyframes fadeIn {
 	0% {
 	  opacity: 0;
