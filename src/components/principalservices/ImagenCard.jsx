@@ -11,7 +11,7 @@ export const ImagenCard = ({ url }) => {
   const [items, setItems] = useState([]);
 
   useEffect(() => {
-    customFetch(2000, 'imagen').then((data) => setItems(data));
+    customFetch(1000, 'imagen').then((data) => setItems(data));
   }, []);
 
   if (items.length === 0) {
