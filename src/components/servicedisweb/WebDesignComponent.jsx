@@ -53,16 +53,13 @@ export const WebDesignComponent =(props) => {
       />
 
   
-    <FlipCard />
-
-
-
-
+      <FlipCard />
 
 
       <LandinPage />
       <WebEconomica />
       <Personalizada />
+      <br/>
       <Testimonial />
 
     </>
