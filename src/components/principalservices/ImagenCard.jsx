@@ -37,7 +37,7 @@ export const ImagenCard = ({url}) => {
         else{
     
   return (
-    <img className="img-fluid" src={url} alt="alternative" />
+    <img className="img-fluid animacion-block" src={url} alt="alternative" />
   )
 }
 
