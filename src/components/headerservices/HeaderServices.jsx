@@ -5,9 +5,7 @@ import imag from '../../assets/img/project1.jpg'
 
 export const HeaderServices = ({ title ,descripcion}) => {
     return (
-        <>
-      
-
+        <> 
         <div className="bannersection">
             <div className="container">            
                 <div className="row justify-content-center">   
@@ -16,16 +14,12 @@ export const HeaderServices = ({ title ,descripcion}) => {
                         <div className="">
                             <div className="col-12">
                             <h2>{title}</h2>
-                                <div className="binfo-box">
-                                  
-                                                                        
-                                        <p>{descripcion}</p>
-                                 
+                                <div className="binfo-box">                                                              
+                                        <p>{descripcion}</p>                                 
                                 </div>
                             </div>                         
                         </div>
-                    </div>
-        
+                    </div>        
         
                     <div className="col-lg-5 contenedor">        
                         <div className="baner-img" >
@@ -40,12 +34,9 @@ export const HeaderServices = ({ title ,descripcion}) => {
                                 letterSpacing: '0.3rem',
                                 lineHeight: '1.6rem',
                                 textAlign: 'center',
-                                textJustify: 'inter-word ',
-                          
+                                textJustify: 'inter-word ',                          
                                 }} ><br /> <br /> 
-
-                                Te Invitamos a Conocer Nuestros Servicios 
-                            
+                                Te Invitamos a Conocer Nuestros Servicios                             
                             </h1>  
                         </div>               
                     </div>

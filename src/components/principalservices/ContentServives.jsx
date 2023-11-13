@@ -42,7 +42,7 @@ export const ContentServives = (props) => {
     return (
         <>
             <div className="cards-1">
-                <div className="container">
+                <div className="container animacion-block">
                     <div className="row">
                         <div className="col-lg-12">                      
                             <h2 className="h2-heading"
@@ -55,7 +55,6 @@ export const ContentServives = (props) => {
                             textTransform: "uppercase",
                             letterSpacing: "0.2rem",
                             textShadow: '4px 4px 9px #000000', 
-                          
                             }}>
                                 Nuestros servicios
                             </h2>
@@ -114,9 +113,9 @@ export const ContentServives = (props) => {
                         </div>
                     </div>
 
-{/* ---- */}
+                              {/* ---- */}
 
-<div className="row">
+                      <div className="row">
                         <div className="col-lg-4">
 
                             <div className="card">
