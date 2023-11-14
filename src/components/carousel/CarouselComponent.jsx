@@ -27,8 +27,7 @@ export const CarouselComponent = ({video1,video2,video3,video4,tituo,parrafo,tit
         textTransform:"uppercase",
         letterSpacing:"2px",
         textAlign:"center",
-        lineHeight:"1.2",
-     
+        lineHeight:"1.2",     
         }}
         >{tituo}</h1>
         <p>{parrafo}</p>
