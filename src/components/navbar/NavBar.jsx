@@ -14,7 +14,7 @@ export const NavBar = () => {
  <nav className="navbar navbar-expand-lg navbar-light sticky-top">
     <div className="container"
     style={{
-        marginTop: "-10px",
+        marginTop: "-3px",
       
     }}
     >       
