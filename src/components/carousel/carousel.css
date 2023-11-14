@@ -57,7 +57,7 @@
 
 
 
-@media screen and (max-width: 418px) {
+@media (max-width: 768px) {
     .carrousel {    
         height: 70px !important;
         overflow: hidden;   
