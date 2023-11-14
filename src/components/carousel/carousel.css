@@ -58,22 +58,18 @@
 
 
 @media screen and (max-width: 418px) {
-    .carrousel {
-    
+    .carrousel {    
         height: 70px !important;
         overflow: hidden;   
         padding: 30px 0;
         margin-top: -30px;
         margin-bottom: -200px;
         border-bottom-left-radius: 560px 70px;
-        border-bottom-right-radius: 560px 70px;
-
-     
+        border-bottom-right-radius: 560px 70px;     
     }
 
     .carrousel-item{
-        height: 60vh;
-     
+        height: 60vh;     
     }
     .img-responsive {
         width: 100%;
@@ -83,8 +79,7 @@
     .video-containerr {
         position: relative;
         padding-bottom: 56.25%;
-        margin-bottom: 100px;
-      
+        margin-bottom: 100px;      
       }
       
       .video-containerr video {
@@ -105,8 +100,8 @@
        }
 
     .carousel-caption h1 {
-        font-size: 2rem !important;
-        font-weight: 700 !important;
+        font-size: 1rem !important;
+        font-weight: 400 !important;
         margin-top: 510px !important; 
         margin-bottom: -80px !important;
     }
