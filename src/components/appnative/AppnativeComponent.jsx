@@ -111,14 +111,14 @@ export const AppnativeComponent = (props) => {
                                 </div>
                                 <div className="d-flex align-items-center mb-3">
                                     <h5 className="border-end pe-3 me-3 mb-0">VALOR</h5>
-                                    <h2 className="text-primary fw-bold mb-0" data-toggle="counter-up">$ 88.000</h2>
+                                    <h2 className="text-primary fw-bold mb-0" data-toggle="counter-up">$160.000</h2>
                                 </div>
                                 <p className="mb-4">El precio incluye el desarrollo de la aplicación, el diseño de la interfaz de usuario y la publicación en la tienda de aplicaciones.</p>
 
 
                                 <div className="d-flex align-items-center mb-3">
                                     <h5 className="border-end pe-3 me-3 mb-0">ABONO MENSUAL</h5>
-                                    <h2 className="text-primary fw-bold mb-0" data-toggle="counter-up">$ 9.500</h2>
+                                    <h2 className="text-primary fw-bold mb-0" data-toggle="counter-up">$19.500</h2>
                                 </div>
                                 <p className="mb-0">¿Qué incluye el Abono mensual?</p>
                                 <p className="mb-3"><i className="far fa-check-circle text-primary me-3"></i>Hosting | Alojamiento de su App en Internet.</p>
