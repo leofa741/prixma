@@ -32,6 +32,8 @@ export const Home = () => {
   titulo3="UNLEASHING INNOVATION"
   parrafo3="Brindamos soluciones a emprendedores, pymes y empresas  . "
    />
+   <br/>
+    <br/>
    
   <HomeContent title="Bienvenidos a www.puentesdigitales.com.ar"/>
   </>
