@@ -95,9 +95,9 @@
 
     .carousel-caption {      
         margin-left: -45px !important;
-        height: 100%;
-        width: 106%;     
-        margin-bottom: -10px;
+        height: 100% !important;
+        width: 106% !important;
+        margin-bottom: 10px !important;
        
        }
 
