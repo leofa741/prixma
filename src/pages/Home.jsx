@@ -33,7 +33,7 @@ export const Home = () => {
   parrafo3="Brindamos soluciones a emprendedores, pymes y empresas  . "
    />
    <br/>
-    <br/>
+   
    
   <HomeContent title="Bienvenidos a www.puentesdigitales.com.ar"/>
   </>

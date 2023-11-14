@@ -62,7 +62,7 @@
         height: 70px !important;
         overflow: hidden;   
         padding: 30px 0;
-        margin-top: 4px;
+        margin-top: -4px;
         margin-bottom: -200px;
         border-bottom-left-radius:  460px 70px;
         border-bottom-right-radius: 460px 70px;
