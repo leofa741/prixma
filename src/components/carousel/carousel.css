@@ -102,10 +102,10 @@
        }
 
     .carousel-caption h1 {
-        font-size: 0.9rem !important;
+        font-size: 2rem !important;
         font-weight: 700 !important;
-        margin-top: -120px !important;
-        margin-bottom: -90px !important;
+        margin-top: 510px !important; 
+        margin-bottom: -80px !important;
     }
 
     .carousel-caption p {
