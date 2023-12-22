@@ -11,7 +11,7 @@ export const NavBar = () => {
       return (
  <>
     
- <nav className="navbar navbar-expand-lg navbar-light sticky-top">
+ <nav className="navbar navbar-expand-lg navbar-light sticky-top" >
     <div className="container" style={{ marginTop: "-3px",  }}  >       
          <Link  className="navbar-brand" to='/' 
           style={{
