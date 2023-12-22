@@ -1,6 +1,6 @@
 import React from 'react'
 import './item.css';
-import DesignServicesIcon from '@mui/icons-material/DesignServices';
+
 import sistemas from '../../assets/img/sistemas1.png';
 import arquitectura from '../../assets/img/arquitectura-100x100.png';
 import devops from '../../assets/img/devops_icon.png';

@@ -1,30 +1,78 @@
 import React from 'react'
 import './contactcardpres.css'
+import iconetelefone from '../../assets/img/icone-telefone.png';
+import emailicon from '../../assets/img/email-icon.png';
+import whatsapp from '../../assets/img/whatsapp.png';
 export const ContactCardPres = (props) => {
-  return (
-    <>
+    return (
+        <>
+            <div className='containercard'>
+                <div className="card">
+                    <div className="face face1">
+                        <div className="content">
+                            <img src={whatsapp} alt="sistemas" />
+                            <h3>Contáctanos</h3>
+                        </div>
+                    </div>
+                    <div className="face face2">
+                        <div className="content">
+                            <p> Solicita info mediante el <br />
+                                <i className="fa-brands fa-whatsapp"></i>
+                                11-3603-8167<br />
+                                para más información.
+                            </p>
 
-<div className="fond"> <span className="s1">blog</span><span className="s2">card</span></div>
-<div className="card">
-  <div className="thumbnail"><img className="left" src="https://cdn2.hubspot.net/hubfs/322787/Mychefcom/images/BLOG/Header-Blog/photo-culinaire-pexels.jpg"/></div>
-  <div className="right">
-    <h1>Why you Need More Magnesium in Your Daily Diet</h1>
-    <div className="author"><img src="https://randomuser.me/api/portraits/men/95.jpg"/>
-      <h2>Igor MARTY</h2>
-    </div>
-    <div className="separator"></div>
-    <p>Magnesium is one of the six essential macro-minerals that is required by the body for energy production and synthesis of protein and enzymes. It contributes to the development of bones and most importantly it is responsible for synthesis of your DNA and RNA. A new report that has appeared in theBritish Journal of Cancer, gives you another reason to add more magnesium to your diet...</p>
-  </div>
-  <h5>12</h5>
-  <h6>JANUARY</h6>
-  <ul>
-    <li><i className="fa fa-eye fa-2x"></i></li>
-    <li><i className="fa fa-heart-o fa-2x"></i></li>
-    <li><i className="fa fa-envelope-o fa-2x"></i></li>
-    <li><i className="fa fa-share-alt fa-2x"></i></li>
-  </ul>
-  <div className="fab"><i className="fa fa-arrow-down fa-3x"></i></div>
-</div>
-    </>
-  )
+                        </div>
+                    </div>
+                </div>
+
+
+                <div className="card">
+                    <div className="face face1">
+                        <div className="content">
+                            <img src={emailicon} alt="sistemas" />
+                            <h3>Contáctanos</h3>
+                        </div>
+                    </div>
+                    <div className="face face2">
+                        <div className="content">
+                            <p> Solicita info mediante<br />
+                                <i className="fa-solid fa-envelope"></i>
+                                <span
+                                    style={
+                                        {
+                                            color: 'blue',
+                                            cursor: 'pointer',
+                                            fontSize: '0.7rem'
+                                        }
+                                    }>infoplataformaweb@gmail.com</span> <br />
+                                para más información.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div className="card">
+                    <div className="face face1">
+                        <div className="content">
+                            <img src={iconetelefone} alt="sistemas" />
+                            <h3>Contáctanos</h3>
+                        </div>
+                    </div>
+                    <div className="face face2">
+                        <div className="content">
+                            <p> 
+                                <i className="fa-solid fa-phone"></i>
+                                11-3603-8167<br />
+                                para más información.<c />
+                                  </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
+    )
 }

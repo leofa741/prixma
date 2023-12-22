@@ -3,6 +3,8 @@ import { FormContact } from '../components'
 import { Follows } from '../components/folloows/Follows'
 import video from '../assets/videos/contact-us.mp4';
 import { Portfolio } from '../components/servicedisweb/Portfolio';
+
+
 import { ContactCardPres } from '../components/contact/ContactCardPres';
 
 
@@ -21,11 +23,10 @@ export const Contact = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-12">
-             <div className="card">
 
+        <ContactCardPres  />
+       
            
-
-            </div>
           </div>
         </div>
       </div>
