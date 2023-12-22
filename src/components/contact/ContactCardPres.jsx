@@ -47,7 +47,7 @@ export const ContactCardPres = (props) => {
                 </div>
 
 
-                <div className="card">
+                {/* <div className="card">
                     <div className="face face1">
                         <div className="content">
                             <img src={iconetelefone} alt="sistemas" />
@@ -64,7 +64,7 @@ export const ContactCardPres = (props) => {
 
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </>
     )
