@@ -193,7 +193,7 @@ section {
 .navbar:hover {
     background-image: linear-gradient(to right, #1e81cd, #0b8cd2, #0092d6, #009cd9, #00a5dc, #00aede, #00b3e0, #00bbe1, #00c1e3, #00c6e5, #00cfe6, #0dd5e7);
 
-    transform: translateY(-11px) translateZ(-20px);
+    /* transform: translateY(-11px) translateZ(-20px); */
    
 
  

@@ -12,12 +12,7 @@ export const NavBar = () => {
  <>
     
  <nav className="navbar navbar-expand-lg navbar-light sticky-top">
-    <div className="container"
-    style={{
-        marginTop: "-3px",
-      
-    }}
-    >       
+    <div className="container" style={{ marginTop: "-3px",  }}  >       
          <Link  className="navbar-brand" to='/' 
           style={{
             color: "white",

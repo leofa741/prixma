@@ -24,13 +24,10 @@ export const AppnativeComponent = (props) => {
                     <div className="about-section">
                         <div className="col-md-12">
                             <h4 className="text-center"> {props.title}</h4>
-                            <p className="text-center">Somos los Puentes Digitales de tus proyectos, con más de 10 años de experiencia en el mercado ofreciendo soluciones tecnológicas a medida para empresas de todos los tamaños. Nuestro objetivo es ayudar a nuestros clientes a alcanzar sus objetivos de negocio, a través de la implementación de soluciones tecnológicas que les permitan mejorar su productividad y competitividad.</p>
-
+                            <p className="text-center">www.puentesdigitales.com.ar</p>
                         </div>
 
-
                         <Box sx={{ width: "100%" }}>
-
                             <LinearProgress />
                             <br></br>
                         </Box>
@@ -47,8 +44,7 @@ export const AppnativeComponent = (props) => {
                 <Portfolio
                     video={video}
                     title="Soluciones Mobile"
-                    descripcion="Desarrollo de aplicaciones para Android e IOS, con el fin de brindar una experiencia de usuario única y
-    una interfaz de usuario atractiva y fácil de usar."   />
+                    descripcion="Desarrollo de aplicaciones para Android e IOS, con el fin de brindar una experiencia de usuario única y una interfaz de usuario atractiva y fácil de usar."   />
 
                 <div className="container1" id="about">
                     <div className="container">
@@ -111,14 +107,14 @@ export const AppnativeComponent = (props) => {
                                 </div>
                                 <div className="d-flex align-items-center mb-3">
                                     <h5 className="border-end pe-3 me-3 mb-0">VALOR</h5>
-                                    <h2 className="text-primary fw-bold mb-0" data-toggle="counter-up">$160.000</h2>
+                                    <h2 className="text-primary fw-bold mb-0" data-toggle="counter-up">$234.000</h2>
                                 </div>
                                 <p className="mb-4">El precio incluye el desarrollo de la aplicación, el diseño de la interfaz de usuario y la publicación en la tienda de aplicaciones.</p>
 
 
                                 <div className="d-flex align-items-center mb-3">
                                     <h5 className="border-end pe-3 me-3 mb-0">ABONO MENSUAL</h5>
-                                    <h2 className="text-primary fw-bold mb-0" data-toggle="counter-up">$19.500</h2>
+                                    <h2 className="text-primary fw-bold mb-0" data-toggle="counter-up">$25.500</h2>
                                 </div>
                                 <p className="mb-0">¿Qué incluye el Abono mensual?</p>
                                 <p className="mb-3"><i className="far fa-check-circle text-primary me-3"></i>Hosting | Alojamiento de su App en Internet.</p>
