@@ -22,7 +22,7 @@ export const FormContact = (props) => {
           <div className="about-section">
             <div className="col-md-12">
               <h4 className="text-center"> {props.title}</h4>
-              <p className="text-center">Hola, somos Estudio de Diseño Puentes Digitales,Comunica de manera efectiva con una estrategia adaptada a todos los canales de Marketing</p>
+              <p className="text-center"> {props.descripcion} </p>
             </div>
 
             <Box sx={{ width: "100%" }}>

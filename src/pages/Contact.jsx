@@ -17,14 +17,14 @@ export const Contact = () => {
     <FormContact /> 
     <br />
     <br />
-    <br />
-    <br />
-    <br />
-    <br />
- 
-    <br />
+    <h1 style={{textAlign: 'center' }} >Siguenos en nuestras redes sociales </h1>
 
-    
+    <Follows />
+    <br />
+    <br />
+    <br />
+    <br /> 
+    <br />    
     </>
   )
 }
