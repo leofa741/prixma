@@ -31,18 +31,11 @@ export const Contact = () => {
         </div>
       </div>
 
-    </div>
-    <br />
-    
+    </div>   
 
-    <Follows
+    <Follows  />
  
-     />
-    <br />
-    <br />
-    <br />
-    <br /> 
-    <br />    
+     
     </>
   )
 }

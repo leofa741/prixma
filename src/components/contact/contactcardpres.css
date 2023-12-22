@@ -38,9 +38,6 @@
     margin-bottom: 20px;
     transition: 0.5s;
     filter: invert(24.4) sepia(1) hue-rotate(23deg) saturate(1000%);
-    
-
-
 }
 
 .containercard .card .face h3 {
@@ -106,7 +103,7 @@
 }
 .containercard .card .face.face2 span{
 
-    font-size: 0.9em;
+    font-size: 0.75em;
     color: #333;
     font-weight: 700;
 
