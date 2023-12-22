@@ -91,11 +91,13 @@ export const NavBar = () => {
 
                 <div className="dropdown">
                 <li className="nav-item">
-                    <NavLink  className={ ({ isActive }) => `nav-link   ${isActive ? 'active':''}` } ><span className='active1' >  Empresa  </span>  </NavLink >
+                    <NavLink 
+                    to="/puentesdigitales"
+                     className={ ({ isActive }) => `nav-link   ${isActive ? 'active':''}` } ><span className='active1' >  Empresa  </span>  </NavLink >
                 </li>
 
                 <div className="dropdown-content">
-                     <a> <NavLink   to="/puentesdigitales" ><span className='active2' >  Nosotros  </span>  </NavLink ></a>
+                    
                      <a> <NavLink   to="/our-history" ><span className='active2' >  Nuestra Historia </span>  </NavLink ></a>
  
                   </div>

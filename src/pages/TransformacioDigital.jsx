@@ -4,7 +4,7 @@ import { TrasnformacionDigComponent } from '../components/practicas/Trasnformaci
 export const TransformacioDigital = () => {
   return (
     <>
-    <TrasnformacionDigComponent
+    <TrasnformacionDigComponent 
     title="Transformación Digital"
     />
     </>

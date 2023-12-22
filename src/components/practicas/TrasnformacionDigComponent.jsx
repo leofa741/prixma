@@ -8,60 +8,60 @@ import { CardContact } from '../contact/CardContact';
 
 export const TrasnformacionDigComponent = (props) => {
 
-    const [items, setItems] = useState([]);
-  
-    useEffect(() => {
-      customFetch(2000, productos).then((data) => setItems(data));
-    }, []);
-  
-  
-    if (items.length === 0) {
-      return (
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="about-section">
-              <div className="col-md-12">
-                <h4 className="text-center"> {props.title}</h4>
-                <p className="text-center">Hola, somos Estudio de Diseño Puentes Digitales,Comunica de manera efectiva con una estrategia adaptada a todos los canales de Marketing</p>
-              </div>
-  
-              <Box sx={{ width: "100%" }}>
-                <LinearProgress />
-                <br></br>
-              </Box>
+  const [items, setItems] = useState([]);
+
+  useEffect(() => {
+    customFetch(2000, productos).then((data) => setItems(data));
+  }, []);
+
+
+  if (items.length === 0) {
+    return (
+      <div className="container">
+        <div className="row justify-content-center">
+          <div className="about-section">
+            <div className="col-md-12">
+              <h4 className="text-center"> {props.title}</h4>
+              <p className="text-center">Hola, somos Estudio de Diseño Puentes Digitales,Comunica de manera efectiva con una estrategia adaptada a todos los canales de Marketing</p>
             </div>
+
+            <Box sx={{ width: "100%" }}>
+              <LinearProgress />
+              <br></br>
+            </Box>
           </div>
         </div>
-      );
-    }
-  
-    else {
+      </div>
+    );
+  }
 
-  return (
-    <>
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <div className="containercontact">
-   
+  else {
+
+    return (
+      <>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <div className="containercontact">
+
           <div className="row">
 
             <CardContact
               title="Transformación Digital"
               descripcion="Nos estamos renovando, pronto estaremos de vuelta con más información." />
-         
-        
-      </div>
-    </div>
-  </>
-  )
 
-}
+
+          </div>
+        </div>
+      </>
+    )
+
+  }
 
 }

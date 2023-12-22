@@ -11,6 +11,9 @@ import productos from '../../database/datadb';
 import { CardPracticas } from '../cardpracticas/CardPracticas';
 import './home.css';
 import ot from '../../assets/img/ot.png';
+import { ServicesComponent } from '../services/ServicesComponent';
+import { PrincipalServices } from '../principalservices/PrincipalServices';
+import { ContentServives } from '../principalservices/ContentServives';
 
 export const HomeContent = (props) => {   
 
@@ -188,7 +191,11 @@ export const HomeContent = (props) => {
     </div>
 </section>
 
-<br /> 
+
+<ContentServives
+  title="PRINCIPALES SERVICIOS ELEGIDOS POR NUESTROS CLIENTES"
+ 
+ />
 <br /> 
 
 </>
