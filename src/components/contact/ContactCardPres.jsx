@@ -8,7 +8,7 @@ export const ContactCardPres = (props) => {
         <>
             <div className='containercard'>
                 <div className="card">
-                    <div className="face face1">
+                    <div className="face face11">
                         <div className="content">
                             <img src={whatsapp} alt="sistemas" />
                             <h3>Contáctanos</h3>
@@ -28,7 +28,7 @@ export const ContactCardPres = (props) => {
 
 
                 <div className="card">
-                    <div className="face face1">
+                    <div className="face face11">
                         <div className="content">
                             <img src={emailicon} alt="sistemas" />
                             <h3>Contáctanos</h3>
