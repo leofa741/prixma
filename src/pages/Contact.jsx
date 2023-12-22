@@ -19,7 +19,9 @@ export const Contact = () => {
     <br />
     <h1 style={{textAlign: 'center' }} >Siguenos en nuestras redes sociales </h1>
 
-    <Follows />
+    <Follows
+ 
+     />
     <br />
     <br />
     <br />

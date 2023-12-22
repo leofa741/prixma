@@ -34,7 +34,7 @@ export const HomeContent = (props) => {
                 <br/>
                 <br/>
             <h4 className="text-center"> {props.title}</h4>                 
-            <p className="text-center">Hola, somos Estudio de Diseño Puentes Digitales,Comunica de manera efectiva con una estrategia adaptada a todos los canales de Marketing</p>
+            <p className="text-center"> www.puentesdigitales.com.ar  </p>
           
             </div>    
 
