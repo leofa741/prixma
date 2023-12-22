@@ -38,14 +38,7 @@ export const ContactCardPres = (props) => {
                         <div className="content">
                             <p> Solicita info mediante<br />
                                 <i className="fa-solid fa-envelope"></i>
-                                <span
-                                    style={
-                                        {
-                                            color: 'blue',
-                                            cursor: 'pointer',
-                                            fontSize: '0.7rem'
-                                        }
-                                    }>infoplataformaweb@gmail.com</span> <br />
+                                <span>infoplataformaweb@gmail.com</span> <br />
                                 para más información.
                             </p>
 
