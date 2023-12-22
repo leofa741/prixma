@@ -11,6 +11,7 @@ import productos from '../../database/datadb';
 import { CardPracticas } from '../cardpracticas/CardPracticas';
 import './home.css';
 import { ContentServives } from '../principalservices/ContentServives';
+import { MacEscritura } from '../escrituramaquina/MacEscritura';
 
 export const HomeContent = (props) => {   
 
@@ -190,9 +191,8 @@ export const HomeContent = (props) => {
 
 
 <ContentServives
-  title="PRINCIPALES SERVICIOS ELEGIDOS POR NUESTROS CLIENTES"
- 
- />
+  title="PRINCIPALES SERVICIOS ELEGIDOS POR NUESTROS CLIENTES" />
+
 <br /> 
 
 </>

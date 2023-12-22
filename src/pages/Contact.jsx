@@ -3,6 +3,7 @@ import { FormContact } from '../components'
 import { Follows } from '../components/folloows/Follows'
 import video from '../assets/videos/contact-us.mp4';
 import { Portfolio } from '../components/servicedisweb/Portfolio';
+import { ContactCardPres } from '../components/contact/ContactCardPres';
 
 
 
@@ -16,8 +17,22 @@ export const Contact = () => {
         />
     <FormContact /> 
     <br />
+    <div style={{textAlign: 'center' }}>
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12">
+             <div className="card">
+
+           
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
     <br />
-    <h1 style={{textAlign: 'center' }} >Siguenos en nuestras redes sociales </h1>
+    
 
     <Follows
  
