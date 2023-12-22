@@ -11,12 +11,7 @@ export const LandinPage = () => {
                         <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div className="d-flex align-items-center mb-5">
                                 <div className="years flex-shrink-0 text-center me-4">
-                                    <h1 className="display-1 mb-0"><Filter1Icon
-                                        style={{ fontSize: 100 }}
-                                        variant="outlined" color="primary"
-                                        tex
-                                    /></h1>
-
+                                    <h1 className="display-1 mb-0"> <Filter1Icon style={{ fontSize: 100 }} variant="outlined" color="primary" /></h1>
                                 </div>
                                 <h3 className="lh-base mb-0">LANDING PAGE</h3>
                             </div>
@@ -45,12 +40,12 @@ export const LandinPage = () => {
                             </div>
                             <div className="d-flex align-items-center mb-3">
                                 <h5 className="border-end pe-3 me-3 mb-0">VALOR</h5>
-                                <h2 className="text-primary fw-bold mb-0" data-toggle="counter-up">$56.000</h2>
+                                <h2 className="text-primary fw-bold mb-0" data-toggle="counter-up">$66.000</h2>
                             </div>
                             <p className="mb-4"> <i className="far fa-check-circle text-primary me-3"></i>El valor de la página incluye el dominio y actualizaciones del la info . </p>
                             <div className="d-flex align-items-center mb-3">
                                 <h5 className="border-end pe-3 me-3 mb-0">ABONO BIMESTRAL</h5>
-                                <h2 className="text-primary fw-bold mb-0" data-toggle="counter-up">$6.500</h2>
+                                <h2 className="text-primary fw-bold mb-0" data-toggle="counter-up">$7.500</h2>
                             </div>
                             <p className="mb-0"
 
