@@ -33,11 +33,7 @@ export const Portfolio = ({video,title,descripcion}) => {
                         marginBottom: "1rem",
                         textTransform: "uppercase",
                         textAlign: "center",
-                        textShadow: "0 0 10px #000000"
-
-
-
-                              }}                         
+                        textShadow: "0 0 10px #000000"}}                         
                         >{title}</h1>
                         </div>
                         <p className="mx-auto title__secondary"
