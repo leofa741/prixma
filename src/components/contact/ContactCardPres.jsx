@@ -66,12 +66,8 @@ export const ContactCardPres = (props) => {
 
                         <hr />
                         <ul className="social-media-list">
-                            <li><a href="#" target="_blank" className="contact-icon">
-                                <i className="fa fa-facebook-square" aria-hidden="true"></i></a>
-                            </li>
-                            <li><a href="#" target="_blank" className="contact-icon">
-                                <i className="fa fa-instagram" aria-hidden="true"></i></a>
-                            </li>
+                        
+                           
                             <li><a href="#" target="_blank" className="contact-icon">
                                 <i className="fa fa-mobile-phone" aria-hidden="true"></i></a>
                             </li>
