@@ -1,11 +1,8 @@
 
-
-  
   #contact {
     width: 100%;
     height: 100%;
-  }
-  
+  }  
   .section-header {
     text-align: center;
     margin: 0 auto;
@@ -15,19 +12,21 @@
     color: #0a0a0a;
     text-transform: uppercase;
     letter-spacing: 6px;
-  }
-
- 
-
-  
+  }  
   .contact-wrapper {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     margin: 0 auto;
-    padding: 20px;
+    padding: 51px;
     position: relative;
-    max-width: 840px;
+    max-width: 940px;
+  }
+  .direct-contact-container{
+    max-width: 940px;
+    margin-left: 190px;
+    justify-content: center;
+    text-align: center;
+
   }
   
   /* Left contact page */

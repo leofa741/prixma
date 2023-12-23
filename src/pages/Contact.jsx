@@ -17,8 +17,8 @@ export const Contact = () => {
         descripcion="Estamos para ayudarte, contáctanos y te responderemos a la brevedad."
       />
       
-      <FormContact />
-      <br/>
+     
+      
       <div style={{ textAlign: 'center', marginTop: '50px'  }}>
         <div className="container">
           <div className="row">
